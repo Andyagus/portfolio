@@ -9,10 +9,11 @@ import {Route, Routes} from "react-router-dom";
 export default function App() {
   return (
     <>
-      <NavBar />
-      <ProjectList />
-      <Project />
-      <About />
+        Test
+      {/*<NavBar />*/}
+      {/*<ProjectList />*/}
+      {/*<Project />*/}
+      {/*<About />*/}
     </>
   );
 }
