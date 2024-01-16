@@ -1,4 +1,4 @@
-import ProjectCard from "../assets/ProjectCard.tsx";
+import ProjectCard from "../components/ProjectCard.tsx";
 import firstWomanImage from "../assets/images/first-woman.png";
 import firstWomanVideo from "../assets/images/fw-1.mov";
 

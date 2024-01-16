@@ -15,17 +15,17 @@ const NavBar = () => {
         
         
         <div className=' fixed top-0 left-0 w-full h-20 z-10 w-full flex items-center justify-between bg-white p-4 shadow-md '>
-            <div className="md:ml-36 ml-4">
+            <div className="lg:ml-36 ml-4">
                 <span className="block text-xl font-bold text-gray-900">Andy Agus</span>
                 <span className="block text-sm font-medium text-gray-500">AR Prototyper</span>
             </div>
 
-            <div className="hidden md:flex mr-32">
+            <div className="hidden lg:flex mr-32">
                 <a href="#" className="text-black px-4 ">Projects</a>
                 <a href="/about" className="text-black px-4 ">About</a>
             </div>
             
-            <div onClick={toggle} className={"md:hidden text-gray-800 text-3xl mr-12 active:duration-100 z-20"}>
+            <div onClick={toggle} className={"lg:hidden text-gray-800 text-3xl mr-12 active:duration-100 z-20"}>
                 {navActive ? <FaTimes/> : <FaBars/>}
             </div>
             

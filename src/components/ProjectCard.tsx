@@ -1,6 +1,7 @@
 // import React, { Component } from 'react';
 import { useState } from "react";
 import { useEffect } from "react";
+import {Link} from "react-router-dom";
 
 interface ProjectCardProps {
   // Props here
@@ -48,13 +49,16 @@ export default function ProjectCard(props: ProjectCardProps) {
 
   const [isHovered, setIsHovered] = useState(false); // Set isHovered to false by default
   return (
-    <div>
+    
+      <div>
+      <Link to={`/projects/${title}`}>  
       <div
         onMouseEnter={() => setIsHovered(true)} // Set isHovered to true on mouse enter
         onMouseLeave={() => setIsHovered(false)} // Set isHovered to false on mouse leave
         className="group cursor-pointer bg-white rounded-xl 
             shadow-md overflow-hidden relative "
       >
+
         <div>
           {isHovered ? (
             <video
@@ -92,6 +96,7 @@ export default function ProjectCard(props: ProjectCardProps) {
           </div>
         </div>
       </div>
+    </Link>
     </div>
   );
 }
