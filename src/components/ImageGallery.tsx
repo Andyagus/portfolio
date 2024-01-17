@@ -1,67 +1,66 @@
+import React, { useEffect, useState } from "react";
 import ProfilePic from "../assets/images/profilePic.png";
-
 import image1 from "../assets/images/first-woman.png";
 import image2 from "../assets/images/oc.png";
 import image3 from "../assets/images/testimage.png";
-import {useEffect, useState} from "react";
-import {act} from "react-dom/test-utils";
+
 const images = [image1, image2, image3];
 
 export default function ImageGallery() {
-  const [activeImage, setActiveImage] = useState(images[0]);
-  const [prevImage, setPrevImage] = useState(images[0])
-    
-  useEffect(() => {
-    const timer = setInterval(() => {
-      // Calculate the index of the next image
-      const currentIndex = images.indexOf(activeImage);
-      const nextIndex = (currentIndex + 1) % images.length;
+    const [activeImageIndex, setActiveImageIndex] = useState(0);
+    const [prevImageIndex, setPrevImageIndex] = useState(0);
 
-      // Set the next image as the activeImage
-      setActiveImage(images[nextIndex]);
-      setPrevImage(activeImage);
-    }, 5000); // Switch images every 5 seconds
+    useEffect(() => {
+        const timer = setInterval(() => {
+            // Calculate the index of the next image
+            const nextIndex = (activeImageIndex + 1) % images.length;
 
-    // Clean up the timer when the component unmounts
-    return () => {
-      clearInterval(timer);
-    };
-  }, [activeImage]);
+            // Set the next image as the activeImage
+            setPrevImageIndex(activeImageIndex);
+            setActiveImageIndex(nextIndex);
+        }, 5000); // Switch images every 5 seconds
 
-  const HandleImageClick = (imageString: string) => {
-    setActiveImage(imageString);
-    setPrevImage(activeImage);
-  };
+        // Clean up the timer when the component unmounts
+        return () => {
+            clearInterval(timer);
+        };
+    }, [activeImageIndex]);
 
-    //
-    // <img
-    //     src={activeImage}
-    //     className={`mt-10 mx-auto w-72 h-52 rounded-xl overflow-hidden object-cover shadow-md  ${
-    //         activeImage!=prevImage? 'opacity-0': 'opacity-35'} "
-    //     }`}
-    //     alt="Profile Pic"
-    // />
-  
-  return (
+    return (
+        <div>
+            {/* main image with fade effect */}
+            {images.map((image, index) => (
+                <img
+                    key={image}
+                    src={image}
+                    className={`mt-10 mx-auto w-72 h-52 rounded-xl overflow-hidden object-cover shadow-md" 
+                    //     activeImageIndex === index
+                    //         ? "opacity-100 transition-opacity duration-500 ease-in-out" // Active image: fully visible
+                    //         : " opacity-20 absolute"   // Other images: initially hidden
+                    // }`}
+                    // style={{
+                    //     opacity: activeImageIndex === index ? 1 : 0,
+                    //     transition: "opacity 1s ease-in-out",
+                    //     display: activeImageIndex === index ? "block" : "none",
+                    // }}
 
-      // transition-opacity duration-300
-      
-      <div>
-      {/*main image*/}
-      {/*button grid*/}
-      <div className="mt-5">
-        <div className={"grid grid-flow-col gap-3 max-w-xs mx-auto"}>
-          {images.map((image) => (
-            <img
-                className={`rounded-xl ${
-                    activeImage === image ? "opacity-100" : "opacity-50"
-                } hover:opacity-100 transition-opacity duration-300 ease-in-out`}
-              onClick={() => HandleImageClick(image)}
-              src={image}
-            />
-          ))}
+                    alt="Profile Pic"
+
+                />
+            ))}
+            {/* button grid */}
+            <div className="mt-5">
+                <div className={"grid grid-flow-col gap-3 max-w-xs mx-auto"}>
+                    {images.map((image, index) => (
+                        <img
+                            key={image}
+                            onClick={() => setActiveImageIndex(index)}
+                            src={image}
+                            className="rounded-xl"
+                        />
+                    ))}
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  );
+    );
 }
