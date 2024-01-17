@@ -47,6 +47,8 @@ export default function ProjectCard(props: ProjectCardProps) {
     };
   }, []);
 
+ 
+  
   const [isHovered, setIsHovered] = useState(false); // Set isHovered to false by default
   return (
     

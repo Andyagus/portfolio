@@ -1,4 +1,11 @@
 import ProfilePic from '../assets/images/profilePic.png';
+import { FaGithub, FaLinkedin, FaInstagram, FaSpotify } from 'react-icons/fa';
+
+import image1 from "../assets/images/first-woman.png"
+import image2 from "../assets/images/oc.png"
+import image3 from "../assets/images/testimage.png"
+const images = [image1, image2, image3];
+
 
 export default function About() {
     return (
@@ -22,6 +29,19 @@ export default function About() {
                             Download Resume
                         </button>
                     </div>
+                    <div className="flex justify-left mt-8">
+                        {/* GitHub Icon */}
+                        <FaGithub className="text-gray-600 hover:text-black mx-2 text-2xl" />
+
+                        {/* LinkedIn Icon */}
+                        <FaLinkedin className="text-blue-600 hover:text-blue-800 mx-2 text-2xl" />
+
+                        {/* Instagram Icon */}
+                        <FaInstagram className="text-pink-600 hover:text-pink-800 mx-2 text-2xl" />
+
+                        {/* Spotify Icon */}
+                        <FaSpotify className="text-green-600 hover:text-green-800 mx-2 text-2xl" />
+                    </div>
                 </div>
 
                 {/* Image */}
@@ -29,8 +49,20 @@ export default function About() {
                     <img
                         src={ProfilePic} // Replace with your image path
                         alt="Profile"
-                        className="max-w-full h-full rounded max-w-96 object-cover"
+                        className="max-w-full h-4/5 rounded max-w-96 object-cover"
                     />
+                   
+                    {/*IMAGE GALLERY*/}
+                    {/*<div className="flex flex-wrap -m-1 md:-m-2">*/}
+                    {/*    {images.map((image, index) => (*/}
+                    {/*        <div key={index} className="flex flex-wrap w-1/3">*/}
+                    {/*            <div className="w-full p-1 md:p-2">*/}
+                    {/*                <img src={image} alt={`gallery-${index}`} className="block object-cover object-center w-full h-full rounded-lg" />*/}
+                    {/*            </div>*/}
+                    {/*        </div>*/}
+                    {/*    ))}*/}
+                    {/*</div>*/}
+                    
                 </div>
             </div>
         </div>

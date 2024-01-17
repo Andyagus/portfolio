@@ -21,7 +21,7 @@ const NavBar = () => {
             </div>
 
             <div className="hidden lg:flex mr-32">
-                <a href="#" className="text-black px-4 ">Projects</a>
+                <a href="/" className="text-black px-4 ">Projects</a>
                 <a href="/about" className="text-black px-4 ">About</a>
             </div>
             

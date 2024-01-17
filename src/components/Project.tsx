@@ -7,13 +7,10 @@ import BookshelfImage from "../assets/images/testimage.png";
 export default function Project(){
     return(
         <div className="mt-24  mx-auto p-6">
-
-          
-            {/*//back to all projects*/}
-            {/*<div className="flex items-center pl-4 pl-12 lg:pl-16">*/}
-            {/*    <FaLongArrowAltLeft className="text-gray-500 text-lg" />*/}
-            {/*    <span className="text-sm font-semibold ml-2 text-gray-700">Back to All Projects</span>*/}
-            {/*</div>*/}
+            <div className="flex items-center p-4 lg:pl-16">
+                <FaLongArrowAltLeft className="text-gray-500 text-lg" />
+                <span className="text-sm font-semibold ml-2 text-gray-700">Back to All Projects</span>
+            </div>
 
             <div className="max-w-xl ml-5 md:max-w-4xl lg:mx-auto">
                 <div className="w-full">
