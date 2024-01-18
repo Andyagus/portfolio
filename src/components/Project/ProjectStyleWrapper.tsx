@@ -27,9 +27,6 @@ export default function ProjectStyleWrapper() {
             className="w-full max-h-[450px] shadow-lg object-cover overflow-hidden rounded-xl"
           />
         </div>
-        
-        
-        
         <h1 className="text-3xl lg:text-5xl font-bold mt-4">Bookshelf</h1>
         <p className="mt-1 text-gray-500">
           Enhacing the book finding experience by providing access to additional
