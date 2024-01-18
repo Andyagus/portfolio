@@ -1,6 +1,6 @@
 
 export default function FirstWomanProject(){
     return(
-        <h1>hello world</h1>
+        <h1>first women</h1>
     )
 }
