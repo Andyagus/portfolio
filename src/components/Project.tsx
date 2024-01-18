@@ -5,9 +5,31 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import BookshelfImage from "../assets/images/testimage.png";
 import ReachImage from "../assets/images/Reach.png";
 
+import {useParams} from "react-router-dom";
+
+import FirstWomanProject from "./Project/FirstWomanProject.tsx";
+
 export default function Project(){
+    
+    let {id} = useParams();
+    
+    let currentProjectTitle: string;
+    
+    console.log('project')
+    
+    switch(id){
+        case "NASA: First Woman":
+            currentProjectTitle = 'NASA: First Woman'
+            console.log("it is: " + currentProjectTitle)
+            break;
+         default:
+            console.log('default')
+    }
+    
     return(
         <div className="mt-24  mx-auto p-6">
+            <h1> {id} </h1>
+            
             <div className="flex items-center p-4 lg:pl-16">
                 <FaLongArrowAltLeft className="text-gray-500 text-lg" />
                 <span className="text-sm font-semibold ml-2 text-gray-700">Back to All Projects</span>
