@@ -3,6 +3,7 @@ import { FaLongArrowAltLeft } from "react-icons/fa";
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 import BookshelfImage from "../assets/images/testimage.png";
+import ReachImage from "../assets/images/Reach.png";
 
 export default function Project(){
     return(
@@ -15,6 +16,9 @@ export default function Project(){
             <div className="max-w-xl ml-5 md:max-w-4xl lg:mx-auto">
                 <div className="w-full">
                     <img src={BookshelfImage} alt="Header" className="w-full max-h-[450px] shadow-lg object-cover overflow-hidden rounded-xl" />
+                </div>
+                <div className="w-full">
+                    <img src={ReachImage} alt="Header" className="w-full max-h-[450px] shadow-lg object-cover overflow-hidden rounded-xl" />
                 </div>
                 <h1 className="text-3xl lg:text-5xl font-bold mt-4">Bookshelf</h1>
                 <p className="mt-1 text-gray-500">Enhacing the book finding experience by providing access to additional information while searching for your book.</p>
