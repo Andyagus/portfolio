@@ -8,6 +8,7 @@ import OcVibeProject from "./Project/OcVibeProject.tsx";
 
 //project components
 import ProjectImage from "./Project/projectComponents/ProjectImage.tsx";
+import ProjectVideo from "./Project/projectComponents/ProjectVideo.tsx";
 import ProjectHeaderText from "./Project/projectComponents/ProjectHeaderText.tsx";
 import ProjectSubcaptionText from "./Project/projectComponents/ProjectSubcaptionText.tsx";
 import ProjectIcon from "./Project/projectComponents/ProjectIcon.tsx";
@@ -27,8 +28,6 @@ const firstWomanAssetDictionary = {
 import { FaGithub, FaLinkedin, FaLongArrowAltLeft } from "react-icons/fa";
 import ProjectParagraphText from "./Project/projectComponents/ProjectParagraphText.tsx";
 // import { FaGithub, FaLinkedin } from "react-icons/fa";
-
-
 
 export default function Project() {
   let { id } = useParams();
@@ -61,7 +60,6 @@ export default function Project() {
         {/*//main content*/}
         <div className="max-w-xl ml-5 md:max-w-4xl lg:mx-auto">
           {/*//header*/}
-
           {<ProjectHeaderText title={"Bookshelf"} />}
           {
             <ProjectSubcaptionText
@@ -71,36 +69,54 @@ export default function Project() {
               }
             />
           }
-
           {/*//social icons */}
           <div className="flex justify-left space-x-4 mt-4 mb-4">
             {<ProjectIcon icon={FaGithub} />}
             {<ProjectIcon icon={FaLinkedin} />}
           </div>
-
           {
             <ProjectImage
               image={firstWomanAssetDictionary["image1"]}
               caption={""}
             />
           }
-
           {/*//body*/}
-          {<ProjectParagraphText text={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
-              "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation " +
-              "ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit " +
-              "in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, " +
-              "sunt in culpa qui officia deserunt mollit anim id est laborum"}/>}
-          {<ProjectImage image={firstWomanAssetDictionary["image2"]} caption={"Second test image thanks"}/>}
-          {<ProjectParagraphText text={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
-              "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation " +
-              "ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit " +
-              "in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, " +
-              "sunt in culpa qui officia deserunt mollit anim id est laborum"}/>}
-          //video needs own component -- 
-          {/*{<ProjectImage image={firstWomanAssetDictionary["video1"]} caption={"Second test image thanks"}/>}*/}
-
-
+          {
+            <ProjectParagraphText
+              text={
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
+                "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation " +
+                "ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit " +
+                "in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, " +
+                "sunt in culpa qui officia deserunt mollit anim id est laborum"
+              }
+            />
+          }
+          {
+            <ProjectImage
+              image={firstWomanAssetDictionary["image2"]}
+              caption={"Second test image thanks"}
+            />
+          }
+          {
+            <ProjectParagraphText
+              text={
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
+                "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation " +
+                "ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit " +
+                "in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, " +
+                "sunt in culpa qui officia deserunt mollit anim id est laborum"
+              }
+            />
+          }
+          //video needs own component --
+          {
+            <ProjectVideo
+              video={firstWomanAssetDictionary["video1"]}
+              caption={"First Women Environment Video"}
+              autoplay={true}
+            />
+          }
         </div>
       </div>
     </>

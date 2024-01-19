@@ -3,6 +3,7 @@ import ProjectSubcaptionText from "./ProjectSubcaptionText.tsx";
 interface ImageProps {
   image: string;
   caption: string;
+  alt?: string;
 }
 
 export default function ProjectImage({ image, caption }: ImageProps) {
