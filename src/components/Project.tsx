@@ -18,67 +18,23 @@ import ProjectIcon from "./Project/projectComponents/ProjectIcon.tsx";
 import image1 from "../assets/images/project/firstWoman/testimage.png";
 import image2 from "../assets/images/project/firstWoman/fw2Test.png";
 import video1 from "../assets/images/fw-1.mov";
-//
-// const firstWomanAssetDictionary = {
-//   image1: image1,
-//   image2: image2,
-//   video1: video1,
-// };
 
-
-// PASS IN DATA STRCUTURE
-
-//PROJECT 
-// 
-//
-// const projectData = {
-//   title: "Project Title",
-//   images: [
-//     { src: "image1.jpg", caption: "First Image" },
-//     { src: "image2.jpg", caption: "Second Image" },
-//     // ... more images
-//   ],
-//   videos: [
-//     // ... video data
-//   ],
-//   textBlocks: [
-//     // ... text data
-//   ],
-//   // ... other data
-// };
-
-in first women project
-
-// nterface ImageData {
-//   src: string;
-//   caption: string;
-// }
-//
-// interface VideoData {
-//   // Define the structure for video data
-// }
-//
-// interface TextBlockData {
-//   // Define the structure for text block data
-// }
-//
-
-// interface ProjectData {
-//   title: string;
-//   images: ImageData[];
-//   videos: VideoData[];
-//   textBlocks: TextBlockData[];
-//   // ... other fields as needed
-// }
-//
-// interface MyProjectComponentProps {
-//   projectData: ProjectData;
-// }
-
-//…icons
+//imports //…icons
 import { FaGithub, FaLinkedin, FaLongArrowAltLeft } from "react-icons/fa";
 import ProjectParagraphText from "./Project/projectComponents/ProjectParagraphText.tsx";
 // import { FaGithub, FaLinkedin } from "react-icons/fa";
+
+const firstWomenImageDictionary = {
+  image1: image1,
+  image2: image2,
+};
+
+const firstWomenDataDictionary = {
+  images: {
+    image1: <ProjectImage image={image1} caption={"image1"} />,
+    image2: <ProjectImage image={image2} caption={"image2"} />,
+  },
+};
 
 export default function Project() {
   let { id } = useParams();
@@ -87,7 +43,7 @@ export default function Project() {
   useEffect(() => {
     switch (id) {
       case "fw":
-        setCurrentProject(<FirstWomanProject />);
+        setCurrentProject(<FirstWomanProject title = "fw" data={firstWomenDataDictionary}/>);
         break;
       case "oc":
         setCurrentProject(<OcVibeProject />);
