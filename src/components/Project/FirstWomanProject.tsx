@@ -1,11 +1,13 @@
-import {ReactNode} from "react";
+interface ProjectData{
+    title: string; 
+    images: string[];
+}
 
 
-
-export default function FirstWomanProject({projectImage, projectVideo, projectHeaderText, projectSubcaptionText, projectParagraphText}: FirstWomanProjectProps){
+export default function FirstWomanProject({images}: ProjectData){
     return(
        <div>
-           Hello World
+           
        </div>
     )
 }
