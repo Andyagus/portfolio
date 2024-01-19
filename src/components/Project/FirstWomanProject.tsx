@@ -1,6 +1,11 @@
+import {ReactNode} from "react";
 
-export default function FirstWomanProject(){
+
+
+export default function FirstWomanProject({projectImage, projectVideo, projectHeaderText, projectSubcaptionText, projectParagraphText}: FirstWomanProjectProps){
     return(
-        <h1>first women</h1>
+       <div>
+           Hello World
+       </div>
     )
 }

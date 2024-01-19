@@ -59,6 +59,9 @@ export default function Project() {
 
         {/*//main content*/}
         <div className="max-w-xl ml-5 md:max-w-4xl lg:mx-auto">
+
+          {currentProject}
+          
           {/*//header*/}
           {<ProjectHeaderText title={"Bookshelf"} />}
           {
