@@ -1,12 +1,12 @@
 import ProjectCard from "../components/ProjectCard.tsx";
-import firstWomanImage from "../assets/images/first-woman.png";
-import firstWomanVideo from "../assets/images/fw-1.mov";
+import firstWomanImage from "../assets/images/project/firstWoman/preview/1projectPreviewImage.png";
+import firstWomanVideo from "../assets/images/project/firstWoman/preview/1projectPreviewVideo.mov";
 
-import ocvibeImage from "../assets/images/oc.png";
-import ocvibeVideo from "../assets/images/ocVibeVideo.mov";
+import ocvibeImage from "../assets/images/project/ocVibe/preview/1projectPreview.png";
+import ocvibeVideo from "../assets/images/project/ocVibe/preview/1projectPreview.mov";
 
-import bookshelfImage from "../assets/images/bookshelfImage.png";
-import bookshelfVideo from "../assets/images/bookShelfVideo.mp4";
+import bookshelfImage from "../assets/images/project/bookshelf/preview/1projectPreview.png";
+import bookshelfVideo from "../assets/images/project/bookshelf/preview/1projectPreview.mp4";
 export default function Projects() {
 
   return (

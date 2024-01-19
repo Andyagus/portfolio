@@ -1,17 +1,25 @@
-import { ProjectImage, ProjectVideo, ProjectHeaderText } from './projectComponents/projectComponentLibrary.tsx';
 import {ReactNode} from "react";
 
 interface ProjectData {
-  title: string;
   data: {
+    
+    headerText: ReactNode;
+    subcaptionText: ReactNode;
     images: {[key: string]: ReactNode};
+    videos: {[key: string]: ReactNode};
+    icons: {[key: string]: ReactNode};
+    paragraphs: {[key: string]: ReactNode};
   };
 }
 
-export default function FirstWomanProject(props: ProjectData) {
+export default function FirstWomanProject({data}: ProjectData) {
   return (
     <div>
-      {props.data.images["image1"]}
+      {data.headerText}
+      {data.subcaptionText}
+      {data.icons["mainIconSet"]}
+      {data.videos["headerVideo"]}
+      {/*{data.images["headerImage"]}*/}
     </div>
   );
 }
