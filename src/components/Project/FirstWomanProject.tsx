@@ -8,7 +8,7 @@ interface ProjectData {
     images: {[key: string]: ReactNode};
     videos: {[key: string]: ReactNode};
     icons: {[key: string]: ReactNode};
-    paragraphs: {[key: string]: ReactNode};
+    textBlocks: {[key: string]: ReactNode};
   };
 }
 
@@ -19,6 +19,8 @@ export default function FirstWomanProject({data}: ProjectData) {
       {data.subcaptionText}
       {data.icons["mainIconSet"]}
       {data.videos["headerVideo"]}
+      {data.textBlocks["text1"]}
+      {data.textBlocks["text2"]}
       {/*{data.images["headerImage"]}*/}
     </div>
   );

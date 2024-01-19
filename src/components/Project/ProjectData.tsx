@@ -4,6 +4,7 @@ import ProjectHeaderText from "./projectComponents/ProjectHeaderText.tsx";
 import ProjectSubcaptionText from "./projectComponents/ProjectSubcaptionText.tsx";
 import ProjectIcons from "./projectComponents/ProjectIcons.tsx";
 import ProjectIcon from "./projectComponents/ProjectIcon.tsx";
+import ProjectParagraphText from "./projectComponents/ProjectParagraphText.tsx";
 
 import {
   FaAppStoreIos,
@@ -13,18 +14,21 @@ import {
   FaLinkedin,
   FaLongArrowAltLeft,
 } from "react-icons/fa";
-import ProjectParagraphText from "./projectComponents/ProjectParagraphText.tsx";
 
 //first women data
 //images
-import headerImage from "../../assets/images/project/firstWoman/images/1Header.png";
-import image2 from "../../assets/images/project/firstWoman/images/2Reach.png";
-import image3 from "../../assets/images/project/firstWoman/images/3Scope.png";
+import headerImage from "../../assets/images/project/firstWoman/images/Header/1Header.png";
+import image2 from "../../assets/images/project/firstWoman/images/Body/1Reach.png";
+import image3 from "../../assets/images/project/firstWoman/images/Body/2Scope.png";
 
 //videos
 import headerVideo from "../../assets/images/project/firstWoman/videos/Header/HeaderVideo1.mov";
 
+//text blocks
+import {ProjectDataText} from "../../assets/images/project/firstWoman/textblocks/ProjectDataText.tsx";
+
 export const ProjectData = {
+        
   firstWomenDataDictionary: {
     headerText: <ProjectHeaderText title={"NASA: First Woman"} />,
     subcaptionText: (
@@ -82,6 +86,9 @@ export const ProjectData = {
         />
       ),
     },
-    paragraphs: {},
+    textBlocks: {
+      text1: <ProjectParagraphText text={ProjectDataText.text1} />,
+
+    },
   },
 };
