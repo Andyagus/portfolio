@@ -1,29 +1,25 @@
-import textFile from "./text1.txt";
-// import React, { useEffect, useState } from "react";
-
-import {useEffect, useState} from "react";
+// import textFile from "./text1.txt" this file wouldve ideally imported from blank text files that I defined, but due to a few issues ---
+//1 main -issue) not loading useeffect correctly (in the wrong order, so didn't show on page) , and due to time, decicded not to investigate.
+//string customization and breaks;;;decided to move on but will work closley with,, first women text.pages to implement properly
 
 export const ProjectDataText = {
   text1:
-"  NASA: First Woman was the second project I had the opportunity to work on at Bully Entertainment. Our team took on the project in close partnership with the team at NASA with the goal of exciting the next generation of space explorers!",
+    " NASA: First Woman was the second project I had the opportunity to work on at Bully. Our team took on the project in close partnership with the team at NASA, and the goal was to excite the next generation of space explorers!",
+
   text2:
-  "Since the app launched, over 467 million people from 70 different countries interacted with our project.  In 2022, our team won the Webby and Peoples Choice Awards for Best Integrated Mobile Experience, and, we were featured in Apple's App Store to celebrate Women's History Month.  " +
-      "<br/> <br/> The project, which was initially scoped as a  experience, is still being developed today with new graphic novel issues being released, continuous app updates, and even a First Woman Camp Experience!",
+    "Since the app launched, millions of people from around the world interacted with our project. In 2022, our team won the Webby Award for Best Integrated Mobile Experience, and we were featured in Apple's App Store to celebrate Women's History Month." +
+    "The project, which was initially scoped as a single experience, is still being developed today with new graphic novel issues being released, continuous app updates, and even a First Woman Camp Experience!",
   text3:
-  "The project is based around an original story about Callie Rodriguez, the first female astronaut and person of color to set foot on the moon— And it was set in a beautifully detailed and illustrated graphic novel – which worked in conjunction with the Native iOS App - in order to bring static imagery to life through AR Objects - and Immersive Environments.  This excited the user to learn about NASA technology, and making one feel as if they are in space. " +
-      "<br /> <br />My role as the UX Designer, extended to being part of the overall strategy , and taking part in most meetings with Derek Wang, the director of communications at NASA, to discuss the teams designs and progress with the overall app."+
-      "  Since the project was centered around the graphic novel, I designed the content so it was hierarchically structured, the most important was the novel itself, and through that you could access the other experiences. The graphic novel was a beautifully done, and I wanted to make sure that it was the main focus of the app.",
-    text4:
-    "My role was as a UX designer with strong contributions to the overall strategy of the entire project. " +
-    "I took part in most meetings, as the representitive of the product team, to share our progress in the app. ",
+    "  The project was based around a story of Callie Rodriguez, the first female astronaut and person of color to set foot on the moon." +
+    "The story was centered around a beautiful graphic novel, which was fused with markers to be viewed in the native iOS App, launching descriptive AR objects to fully immersive environments, both of which made you feel like you were in space!",
+  text4:
+    "My role was as a UX designer with strong contributions to the overall strategy of the entire project. I took part in most meetings, as the representative of the product team, to share our progress in the app.",
+
   text5:
-    "Since the project was centered around the graphic novel, I designed the content so it was hierarchically structured, " +
-    "the most important was the novel itself, and through that you could access the other experiences.<br />" +
-    "The graphic novel was a beautiful piece of art, and I wanted to make sure that it was the main focus of the app. ",
+    "  Since the project was centered around the graphic novel, I designed the content so it was hierarchically structured, the most important was the novel itself, and through that you could access the other experiences. The graphic novel was a beautiful piece of art, and I wanted to make sure that it was the main focus of the app.",
   text6:
-    "At about the same time as the user flow, and initial cponcepting of the UX, I started learning more about the teams UI direction" +
-    "<br/> with an awareness of NASA's style guide I suggested that the team lean into a more modern and minimalistic style, with a Helvetica typeface and bold colors. +" +
-    "The team was very receptive to the idea, and we started to explore the UI direction.",
+    "At about the same time as the user flow, and initial concepting of the UX, I started learning more about the team's UI direction with an awareness of NASA's style guide. " +
+    "I suggested that the team lean into a more modern and minimalistic style, with a Helvetica typeface and bold colors. The team was very receptive to the idea, and we started to explore the UI direction.",
   text7:
     "Since the content was distributive throught the app, and a variety of different issues were intended on being created , it became hard to find certain content as it could be nested deep into an issue." +
     "To solve the problem, we designed a homepage that would allow users to quickly access the content they were looking for, and also allow them to discover new content. ",
