@@ -5,6 +5,8 @@ import ProjectSubcaptionText from "./projectComponents/ProjectSubcaptionText.tsx
 import ProjectIcons from "./projectComponents/ProjectIcons.tsx";
 import ProjectIcon from "./projectComponents/ProjectIcon.tsx";
 import ProjectParagraphText from "./projectComponents/ProjectParagraphText.tsx";
+import FetchFirstWomanText from "../../assets/images/project/firstWoman/textblocks/FirstWomanText.tsx";
+
 
 import {
   FaAppStoreIos,
@@ -144,6 +146,15 @@ export const ProjectData = {
       text19: <ProjectParagraphText text={ProjectDataText.text19} />,
       text20: <ProjectParagraphText text={ProjectDataText.text20} />,
       text21: <ProjectParagraphText text={ProjectDataText.text21} />,
+      importedText:<ProjectParagraphText text={ProjectDataText.importedText} />
     },
   },
 };
+
+export default function ProjectDataFetch(){
+  return (
+      <>
+        <FetchFirstWomanText/>
+      </>
+  )
+}

@@ -10,7 +10,8 @@ import FirstWomanProject from "./Project/FirstWomanProject.tsx";
 import OcVibeProject from "./Project/OcVibeProject.tsx";
 
 //data for all projects
-import {ProjectData} from './Project/ProjectData.tsx'
+import ProjectDataFetch, {ProjectData} from './Project/ProjectData.tsx'
+
 
 export default function Project() {
   let { id } = useParams();
@@ -31,6 +32,7 @@ export default function Project() {
 
   return (
     <>
+      {<ProjectDataFetch />}
       <div className="mt-24  mx-auto p-6">
         {/*go back arrow*/}
         <div className="flex items-center p-4 lg:pl-16">
