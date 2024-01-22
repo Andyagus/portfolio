@@ -15,8 +15,8 @@ export default function ProjectVideo({ video, caption, controls = true, autoplay
         src={video}
         controls={controls}
         autoPlay={autoplay}
+        muted={true}
         loop = {loop}
-        muted={!autoplay}
         className="w-full max-h-[450px] shadow-lg object-cover overflow-hidden rounded-xl"
       />
         {<ProjectSubcaptionText text={caption} />}

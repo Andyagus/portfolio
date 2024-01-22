@@ -91,8 +91,9 @@ export const ProjectData = {
       headerVideo: (
         <ProjectVideo
           video={headerVideo}
-          caption={"Video Snapshots of the Different First Woman Environments"}
+          caption={"Dreamscape: An Overview of the Different Environments to Explore within the App."}
           autoplay={true}
+          controls={false}
         />
       ),
     },
@@ -146,15 +147,6 @@ export const ProjectData = {
       text19: <ProjectParagraphText text={ProjectDataText.text19} />,
       text20: <ProjectParagraphText text={ProjectDataText.text20} />,
       text21: <ProjectParagraphText text={ProjectDataText.text21} />,
-      importedText:<ProjectParagraphText text={ProjectDataText.importedText} />
     },
   },
 };
-
-export default function ProjectDataFetch(){
-  return (
-      <>
-        <FetchFirstWomanText/>
-      </>
-  )
-}
