@@ -24,10 +24,11 @@ export default function FirstWomanProject({ data }: ProjectData) {
       {data.textBlocks["text2"]}
       {data.images["image3"]}
       {data.textBlocks["text3"]}
-      {data.images["image4"]}
-      {data.textBlocks["text4"]}
-      {data.images["image5"]}
-      {data.textBlocks["text5"]}
+      {/*{data.images["image4"]}*/}
+
+      {/*{data.textBlocks["text4"]}*/}
+      {/*{data.images["image5"]}*/}
+      {/*{data.textBlocks["text5"]}*/}
       {data.images["image6"]}
       {data.textBlocks["text6"]}
       {data.images["image7"]}
