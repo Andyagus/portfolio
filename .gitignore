@@ -48,4 +48,4 @@ Desktop.ini
 # macOS
 .DS_Store
 src/assets/images
-src/assets/images
+!src/assets/images/project/firstWoman/textblocks
