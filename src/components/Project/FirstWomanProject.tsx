@@ -24,44 +24,38 @@ export default function FirstWomanProject({ data }: ProjectData) {
       {data.textBlocks["text2"]}
       {data.images["image3"]}
       {data.textBlocks["text3"]}
-      {/*{data.images["image4"]}*/}
-
-      {/*{data.textBlocks["text4"]}*/}
-      {/*{data.images["image5"]}*/}
-      {/*{data.textBlocks["text5"]}*/}
-      {data.images["image6"]}
-      {data.textBlocks["text6"]}
+      <br />
+      <div className="border-t border-gray-200 my-4"></div>
+      <div className="text-xl font-semibold">Native App</div>
       {data.images["image7"]}
-      {data.textBlocks["text7"]}
-      {data.images["image8"]}
-      {data.textBlocks["text8"]}
-      {data.images["image9"]}
-      {data.textBlocks["text9"]}
-      {data.images["image10"]}
-      {data.textBlocks["text10"]}
-      {data.images["image11"]}
-      {data.textBlocks["text11"]}
-      {data.images["image12"]}
-      {data.textBlocks["text12"]}
+      {data.textBlocks["text4"]}
+      {data.textBlocks["text6"]}
+      {data.videos["RT1"]}
+      {data.textBlocks["text9RT"]}
+      <br /> <div className="text-xl font-semibold">Immersive Elements</div>
+      {data.images["image10ARObject"]}
+      {data.textBlocks["text8Scan"]}
+      {data.videos["Interactivity2"]}
+      {data.textBlocks["text11ImmersiveEnvironments"]}
+      <br /> <div className="text-xl font-semibold">Achievements</div>
       {data.images["image13"]}
       {data.textBlocks["text13"]}
-      {data.images["image14"]}
-      {data.textBlocks["text14"]}
-      {data.images["image15"]}
-      {data.textBlocks["text15"]}
-      {data.images["image16"]}
-      {data.textBlocks["text16"]}
-      {data.images["image17"]}
+      <br />
+      <div className="border-t border-gray-200 my-4"></div>
+      <div className="text-xl font-semibold">WebAR</div>
+      {data.videos["WebAR3"]}
+      {data.textBlocks["text15WebAR"]}
+      <br />
+      <div className="border-t border-gray-200 my-4"></div>
+      <div className="text-xl font-semibold">Microsite</div>
+      {data.videos["MicrositeVideo"]}
       {data.textBlocks["text17"]}
-      {data.images["image18"]}
-      {data.textBlocks["text18"]}
       <br />
       {data.textBlocks["text19"]}
-      {data.images["image19"]}
+      <div className="border-t border-gray-200 my-4"></div>
+      <div className="text-xl font-semibold">Conclusion</div>
+      {data.videos["CallieOutro"]}
       {data.textBlocks["text20"]}
-      <br />
-      {data.textBlocks["text21"]}
-      {data.images["headerImage"]}
     </div>
   );
 }

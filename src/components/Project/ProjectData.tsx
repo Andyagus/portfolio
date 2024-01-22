@@ -7,7 +7,6 @@ import ProjectIcon from "./projectComponents/ProjectIcon.tsx";
 import ProjectParagraphText from "./projectComponents/ProjectParagraphText.tsx";
 import FetchFirstWomanText from "../../assets/images/project/firstWoman/textblocks/FirstWomanText.tsx";
 
-
 import {
   FaAppStoreIos,
   FaSafari,
@@ -41,7 +40,11 @@ import image19 from "../../assets/images/project/firstWoman/images/Body/19Bye He
 
 //videos
 import headerVideo from "../../assets/images/project/firstWoman/videos/Header/HeaderVideo1.mov";
-
+import RTVideo from "../../assets/images/project/firstWoman/videos/Body/1RT.mov";
+import InteractivityVideo from "../../assets/images/project/firstWoman/videos/Body/2Interactive.mov";
+import WebARVideo from "../../assets/images/project/firstWoman/videos/Body/3webar.mov"
+import MicrositeVideo from "../../assets/images/project/firstWoman/videos/Body/4Microsite.mov"
+import CallieOutro from "../../assets/images/project/firstWoman/videos/Body/5callieOutro.mov"
 //text blocks
 import { ProjectDataText } from "../../assets/images/project/firstWoman/textblocks/FirstWomanText.tsx";
 
@@ -69,20 +72,20 @@ export const ProjectData = {
           caption={"Vast reach across a variety of different channels"}
         />
       ),
-      image3: <ProjectImage image={image3} caption={"scope"} />,
+      image3: <ProjectImage image={image3} caption={"Flow: Showcasing the Variety of Components and Interconnected Elements of the Graphic Novel"} />,
       image4: <ProjectImage image={image4} caption={"scope"} />,
       image5: <ProjectImage image={image5} caption={"scope"} />,
-      image6: <ProjectImage image={image6} caption={"scope"} />,
-      image7: <ProjectImage image={image7} caption={"scope"} />,
+      image6UI: <ProjectImage image={image6} caption={"scope"} />,
+      image7: <ProjectImage image={image7} caption={"Native App Screenshots: Homepage Grid Features Important App Elements"} />,
       image8: <ProjectImage image={image8} caption={"scope"} />,
       image9: <ProjectImage image={image9} caption={"scope"} />,
-      image10: <ProjectImage image={image10} caption={"scope"} />,
+      image10ARObject: <ProjectImage image={image10} caption={"AR Object: Preview of the SLS in Augmented Reality with the 'Core Stage' Clickable Component Selected"} />,
       image11: <ProjectImage image={image11} caption={"scope"} />,
       image12: <ProjectImage image={image12} caption={"scope"} />,
-      image13: <ProjectImage image={image13} caption={"scope"} />,
-      image14: <ProjectImage image={image14} caption={"scope"} />,
-      image15: <ProjectImage image={image15} caption={"scope"} />,
-      image16: <ProjectImage image={image16} caption={"scope"} />,
+      image13: <ProjectImage image={image13} caption={"Challenges for Achievements: Added the Next Level of Gamification and Interactivity into the App!"} />,
+      image14: <ProjectImage image={image14} caption={"asdas"} />,
+      image15: <ProjectImage image={image15} caption={"a"} />,
+      image16: <ProjectImage image={image16} caption={"a"} />,
       image17: <ProjectImage image={image17} caption={"scope"} />,
       image18: <ProjectImage image={image18} caption={"scope"} />,
       image19: <ProjectImage image={image19} caption={"scope"} />,
@@ -91,11 +94,19 @@ export const ProjectData = {
       headerVideo: (
         <ProjectVideo
           video={headerVideo}
-          caption={"Dreamscape: An Overview of the Different Environments to Explore within the App."}
+          caption={
+            "Dreamscape: An Overview of the Different Environments to Explore within the App."
+          }
           autoplay={true}
           controls={false}
         />
       ),
+      RT1: <ProjectVideo video={RTVideo} autoplay={true} caption={"RT Explorations: Cross Team Collaborations to Understand RT's Personality and Visual Appearance."} />,
+      Interactivity2: <ProjectVideo video={InteractivityVideo} autoplay={true} caption={"Immersive Environments: Made Interactive, Turning Static into Memorable Experiences, Finding the Rubber Ducks!"}/>,
+      WebAR3: <ProjectVideo video={WebARVideo} autoplay={true} caption={"A preview of the 8th Wall, WebAR Experience. (Left) Wireframes Concepting Experience."}/>,
+      MicrositeVideo: <ProjectVideo video={MicrositeVideo} autoplay={true} caption={"Fluid Scrolling: Designing with Cards Enabled our team to a Flexible Microsite Experience About Many Topics"}/>,
+      CallieOutro: <ProjectVideo video={CallieOutro} autoplay={true} caption={"Stories: Vibrant Colors Fill the Pages of the First Women Graphic Novel, Displayed Here. "}/>
+
     },
     icons: {
       mainIconSet: (
@@ -131,16 +142,20 @@ export const ProjectData = {
       text3: <ProjectParagraphText text={ProjectDataText.text3} />,
       text4: <ProjectParagraphText text={ProjectDataText.text4} />,
       text5: <ProjectParagraphText text={ProjectDataText.text5} />,
-      text6: <ProjectParagraphText text={ProjectDataText.text6} />,
-      text7: <ProjectParagraphText text={ProjectDataText.text7} />,
-      text8: <ProjectParagraphText text={ProjectDataText.text8} />,
-      text9: <ProjectParagraphText text={ProjectDataText.text9} />,
+      text6: <ProjectParagraphText text={ProjectDataText.text6UI} />,
+      // text7: <ProjectParagraphText text={ProjectDataText.text7} />,
+      text8Scan: <ProjectParagraphText text={ProjectDataText.text8Scan} />,
+      text9RT: <ProjectParagraphText text={ProjectDataText.text9RT} />,
       text10: <ProjectParagraphText text={ProjectDataText.text10} />,
-      text11: <ProjectParagraphText text={ProjectDataText.text11} />,
+      text11ImmersiveEnvironments: (
+        <ProjectParagraphText
+          text={ProjectDataText.text11ImmersiveEnvironments}
+        />
+      ),
       text12: <ProjectParagraphText text={ProjectDataText.text12} />,
       text13: <ProjectParagraphText text={ProjectDataText.text13} />,
-      text14: <ProjectParagraphText text={ProjectDataText.text14} />,
-      text15: <ProjectParagraphText text={ProjectDataText.text15} />,
+      // text14: <ProjectParagraphText text={ProjectDataText.text14} />,
+      text15WebAR: <ProjectParagraphText text={ProjectDataText.text15WebAR} />,
       text16: <ProjectParagraphText text={ProjectDataText.text16} />,
       text17: <ProjectParagraphText text={ProjectDataText.text17} />,
       text18: <ProjectParagraphText text={ProjectDataText.text18} />,
