@@ -8,7 +8,7 @@ export const ProjectDataText = {
 "  NASA: First Woman was the second project I had the opportunity to work on at Bully Entertainment. Our team took on the project in close partnership with the team at NASA with the goal of exciting the next generation of space explorers!",
   text2:
   "Since the app launched, over 467 million people from 70 different countries interacted with our project.  In 2022, our team won the Webby and Peoples Choice Awards for Best Integrated Mobile Experience, and, we were featured in Apple's App Store to celebrate Women's History Month.  " +
-      "<br/> <br/> The project, which was initially scoped as a single experience, is still being developed today with new graphic novel issues being released, continuous app updates, and even a First Woman Camp Experience!",
+      "<br/> <br/> The project, which was initially scoped as a  experience, is still being developed today with new graphic novel issues being released, continuous app updates, and even a First Woman Camp Experience!",
   text3:
   "The project is based around an original story about Callie Rodriguez, the first female astronaut and person of color to set foot on the moon— And it was set in a beautifully detailed and illustrated graphic novel – which worked in conjunction with the Native iOS App - in order to bring static imagery to life through AR Objects - and Immersive Environments.  This excited the user to learn about NASA technology, and making one feel as if they are in space. " +
       "<br /> <br />My role as the UX Designer, extended to being part of the overall strategy , and taking part in most meetings with Derek Wang, the director of communications at NASA, to discuss the teams designs and progress with the overall app."+
