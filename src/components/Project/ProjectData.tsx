@@ -1,3 +1,4 @@
+//React components
 import ProjectImage from "./projectComponents/ProjectImage.tsx";
 import ProjectVideo from "./projectComponents/ProjectVideo.tsx";
 import ProjectHeaderText from "./projectComponents/ProjectHeaderText.tsx";
@@ -6,21 +7,14 @@ import ProjectIcons from "./projectComponents/ProjectIcons.tsx";
 import ProjectIcon from "./projectComponents/ProjectIcon.tsx";
 import ProjectParagraphText from "./projectComponents/ProjectParagraphText.tsx";
 
-import {
-  FaAppStoreIos,
-  FaSafari,
-  FaAward,
-} from "react-icons/fa";
+//icons
+import { FaAppStoreIos, FaSafari, FaAward } from "react-icons/fa";
 
-//first women data
 //images
-
 import UserFlowImage1 from "../../assets/images/project/firstWoman/images/Body/image1-flow.png";
 import AppScreens2 from "../../assets/images/project/firstWoman/images/Body/image2-appscreens.png";
 import ARObject3 from "../../assets/images/project/firstWoman/images/Body/image3-ARObject.png";
 import Achievements4 from "../../assets/images/project/firstWoman/images/Body/image4-Achievements.png";
-
-// console.log(imagesFromContext)
 
 //videos
 import HeaderVideo from "../../assets/images/project/firstWoman/videos/Header/HeaderVideo1.mov";
@@ -41,11 +35,39 @@ export const ProjectData = {
       />
     ),
     images: {
-      userFlowImage1: <ProjectImage image={UserFlowImage1} caption={"Flow: Showcasing the Variety of Components and Interconnected Elements of the Graphic Novel\n" +
-          "\n"} />,
-      AppScreens2: <ProjectImage image={AppScreens2} caption={"Native App Screenshots: Homepage Grid Features Important App Elements"} />,
-      ARObject3: <ProjectImage image={ARObject3} caption={"AR Object: Preview of the SLS in Augmented Reality with the 'Core Stage' Clickable Component Selected\n"} />,
-      Achievements4: <ProjectImage image={Achievements4} caption={"Challenges for Achievements: Added the Next Level of Gamification and Interactivity into the App!"} />,
+      userFlowImage1: (
+        <ProjectImage
+          image={UserFlowImage1}
+          caption={
+            "Flow: Showcasing the Variety of Components and Interconnected Elements of the Graphic Novel\n" +
+            "\n"
+          }
+        />
+      ),
+      AppScreens2: (
+        <ProjectImage
+          image={AppScreens2}
+          caption={
+            "Native App Screenshots: Homepage Grid Features Important App Elements"
+          }
+        />
+      ),
+      ARObject3: (
+        <ProjectImage
+          image={ARObject3}
+          caption={
+            "AR Object: Preview of the SLS in Augmented Reality with the 'Core Stage' Clickable Component Selected\n"
+          }
+        />
+      ),
+      Achievements4: (
+        <ProjectImage
+          image={Achievements4}
+          caption={
+            "Challenges for Achievements: Added the Next Level of Gamification and Interactivity into the App!"
+          }
+        />
+      ),
     },
     videos: {
       HeaderVideo: (
@@ -56,20 +78,47 @@ export const ProjectData = {
           }
         />
       ),
-      RTVideo1: <ProjectVideo video={RTVideo1} caption={"RT Explorations: Cross Team Collaborations to Understand RT's Personality and Visual Appearance.\n" +
-          "\n"}></ProjectVideo>,
+      RTVideo1: (
+        <ProjectVideo
+          video={RTVideo1}
+          caption={
+            "RT Explorations: Cross Team Collaborations to Understand RT's Personality and Visual Appearance.\n" +
+            "\n"
+          }
+        ></ProjectVideo>
+      ),
       InteractiveVideo2: (
-        <ProjectVideo video={InteractiveVideo2} caption={"Immersive Environments: Made Interactive, Turning Static into Memorable Experiences, Finding the Rubber Ducks!"}></ProjectVideo>
+        <ProjectVideo
+          video={InteractiveVideo2}
+          caption={
+            "Immersive Environments: Made Interactive, Turning Static into Memorable Experiences, Finding the Rubber Ducks!"
+          }
+        ></ProjectVideo>
       ),
       WebARVideo3: (
-        <ProjectVideo video={WebARVideo3} caption={"A preview of the 8th Wall, WebAR Experience. (Left) Wireframes Concepting Experience."}></ProjectVideo>
+        <ProjectVideo
+          video={WebARVideo3}
+          caption={
+            "A preview of the 8th Wall, WebAR Experience. (Left) Wireframes Concepting Experience."
+          }
+        ></ProjectVideo>
       ),
       MicrositeVideo4: (
-        <ProjectVideo video={MicrositeVideo4} caption={"Fluid Scrolling: Designing with Cards Enabled our team to a Flexible Microsite Experience About Many Topics\n" +
-            "\n"}></ProjectVideo>
+        <ProjectVideo
+          video={MicrositeVideo4}
+          caption={
+            "Fluid Scrolling: Designing with Cards Enabled our team to a Flexible Microsite Experience About Many Topics\n" +
+            "\n"
+          }
+        ></ProjectVideo>
       ),
       CallieOutro5: (
-        <ProjectVideo video={CallieOutro5} caption={"Stories: Vibrant Colors Fill the Pages of the First Women Graphic Novel, Displayed Here."}></ProjectVideo>
+        <ProjectVideo
+          video={CallieOutro5}
+          caption={
+            "Stories: Vibrant Colors Fill the Pages of the First Women Graphic Novel, Displayed Here."
+          }
+        ></ProjectVideo>
       ),
     },
     icons: {
@@ -105,7 +154,7 @@ export const ProjectData = {
       text1: (
         <ProjectParagraphText
           text={
-            "NASA: First Woman was the second project I had the opportunity to work on at Bully Entertainment. Our team took on the project in close partnership with the team at NASA with the goal of exciting the next generation of space explorers!\n" +
+            "NASA: First Woman was the second project I had the opportunity to work on at Bully! Entertainment. Our team took on the project in close partnership with the team at NASA with the goal of exciting the next generation of space explorers!\n" +
             "<br /> <br /> \n" +
             "Since the app launched, over 467 million people from 70 different countries interacted with our project. In 2022, our team won the Webby and Peoples Choice Awards for Best Integrated Mobile Experience, and, we were featured in Apple's App Store to celebrate Women's History Month. The project, initially scoped as a single experience, is still being developed today with new graphic novel issues being released, continuous app updates, and even a First Woman Camp Experience!"
           }
@@ -114,7 +163,7 @@ export const ProjectData = {
       text2: (
         <ProjectParagraphText
           text={
-            "The project is based around an original story about Callie Rodriguez, the first female astronaut and person of color to set foot on the moon— And it was set in a beautifully detailed and illustrated graphic novel – which worked in conjunction with the Native iOS App - in order to bring static imagery to life through AR Objects - and Immersive Environments. This excited the user to learn about NASA technology, and making one feel as if they are in space.My role as the UX Designer, extended to being part of the overall strategy , and taking part in most meetings with Derek Wang, the director of communications at NASA, to discuss the teams designs and progress with the overall app."
+            "The project is based around an original story about Callie Rodriguez, the first female astronaut and person of color to set foot on the moon— And it was set in a beautifully detailed and illustrated graphic novel – which worked in conjunction with the Native iOS App - in order to bring static imagery to life through AR Objects and Immersive Environments. This excited the user to learn about NASA technology, and making one feel as if they are in space.  My role as the UX Designer, extended to being part of the overall strategy , and taking part in meetings with Derek Wang, the Director of Communications at NASA, to discuss the teams designs and progress with the overall app."
           }
         />
       ),
@@ -195,23 +244,3 @@ export const ProjectData = {
     },
   },
 };
-
-// export default function useTextDataforProject(){
-//     const [textBlocks, setTextBlocks] = useState({
-//         text1: 'Loading...',
-//     });
-//
-//     useEffect(() => {
-//         fetch('/path/to/text1.txt')
-//             .then(response => response.text())
-//             .then(text => {
-//                 setTextBlocks(prevBlocks => ({
-//                     ...prevBlocks,
-//                     text1: text
-//                 }));
-//             })
-//             .catch(error => console.error('Error fetching text file:', error));
-//     }, []);
-//
-//     return textBlocks;
-// }

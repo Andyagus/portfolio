@@ -1,5 +1,5 @@
 //react components
-import { useParams } from "react-router-dom";
+import {Link, useParams} from "react-router-dom";
 import { useState, useEffect } from "react";
 
 import {FaLongArrowAltLeft } from "react-icons/fa";
@@ -10,7 +10,7 @@ import FirstWomanProject from "./Project/FirstWomanProject.tsx";
 import OcVibeProject from "./Project/OcVibeProject.tsx";
 
 //data for all projects
-import useTextDataforProject, {ProjectData} from './Project/ProjectData.tsx'
+import {ProjectData} from './Project/ProjectData.tsx'
 
 
 export default function Project() {
@@ -19,7 +19,7 @@ export default function Project() {
 
   useEffect(() => {
     switch (id) {
-      case "fw":
+      case "nasa-first-woman":
         setCurrentProject(<FirstWomanProject data={ProjectData.firstWomenDataDictionary}/>);
         break;
       case "oc":
@@ -34,12 +34,12 @@ export default function Project() {
     <>
       <div className="mt-24  mx-auto p-6">
         {/*go back arrow*/}
-        <div className="flex items-center p-4 lg:pl-16">
-          <FaLongArrowAltLeft className="text-gray-500 text-lg" />
-          <span className="text-sm font-semibold ml-2 text-gray-700">
+        <Link to={"/"} className="flex items-center group lg:ml-32 pt-4">
+          <FaLongArrowAltLeft className="text-gray-500 text-lg group-hover:text-gray-400 duration-200" />
+          <div className="text-sm font-semibold ml-2 text-gray-700 group-hover:text-gray-400 duration-200">
             Back to All Projects
-          </span>
-        </div>
+          </div>
+        </Link>
 
         <div className="max-w-xl ml-5 md:max-w-4xl lg:mx-auto">
           {currentProject}
