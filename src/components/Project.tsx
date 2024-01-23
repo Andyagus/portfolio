@@ -7,6 +7,7 @@ import {FaLongArrowAltLeft } from "react-icons/fa";
 
 //project pages
 import FirstWomanProject from "./Project/FirstWomanProject.tsx";
+import FirstWomanProject2 from "./Project/FirstWomanProject2.tsx";
 import OcVibeProject from "./Project/OcVibeProject.tsx";
 
 //data for all projects
@@ -22,6 +23,9 @@ export default function Project() {
       case "nasa-first-woman":
         setCurrentProject(<FirstWomanProject data={ProjectData.firstWomenDataDictionary}/>);
         break;
+      case "nasa-first-woman2":
+        setCurrentProject(<FirstWomanProject2 data={ProjectData.firstWomenDataDictionary2}/>);
+        break;
       case "oc":
         setCurrentProject(<OcVibeProject />);
         break;
@@ -34,7 +38,7 @@ export default function Project() {
     <>
       <div className="mt-24  mx-auto p-6">
         {/*go back arrow*/}
-        <Link to={"/"} className="flex items-center group lg:ml-32 pt-4">
+        <Link to={"/"} className="flex items-center group lg:ml-200 pt-4">
           <FaLongArrowAltLeft className="text-gray-500 text-lg group-hover:text-gray-400 duration-200" />
           <div className="text-sm font-semibold ml-2 text-gray-700 group-hover:text-gray-400 duration-200">
             Back to All Projects
