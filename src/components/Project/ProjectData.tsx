@@ -9,10 +9,7 @@ import ProjectParagraphText from "./projectComponents/ProjectParagraphText.tsx";
 import {
   FaAppStoreIos,
   FaSafari,
-  FaGithub,
   FaAward,
-  FaLinkedin,
-  FaLongArrowAltLeft,
 } from "react-icons/fa";
 
 //first women data
@@ -25,9 +22,6 @@ import Achievements4 from "../../assets/images/project/firstWoman/images/Body/im
 
 // console.log(imagesFromContext)
 
-//text blocks
-import textFile1 from "../../assets/images/project/firstWoman/textblocks/text1.txt";
-
 //videos
 import HeaderVideo from "../../assets/images/project/firstWoman/videos/Header/HeaderVideo1.mov";
 import RTVideo1 from "../../assets/images/project/firstWoman/videos/Body/1RT.mov";
@@ -35,11 +29,6 @@ import InteractiveVideo2 from "../../assets/images/project/firstWoman/videos/Bod
 import WebARVideo3 from "../../assets/images/project/firstWoman/videos/Body/3webar.mov";
 import MicrositeVideo4 from "../../assets/images/project/firstWoman/videos/Body/4Microsite.mov";
 import CallieOutro5 from "../../assets/images/project/firstWoman/videos/Body/5callieOutro.mov";
-
-//text blocks
-import text from "../../assets/images/project/firstWoman/textblocks/FirstWomanText.tsx";
-import ProjectDataText from "../../assets/images/project/firstWoman/textblocks/FirstWomanText.tsx";
-import { useEffect, useState } from "react";
 
 export const ProjectData = {
   firstWomenDataDictionary: {
