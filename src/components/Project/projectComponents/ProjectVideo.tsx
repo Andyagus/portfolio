@@ -8,7 +8,7 @@ interface VideoProps {
   loop?: boolean;
 }
 
-export default function ProjectVideo({ video, caption, controls = true, autoplay = false, loop = true}: VideoProps) {
+export default function ProjectVideo({ video, caption, controls = false, autoplay = true, loop = true}: VideoProps) {
   return (
     <div className="w-full my-5">
       <video

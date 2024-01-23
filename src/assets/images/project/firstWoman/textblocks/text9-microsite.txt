@@ -1,0 +1,4 @@
+Lastly, we worked on the Microsite, which tied all of the components of the project togethger. The Graphic Novel, the Native App, and WebAR Experiences, were now all visualized through through seperate cards on a continuous scroll website.
+With the help of our great Web Developer, Pedro, design and concept artists, the site came together beautifully through vibrant colors, large scale parralaax images - all of which really entranced the viewer into the story of Callie and RT.
+<br/><br/>
+We also designed interactive elements, such as the ability to read a digital version of the Graphic Novel, and the opportunity for one to learn about there 'Career At Nasa' through a fun quiz. Later on NASA also developed more activities including coloring books and the ability to 'Design a Crew Module' - all of which is hosted on the website! The site was a great way to tie all of the components of the project together, and it was a great way to showcase the project to the world.

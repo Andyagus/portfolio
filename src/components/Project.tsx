@@ -10,7 +10,7 @@ import FirstWomanProject from "./Project/FirstWomanProject.tsx";
 import OcVibeProject from "./Project/OcVibeProject.tsx";
 
 //data for all projects
-import {ProjectData} from './Project/ProjectData.tsx'
+import useTextDataforProject, {ProjectData} from './Project/ProjectData.tsx'
 
 
 export default function Project() {

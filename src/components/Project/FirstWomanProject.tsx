@@ -1,4 +1,7 @@
 import { ReactNode } from "react";
+import Title3 from "./projectComponents/Title3.tsx";
+import ProjectDataText from "../../assets/images/project/firstWoman/textblocks/FirstWomanText.tsx";
+
 
 interface ProjectData {
   data: {
@@ -17,45 +20,39 @@ export default function FirstWomanProject({ data }: ProjectData) {
       {data.headerText}
       {data.subcaptionText}
       {data.icons["mainIconSet"]}
-      {data.videos["headerVideo"]}
+      {data.videos["HeaderVideo"]}
       {data.textBlocks["text1"]}
-      <br />
-      {/*{data.images["image2"]}*/}
+      {data.images["userFlowImage1"]}
       {data.textBlocks["text2"]}
-      {data.images["image3"]}
+      {<Title3 title={"Native App"} borderTop={true} />}
+      {data.images["AppScreens2"]}
       {data.textBlocks["text3"]}
-      <br />
-      <div className="border-t border-gray-200 my-4"></div>
-      <div className="text-xl font-semibold">Native App</div>
-      {data.images["image7"]}
+      {data.videos["RTVideo1"]}
       {data.textBlocks["text4"]}
+
+      {<Title3 title={"Immersive Elements"} />}
+      {data.images["ARObject3"]}
+      {data.textBlocks["text5"]}
+      {data.videos["InteractiveVideo2"]}
       {data.textBlocks["text6"]}
-      {data.videos["RT1"]}
-      {data.textBlocks["text9RT"]}
-      <br /> <div className="text-xl font-semibold">Immersive Elements</div>
-      {data.images["image10ARObject"]}
-      {data.textBlocks["text8Scan"]}
-      {data.videos["Interactivity2"]}
-      {data.textBlocks["text11ImmersiveEnvironments"]}
-      <br /> <div className="text-xl font-semibold">Achievements</div>
-      {data.images["image13"]}
-      {data.textBlocks["text13"]}
-      <br />
-      <div className="border-t border-gray-200 my-4"></div>
-      <div className="text-xl font-semibold">WebAR</div>
-      {data.videos["WebAR3"]}
-      {data.textBlocks["text15WebAR"]}
-      <br />
-      <div className="border-t border-gray-200 my-4"></div>
-      <div className="text-xl font-semibold">Microsite</div>
-      {data.videos["MicrositeVideo"]}
-      {data.textBlocks["text17"]}
-      <br />
-      {data.textBlocks["text19"]}
-      <div className="border-t border-gray-200 my-4"></div>
-      <div className="text-xl font-semibold">Conclusion</div>
-      {data.videos["CallieOutro"]}
-      {data.textBlocks["text20"]}
+
+      {<Title3 title={"Achievements"} />}
+      {data.images["Achievements4"]}
+      {data.textBlocks["text7"]}
+
+      {<Title3 title={"WebAR"} borderTop={true} />}
+      {data.videos["WebARVideo3"]}
+      {data.textBlocks["text8"]}
+
+      {<Title3 title={"Microsite"} borderTop={true} />}
+      {data.videos["MicrositeVideo4"]}
+      {data.textBlocks["text9"]}
+
+      {<Title3 title={"Conclusion"} borderTop={true} />}
+      {data.videos["CallieOutro5"]}
+      {data.textBlocks["text10"]}
+
+
     </div>
   );
 }
