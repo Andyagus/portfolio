@@ -1,1 +1,3 @@
-One of the core features was the ability to view the graphic novel in AR. So, we focused on designing a straightforward way to initiate the AR experience from the graphic novel, all while ensuring they are accessible through the App itself. The AR objects experiences consisted of highly detailed NASA artifacts, like an astronaut suit, or the SLS Rocket. At the same time as experiencing the object in one's environment, a user was able to tap different elements, placed in the style of word bubbles in order to learn more about that area of the technology. Since the AR objects were tied into immersive environments, we provided a seamless transition to further exploration.
+version https://git-lfs.github.com/spec/v1
+oid sha256:8f721525b75d2150545179669131a437fb5efe1b3611bce0cd83f4c138bbce1c
+size 676

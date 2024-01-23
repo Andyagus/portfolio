@@ -1,3 +1,3 @@
-The immersive environments were the most exciting part of the project. And it was the first time I saw the full potential of the Unity game engine. We worked closely with the NASA team to understand the different environments that Callie would be exploring. Through this, the user had the opportunity space environments and feel like they were really there! I played a pivotal role in turning the environments, which would have been relatively static, into interactable playgrounds.
-<br/> <br/>
-In order to do this, I sat with the other designers and we concepted interactions that could enhance touch and exploration while moving around. In addition, this also enhanced team morale because it gave everybody freedom to play around a bit in the environments, and taking a step back from the rigid requirements of the project. Through these, we added the ability to learn more about the various technology of the Artemis program, through videos and articles.
+version https://git-lfs.github.com/spec/v1
+oid sha256:cbf7c11a00184508791e178f6594c48310af84be9cc23fcfb74e48f693adc602
+size 958

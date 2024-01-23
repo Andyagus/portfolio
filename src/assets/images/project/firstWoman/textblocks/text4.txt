@@ -1,1 +1,3 @@
-RT, Callie's homemade robot and space companion, was an essential part of the story. The team worked hard on creating lovable and funny animations that enabled the robot to express itself. At the same time, I worked closely with Brent, the concept artist, and Pedro, the video producer, to understand how RT could best fit in the app. We decided that just as RT is Callie's guide through space, he should also help guide the user through the app. From the onboarding to immersive explorations.
+version https://git-lfs.github.com/spec/v1
+oid sha256:64bf1417383fceef65245d8fdcccc5ab021a5d23279a0c6d9319aaaf7df133ef
+size 493

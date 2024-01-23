@@ -1,3 +1,3 @@
-To tie in the various components of the experience and encourage exploration throughout the app, we added challenges throughout the environments, which a user could complete to earn badges, and unlock the First Woman Specialist Badge.
-<br/> <br/>
-Throughout the design and development of the project, we had many product reviews, both internally and with the NASA Team, so I created fully clickable prototypes, based on Sketch symbols, in order to fully experience the app, and it's new features. At the same time the symbols made it easier to make changes, while keeping consistency across the experience.Both of these features played important roles when working on a feature, such as achievements, that played its part across the project.
+version https://git-lfs.github.com/spec/v1
+oid sha256:614c7f9baba50045178d2e0cb96403e94ce04df8736b3d20690c490f467b002a
+size 742

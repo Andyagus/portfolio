@@ -1,6 +1,3 @@
-Since the project was centered around the graphic novel, I designed the content so it was hierarchically structured, the most important was the novel itself, and through that you could access the other experiences. The graphic novel was a beautifully done, and I wanted to make sure that it was the main focus of the app. 
-<br/><br/>
-With an awareness of NASA’s style guide, the team was very receptive to my suggestion of adopting a modern and minimalistic design for the app, characterized by a Helvetica typeface and 
-bold colors.
-<br/><br/>
-From a layout perspective we designed a modular homepage to facilitate easy access to the extensive content in each graphic novel. This allowed users to quickly browse and access all content within the app. Both the design aesthetics and the user-friendly layout collectively contributed to creating a streamlined and simple app experience.
+version https://git-lfs.github.com/spec/v1
+oid sha256:a068735ae7946ae9b5ea7fd169d11ae591f2c26516c56da56bae6bac8b51b352
+size 888

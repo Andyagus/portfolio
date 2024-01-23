@@ -1,3 +1,3 @@
-Once we had a solid foundation in the native app, we started working on the WebAR experiences. We wanted to focus on RT as the entry point to the experience and we initially concepted a design where the user in could have light voice interactions through microphone input in order to experience various space objects. However, at the time, the technology wasn't capable of handling responses to a wide range of input so we pivoted to focus directly on the AR objects.
-<br/><br/>
-I ended up designing wireframes for a novel UX, where RT presents space objects in an environment through a grid of images behind him. When a user clicked on an image, object would fade into the center point of the piece, where the user could interact. We also explored how the experience could change based on where the user entered the web experience from either, (a general link, the graphic novel, or for a specific object).
+version https://git-lfs.github.com/spec/v1
+oid sha256:da1f0475d9b6b7ea6b8e718234d84fb425d8d5c23b9492efe333a523c0ad10fe
+size 908
