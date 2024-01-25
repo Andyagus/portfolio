@@ -10,12 +10,12 @@ import ProjectParagraphText from "./projectComponents/ProjectParagraphText.tsx";
 //icons
 import { FaAppStoreIos, FaSafari, FaAward } from "react-icons/fa";
 
+//first woman
 //images
 import UserFlowImage1 from "../../assets/images/project/firstWoman/images/Body/image1-flow.png";
 import AppScreens2 from "../../assets/images/project/firstWoman/images/Body/image2-appscreens.png";
 import ARObject3 from "../../assets/images/project/firstWoman/images/Body/image3-ARObject.png";
 import Achievements4 from "../../assets/images/project/firstWoman/images/Body/image4-Achievements.png";
-
 //videos
 import HeaderVideo from "../../assets/images/project/firstWoman/videos/Header/HeaderVideo1.mov";
 import RTVideo1 from "../../assets/images/project/firstWoman/videos/Body/1RT.mov";
@@ -23,6 +23,17 @@ import InteractiveVideo2 from "../../assets/images/project/firstWoman/videos/Bod
 import WebARVideo3 from "../../assets/images/project/firstWoman/videos/Body/3webar.mov";
 import MicrositeVideo4 from "../../assets/images/project/firstWoman/videos/Body/4Microsite.mov";
 import CallieOutro5 from "../../assets/images/project/firstWoman/videos/Body/5callieOutro.mov";
+
+//ocVibe videos
+import headerVideo from "../../assets/images/project/ocVibe/videos/1HeaderVideo1.mov";
+import researchVideo from "../../assets/images/project/ocVibe/videos/2ResearchMerged.mov";
+import MITCityScope from "../../assets/images/project/ocVibe/videos/3MITCityScope.mov";
+
+
+//ocVibe images
+import pavilionLookingIntoProperty from "../../assets/images/project/ocVibe/images/LookingIntoProperty.jpg"
+import lifeSizedModel from "../../assets/images/project/ocVibe/images/LifeSizedModel.jpg"
+import researchImageMoodboard from "../../assets/images/project/ocVibe/images/ResearchImageMoodboard.jpeg"
 
 export const ProjectData = {
   firstWomenDataDictionary: {
@@ -471,5 +482,142 @@ export const ProjectData = {
       //
     },
   },
-  ocVibeDataDictionary: {},
+  ocVibeDataDictionary: {
+    headerText: <ProjectHeaderText title={"ocV!BE - Smart City"} />,
+    subcaptionText: (
+      <ProjectSubcaptionText
+        text={
+          "Working with Microsoft to position ocV!BE, a major real estate development project, as a leader in technological innovation and a model for connected urban living."
+        }
+      />
+    ),
+    icons: (
+      <ProjectIcons
+        projectIcon1={
+          <ProjectIcon icon={FaSafari} link="https://www.ocvibe.com/" />
+        }
+      />
+    ),
+    videos: {
+      headerVideo: (
+        <ProjectVideo
+          video={headerVideo}
+          caption={
+            "Witness the ocV!BE Experience in Action through the eyes of a HoloLens headset"
+          }
+        />
+      ),
+      researchVideo: (
+        <ProjectVideo
+          video={researchVideo}
+          caption={
+            "Exploring research from a variety of different Augmented Reality based Architecture Tools"
+          }
+        />
+      ),
+      cityScopeVideo:(
+        <ProjectVideo
+          video={MITCityScope}
+          caption={
+            "Urban Simulation Tool that uses Augmented Reality to predict and quantify the impact of disruptive interventions"
+          }
+        />
+      )
+    },
+    images: {
+        ARPavilionImage: <ProjectImage image={pavilionLookingIntoProperty} caption={"Rendering from team artist, Pavel Zosim, showcases Pavilion's view of the future site of ocV!BE"}/>,
+        LifeSizedModelImage: <ProjectImage image={lifeSizedModel} caption={"Also from Pavel, Rendering of full scale model placed in actual position of future development"}/>,
+        ResearchMoodboard: <ProjectImage image={researchImageMoodboard} caption={"Interesting UI Interactioin Design References that we used to help concept our designs"}/>,
+
+    },
+    textBlocks: {
+      text1: (
+        <ProjectParagraphText
+          text={
+            "After working on the NASA Project at Bully, we began focusing on a new project for OCVibe an upcoming large, $4B, Real EstateDevelopment Project, aimed at being Anaheims premier mixed-use community and live entertainment district.  The goal of the project was to leverage Microsoft’s technology, primarily the HoloLens 2 Headset - and other software, in order to position OCVibe at the forefront of technology and as a tool to showcase the upcoming development to potential tenants and investors."
+          }
+        />
+      ),
+
+      text2: (
+        <ProjectParagraphText
+          text={
+            "Once we received the proposal from the client, our team began brainstorming different approaches to take the project.  We began by referencing a variety of different Architecture focused Augmented Reality apps, which we drew a variety of inspiration from.  Afterwords we decided to form the project around four stages.   Phase 1, which we intended to complete right away, which was a stationary Mixed Reality in a pavilion, to stage 4, which highlighted the potential of a fully connected ‘Digital Twin’, and consumer facing AR platform.  All of it was to be powered by Microsoft Technology."
+          }
+        />
+      ),
+      text3: (
+        <ProjectParagraphText
+          text={
+            "For the first phase, and our main deliverable - we decided to create a pavilion that would be strategically placed in a position, facing the future development site (now a parking lot).  In the Pavilion, we initially planned on having a physical table, which was either empty or adorned with a simple 3D model (reference this project), and an array of HoloLenses and iPad Pro’s.  When a user put on the headset, a scaled down, and highly detailed model, of the projected development would appear on the table, and be brought to life."
+          }
+        />
+      ),
+      text4: (
+        <ProjectParagraphText
+          text={
+            "To promote Microsoft’s Azure and Mesh Technology, we planned on leverage Remote Rendering for high quality, low latency display of 3D models, and Azure Spatial Anchors, and Mesh Multiuser sync for multi user collaboration.  Through this, multiple users in the environment, could be part of the experience at the same time, either in the same room, or halfway around the world.  In addition, through this technology we enabled a guide to be able to guide a wearer through the experience, while both looking at the same thing."
+          }
+        />
+      ),
+      text5:(
+        <ProjectParagraphText text ={"We also intended on leveraging Microsoft’s MRTK in order to set up some of the different UI/UX interactions while interacting with the model.  Including, showcasing the guide’s gaze position, buttons, sliders, tooltips, and even elasticity for more realistic physics movements."}/>
+      ),
+      text6:(
+        <ProjectParagraphText text="When the user was satisfied interacting with the tabletop model, we conceptualized an experience — where the user could grab the model - throw it with inertia like a frisbee.  And through that - the model would transition in front of them, to a life-sized scale.  Also given the placement of the pavilion the user would also see the development in its future projected site. <br /> <br />  To handle the transition we planned on using Windows Scene System to seamlessly load the model full scale, while also attaching a new set of markers.  We also planned on outfitting the pavilion glass walls with unique patterns to help keep the 3D model stable while walking around the space."/>
+      ),
+      text7:(
+        <ProjectParagraphText text="Lastly, in anticipation of future stages, we planned on connected analytics that we gathered through this experience and share it on Azure Digital Twins. This would enable us to gather information on places that peaked a users interest, and give us a seamless understanding of both the virtual and physical spaces in the property, which could eventually lead to a backend for the property and consumer facing AR experience."/>
+      ),
+
+      text8:(
+        <ProjectParagraphText text="I was particularly interested in the digital twin aspect of the project, where I conducted a variety of research and learned more about different techniques in which development projects, utilized collected data, and in the case of MIT City Scale, used AR to help visualize and enhance urban planning.  I also learned more bout companies, such as the Aria Network, which were partnering with real estate companies - in order to bring engaging consumer experiences, as marketing pieces to properties."/>
+      ),
+      text9:(
+        <ProjectParagraphText text="Once we had approval to begin working on the project with the client, I began focusing on the user experience.  I started out by breaking the project up into different areas of research,  including visually understanding different approaches taken on the HoloLens for Architecture Visualization, digital twin data layers, selection mechanisms and other interesting UI that fascinated me.  With this I created a visual moldboard to excite the team and help us brainstorm the immense possibilities of designing on the platform."/>
+      ),
+      text10:(
+        <ProjectParagraphText text="I also began reading a variety of research papers, which I continued throughout the UX process, to help inform my design decisions: 
+        "/>
+      ),
+      text11:(
+        <ProjectParagraphText text="With a foundation of research, we started on a user flow, which outlined the functionality and interaction of the app, including the ability to place the AR Object utilizing Azure Spatial Anchors, Click MRTK Buttons for more property information, and the ability to transition from a tabletop model to real life scale.  
+        "/>
+      ),
+      text12:(
+        <ProjectParagraphText text="After we created a consistent user flow, began exploring wireframes, which underwent three main stages. The first set of wireframes focused on a few core areas including.   
+        "/>
+      ), //list follows this text
+      text13:(
+        <ProjectParagraphText text="After receiving feedback on the first draft we started on the second iteration of the UX, some of the main changes of this draft, included:    "/>
+      ),// list follows this text
+      
+      text14:(
+        <ProjectParagraphText text="At the same time the UI team was crafting incredible 3D interfaces based in tandem with our UX and research where they conceptualized different experiences, and made the project feel alive. Some of the elements they were exploring including, what the pavilion (it’s 3D markers), table and virtual city would look like.   How the hand grab interaction would work.  And lastly, I remember an interesting design discussion over whether or not the control panel would follow the user, we worked closely with the UI team to envision different solutions."/>
+      ),
+      text15:(
+        <ProjectParagraphText text="After witnessing the work of the UI team and there ability too spatially concept and understand the UI Designs, I noticed the drawbacks and limitations for not understanding how to work in 3D software.  Since Sketch is a 2D design software its nature restricted megrim understanding how a design would feel in a true 3D/ or AR environment. (Bezi solves this…)
+        "/>
+      ),
+      
+      text16:(
+        <ProjectParagraphText text="Even more so, I realized that the process between designer and developers in the company, was way to black and white.  We would design a set of state screens, and the developers would copy it verbatim.  But its within the process that we were skipping that a design could be even further understood, fleshed, conceptualized, interactivity, purpose in the flow and connection between the designs, all of which added a layer of magic to the design, turning a regular static app into an experience.  At this point I realized that being a designer without the skill set of knowing how to build an AR app, to test out the work, and design considering the full functionality of the app was like being an artist who didn’t know how to draw. You aren’t really able to design.  Especially in new fields of Augmented Reality, it requires the skillset, because things are no longer static they are moving, like objects in the real world… and this planted a seed for my future dive into Unity and AR design. 
+        "/>
+      ),
+      text17:(
+        <ProjectParagraphText text="I began working on a new project, it was really cool, Overbeast with Keiichi Matsuda, when Jack the teams other UX designer and team kept focusing on this work.  Much of my initial concepts remained but the team continued to progress the UX and the UI.  For example the hierarchy of the properties being presented was shifted around specific categories, such as “Entertainment”, or “Wellness”, and the categories would activate environment ‘Tooltips’, which  when clicked, would highlight the building and associated panel.   
+        "/>
+      ),
+      text18:(
+        <ProjectParagraphText text="The experience had a successful launch on the OCVibe property with the reception being very well received.  Working with the MRTK toolkit, helped provide a UX framework for future projects.   Looking back at it, I would take a step back from my research backed design decisions and rely more on intuition. Nevertheless, it was amazing getting the chance to work on a consumer facing HoloLens 2 app that served as a powerful tool for Real Estate developers!  I look forward to getting the opportunity to hear your thoughts !"/>
+      ),
+      
+
+      
+      
+
+    },
+
+
+  },
 };

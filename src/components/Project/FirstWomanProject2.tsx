@@ -1,5 +1,6 @@
 import { ReactNode } from "react";
 import Title3 from "./projectComponents/Title3.tsx";
+import ProjectList from "./projectComponents/ProjectList.tsx";
 import ProjectDataText from "../../assets/images/project/firstWoman/textblocks/FirstWomanText.tsx";
 
 

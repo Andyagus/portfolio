@@ -27,7 +27,7 @@ export default function Project() {
         setCurrentProject(<FirstWomanProject2 data={ProjectData.firstWomenDataDictionary2}/>);
         break;
       case "ocvibe-smart-city":
-        setCurrentProject(<OcVibeProject />);
+        setCurrentProject(<OcVibeProject data={ProjectData.ocVibeDataDictionary}/>);
         break;
       default:
         break;
