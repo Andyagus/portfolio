@@ -1,10 +1,10 @@
-import ProfilePic from "../assets/images/profilePic.png";
-
-import image1 from "../assets/images/first-woman.png";
-import image2 from "../assets/images/oc.png";
+import ProfilePic from "../assets/images/About/profilePic.png";
+import ProfilePic2 from "../assets/images/About/profilePic2.png";
+import ProfilePic3 from "../assets/images/About/profilePic3.png";
+// import image2 from "../assets/images/oc.png";
 // import image3 from "../assets/images/testimage.png";
 import { useEffect, useState } from "react";
-const images = [ProfilePic, ProfilePic,ProfilePic, image1, image2];
+const images = [ProfilePic, ProfilePic2,ProfilePic3];
 
 export default function ImageGallery() {
   const [activeImage, setActiveImage] = useState(images[0]);

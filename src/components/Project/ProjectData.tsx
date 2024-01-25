@@ -379,7 +379,7 @@ export const ProjectData = {
       text2: (
         <ProjectParagraphText
           text={
-            'The project was centered around - and original story, turned graphic novel, about Callie Rodriguez, the first female and person of color to step foot on the moon.  The graphic novel is cleverly written, beautifully illustrated and really captivated the audience into feeling as if they were really part of Callie’s mission.  <br /> <br /> In addition, the graphic novel served as an entry point to a variety of 3D Content — AR Objects, and Immersive Environments, available in the Native App.   My role as a UX Designer, was to help design the overall flow of content from the Graphic Novel, to the Native App, WebAR Experience, and Microsite.  This also led me to be part of the team’s overall strategy, as well as taking part in meetings with the Director of Communication at NASA to share the team\'s designs and our progress with the overall app.'
+            "The project was centered around - and original story, turned graphic novel, about Callie Rodriguez, the first female and person of color to step foot on the moon.  The graphic novel is cleverly written, beautifully illustrated and really captivated the audience into feeling as if they were really part of Callie’s mission.  <br /> <br /> In addition, the graphic novel served as an entry point to a variety of 3D Content — AR Objects, and Immersive Environments, available in the Native App.   My role as a UX Designer, was to help design the overall flow of content from the Graphic Novel, to the Native App, WebAR Experience, and Microsite.  This also led me to be part of the team’s overall strategy, as well as taking part in meetings with the Director of Communication at NASA to share the team's designs and our progress with the overall app."
           }
         />
       ),
@@ -471,4 +471,5 @@ export const ProjectData = {
       //
     },
   },
+  ocVibeDataDictionary: {},
 };

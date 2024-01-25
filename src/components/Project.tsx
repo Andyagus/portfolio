@@ -26,7 +26,7 @@ export default function Project() {
       case "nasa-first-woman2":
         setCurrentProject(<FirstWomanProject2 data={ProjectData.firstWomenDataDictionary2}/>);
         break;
-      case "oc":
+      case "ocvibe-smart-city":
         setCurrentProject(<OcVibeProject />);
         break;
       default:
@@ -37,15 +37,15 @@ export default function Project() {
   return (
     <>
       <div className="mt-24  mx-auto p-6">
-        {/*go back arrow*/}
-        <Link to={"/"} className="flex items-center group lg:ml-200 pt-4">
-          <FaLongArrowAltLeft className="text-gray-500 text-lg group-hover:text-gray-400 duration-200" />
-          <div className="text-sm font-semibold ml-2 text-gray-700 group-hover:text-gray-400 duration-200">
-            Back to All Projects
-          </div>
-        </Link>
 
         <div className="max-w-xl ml-5 md:max-w-4xl lg:mx-auto">
+          {/*go back arrow*/}
+          <Link to={"/"} className="flex items-center group lg:ml-200 py-2">
+            <FaLongArrowAltLeft className="text-gray-500 text-lg group-hover:text-gray-400 duration-200" />
+            <div className="text-sm font-semibold ml-2 text-gray-700 group-hover:text-gray-400 duration-200">
+              Back to All Projects
+            </div>
+          </Link>
           {currentProject}
         </div>
       </div>
