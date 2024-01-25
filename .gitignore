@@ -49,14 +49,5 @@ Desktop.ini
 .DS_Store
 
 
-#!src/assets/images/project/firstWoman/textblocks
-#src/assets/images/*
-#!src/assets/images/project/firstWoman/textblocks
-#src/assets/images/project/firstWoman/images
-#src/assets/images/project/firstWoman/preview
-#src/assets/images/project/firstWoman/videos
-#*.mp4
-#*.mov
-#*.png
-#*.jpg
+
 
