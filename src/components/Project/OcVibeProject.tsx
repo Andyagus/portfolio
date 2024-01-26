@@ -79,9 +79,9 @@ export default function OcVibeProject({data}: ProjectProps) {
         />
 
 {/* thought  of putting this here so dont need team light explroe……… */}
-      {/* {data.videos["SliderToFullScale"]} */}
+      {data.videos["SliderToFullScale"]}
 
-      {data.images["TeamLightExplore"]}
+      {/* {data.images["TeamLightExplore"]} */}
 
         {data.textBlocks["text14"]}
 
@@ -91,7 +91,7 @@ export default function OcVibeProject({data}: ProjectProps) {
 
         {data.textBlocks["text17"]}
         
-        {data.videos["SliderToFullScale"]}
+        {/* {data.videos["SliderToFullScale"]} */}
         {data.textBlocks["text18"]}
 
         
