@@ -10,6 +10,7 @@ interface ProjectProps {
         images: {[key: string]: ReactNode};
         videos: { [key: string]: ReactNode }
         textBlocks: {[key: string] : ReactNode};
+        listItemBlocks: {[key: number] : string}
     };
 }
 export default function OcVibeProject({data}: ProjectProps) {
@@ -41,18 +42,19 @@ export default function OcVibeProject({data}: ProjectProps) {
         <br/> 
         {data.textBlocks["text10"]}
 
-        <ProjectList listItem1="Interaction Modes for Augmented Reality Visualization, discussed the utilization of tangible surfaces in Augmented Reality, and the importance of table based controls, vs RayCasting at far distances. This study reinforced the importance of having hand-touchable buttons in our environment for an intuitive user experience. 
-        " listItem2="A Comparative Analysis of 3D User Interaction: How to Move Virtual Objects in Mixed Reality, offered unique insight into the applicability of nature hand gestures in Augmented Reality.  The study’s analysis of hand interaction techniques, influenced our project, most notably the grab gesture, to make it feel like a natural user experience. 
+        <ProjectList listItem1={data.listItemBlocks[1]}
+
+         listItem2="A Comparative Analysis of 3D User Interaction: How to Move Virtual Objects in Mixed Reality, offered unique insight into the applicability of nature hand gestures in Augmented Reality.  The study’s analysis of hand interaction techniques, influenced our project, most notably the grab gesture, to make it feel like a natural user experience. 
         " listItem3="Mixed Reality Presentation on STEM Engagement and Comprehension emphasized the importance of both 3d Interactions with static 2D text for enhancing learning experiences.  This research gave us a better understanding on how we could best present the informational aspects of the project for engagement and understanding 
         "/>
         <br/>
         {<Title3 title="Wireframes"/>}
-        <div className=" text-red-400"> initial wireframe sketch on paper pull good ones</div>
+        {data.images["InitialWireframeSketches"]}
 
         {data.textBlocks["text11"]}
         <br/>
         {data.textBlocks["text12"]}
-
+        
         <ProjectList 
         listItem1="Welcoming and onboarding which led the user into the experience."
         listItem2="The initialization experience, what the experience would be like to track the space, to load up a spatial anchor, and if someone wasn’t the space, fall back with a virtual tabletop , that the user could interact with to see the 3D object .        "
@@ -64,10 +66,9 @@ export default function OcVibeProject({data}: ProjectProps) {
         "
         />
 
-        <div className=" text-red-400"> second set of wireframes image</div>
+        {data.images["SecondIterationWireframes"]}
         {data.textBlocks["text13"]}
-        <br /> 
-        
+      
         <ProjectList
         listItem1="Switching the highlighted content away from the digital twin data sets, and instead focus on specific properties."
         listItem2="We enabled user to select a building both directly from the buttons and through a raycast click - while pointing at the building."
@@ -77,20 +78,20 @@ export default function OcVibeProject({data}: ProjectProps) {
         "
         />
 
-  
-      <div className=" text-red-400"> show UI handle design</div>
-    
+{/* thought  of putting this here so dont need team light explroe……… */}
+      {/* {data.videos["SliderToFullScale"]} */}
+
+      {data.images["TeamLightExplore"]}
+
         {data.textBlocks["text14"]}
 
         {data.textBlocks["text15"]}
+        <br />
         {data.textBlocks["text16"]}
-
-        
-        <div className=" text-red-400">overbeast image</div>
 
         {data.textBlocks["text17"]}
         
-        <div className=" text-red-400">closing header vid from main video</div>
+        {data.videos["SliderToFullScale"]}
         {data.textBlocks["text18"]}
 
         

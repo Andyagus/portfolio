@@ -16,6 +16,7 @@ import UserFlowImage1 from "../../assets/images/project/firstWoman/images/Body/i
 import AppScreens2 from "../../assets/images/project/firstWoman/images/Body/image2-appscreens.png";
 import ARObject3 from "../../assets/images/project/firstWoman/images/Body/image3-ARObject.png";
 import Achievements4 from "../../assets/images/project/firstWoman/images/Body/image4-Achievements.png";
+
 //videos
 import HeaderVideo from "../../assets/images/project/firstWoman/videos/Header/HeaderVideo1.mov";
 import RTVideo1 from "../../assets/images/project/firstWoman/videos/Body/1RT.mov";
@@ -28,12 +29,15 @@ import CallieOutro5 from "../../assets/images/project/firstWoman/videos/Body/5ca
 import headerVideo from "../../assets/images/project/ocVibe/videos/1HeaderVideo1.mov";
 import researchVideo from "../../assets/images/project/ocVibe/videos/2ResearchMerged.mov";
 import MITCityScope from "../../assets/images/project/ocVibe/videos/3MITCityScope.mov";
-
+import sliderToFullScale from "../../assets/images/project/ocVibe/videos/4SliderToFullScale.mov";
 
 //ocVibe images
 import pavilionLookingIntoProperty from "../../assets/images/project/ocVibe/images/LookingIntoProperty.jpg"
 import lifeSizedModel from "../../assets/images/project/ocVibe/images/LifeSizedModel.jpg"
 import researchImageMoodboard from "../../assets/images/project/ocVibe/images/ResearchImageMoodboard.jpeg"
+import initialWireframeSketches from "../../assets/images/project/ocVibe/images/initialWireframeSketches.jpeg"
+import secondIterationWireframes from "../../assets/images/project/ocVibe/images/secondIterationWireframes.jpeg"
+import lightExploration from "../../assets/images/project/ocVibe/images/TeamLightExplore.jpg"
 
 export const ProjectData = {
   firstWomenDataDictionary: {
@@ -522,14 +526,25 @@ export const ProjectData = {
             "Urban Simulation Tool that uses Augmented Reality to predict and quantify the impact of disruptive interventions"
           }
         />
+      ),
+      SliderToFullScale:(
+        <ProjectVideo
+          video={sliderToFullScale}
+          caption={
+            "Showcase of the slider being dragged to launch a full scale experience"
+          }
+        />
       )
     },
     images: {
         ARPavilionImage: <ProjectImage image={pavilionLookingIntoProperty} caption={"Rendering from team artist, Pavel Zosim, showcases Pavilion's view of the future site of ocV!BE"}/>,
         LifeSizedModelImage: <ProjectImage image={lifeSizedModel} caption={"Also from Pavel, Rendering of full scale model placed in actual position of future development"}/>,
-        ResearchMoodboard: <ProjectImage image={researchImageMoodboard} caption={"Interesting UI Interactioin Design References that we used to help concept our designs"}/>,
-
-    },
+        ResearchMoodboard: <ProjectImage image={researchImageMoodboard} caption={"Interesting UI Interaction Design References that we used to help concept our designs"}/>,
+        InitialWireframeSketches: <ProjectImage image={initialWireframeSketches} caption={"A few snapshots of initial wireframe sketches, which detailed out the entire experience"}/>,
+        SecondIterationWireframes: <ProjectImage image={secondIterationWireframes} caption={"Updated wireframs by showcasing specific property details and added in multi-user functionality"}/>,
+        TeamLightExplore: <ProjectImage image={lightExploration} caption={"UI Team exploring different ways to highlight objects of interest including this unique handle with a spotlight"}/>,
+        
+      },
     textBlocks: {
       text1: (
         <ProjectParagraphText
@@ -605,11 +620,11 @@ export const ProjectData = {
         "/>
       ),
       text17:(
-        <ProjectParagraphText text="I began working on a new project, it was really cool, Overbeast with Keiichi Matsuda, when Jack the teams other UX designer and team kept focusing on this work.  Much of my initial concepts remained but the team continued to progress the UX and the UI.  For example the hierarchy of the properties being presented was shifted around specific categories, such as “Entertainment”, or “Wellness”, and the categories would activate environment ‘Tooltips’, which  when clicked, would highlight the building and associated panel.   
+        <ProjectParagraphText text="I began working on a new project, when Jack the teams other UX designer and team kept focusing on this work.  Much of my initial concepts remained but the team continued to progress the UX and the UI.  For example the hierarchy of the properties being presented was shifted around specific categories, such as “Entertainment”, or “Wellness”, and the categories would activate environment ‘Tooltips’, which  when clicked, would highlight the building and associated panel.   
         "/>
       ),
       text18:(
-        <ProjectParagraphText text="The experience had a successful launch on the OCVibe property with the reception being very well received.  Working with the MRTK toolkit, helped provide a UX framework for future projects.   Looking back at it, I would take a step back from my research backed design decisions and rely more on intuition. Nevertheless, it was amazing getting the chance to work on a consumer facing HoloLens 2 app that served as a powerful tool for Real Estate developers!  I look forward to getting the opportunity to hear your thoughts !"/>
+        <ProjectParagraphText text="The experience had a successful launch at the OCVibe property with the reception being very well received.  Working with the MRTK toolkit, helped provide a UX framework for future projects.   Looking back at it, I would take a step back from my research backed design decisions and rely more on intuition. Nevertheless, it was amazing getting the chance to work on a consumer facing HoloLens 2 app that served as a powerful tool for Real Estate developers!  I look forward to getting the opportunity to hear your thoughts!"/>
       ),
       
 
@@ -617,6 +632,10 @@ export const ProjectData = {
       
 
     },
+    listItemBlocks:{
+      1: "Interaction Modes for Augmented Reality Visualization, discussed the utilization of tangible surfaces in Augmented Reality, and the importance of table based controls, vs RayCasting at far distances. This study reinforced the importance of having hand-touchable buttons in our environment for an intuitive user experience.",
+      
+    }
 
 
   },
