@@ -8,7 +8,7 @@ import ProjectIcon from "./projectComponents/ProjectIcon.tsx";
 import ProjectParagraphText from "./projectComponents/ProjectParagraphText.tsx";
 
 //icons
-import { FaAppStoreIos, FaSafari, FaAward } from "react-icons/fa";
+import { FaAppStoreIos, FaSafari, FaAward, FaGithub, FaLinkedin } from "react-icons/fa";
 
 //first woman
 //images
@@ -38,6 +38,20 @@ import researchImageMoodboard from "../../assets/images/project/ocVibe/images/Re
 import initialWireframeSketches from "../../assets/images/project/ocVibe/images/initialWireframeSketches.jpeg"
 import secondIterationWireframes from "../../assets/images/project/ocVibe/images/secondIterationWireframes.jpeg"
 import lightExploration from "../../assets/images/project/ocVibe/images/TeamLightExplore.jpg"
+
+
+//bookshelf content
+import book_video1 from "../../assets/images/project/bookshelf/videos/Video1.mp4"
+import book_video2 from "../../assets/images/project/bookshelf/videos/Video2.mp4"
+import book_video3 from "../../assets/images/project/bookshelf/videos/Video3.mov"
+import book_video4 from "../../assets/images/project/bookshelf/videos/Video4.mp4"
+import book_video5 from "../../assets/images/project/bookshelf/videos/Video5.mov"
+import book_video6 from "../../assets/images/project/bookshelf/videos/Video6.mp4"
+
+import book_image1 from "../../assets/images/project/bookshelf/images/image1.gif"
+import book_image2 from "../../assets/images/project/bookshelf/images/image2.png"
+import book_image3 from "../../assets/images/project/bookshelf/images/Image3.jpg"
+import book_image4Sub from "../../assets/images/project/bookshelf/images/image4sub.jpg"
 
 export const ProjectData = {
   firstWomenDataDictionary: {
@@ -640,6 +654,87 @@ export const ProjectData = {
 
   },
   bookshelfProjectDataDictionary: {
-    
+    headerText: <ProjectHeaderText title={"BookShelf"} />,
+    subcaptionText: (
+      <ProjectSubcaptionText
+        text={
+          "Leveraging Augmented Reality to make it easier to browse a bookshelfg and learn more about the books in it."
+        }
+      />
+    ),
+    icons: (
+      <ProjectIcons
+        projectIcon1={
+          <ProjectIcon icon={FaGithub} link="https://github.com/Andyagus/BookShelf" />
+        }
+        projectIcon2={
+          <ProjectIcon icon={FaLinkedin} link="https://www.linkedin.com/posts/andyagus_augmentedreality-interfaces-questpro-activity-7123751214772584449-wtbM?utm_source=share" />
+        }
+      />
+    ),
+    videos: {
+      1: (
+        <ProjectVideo
+          video={book_video1}
+          caption={
+            "Full bookshelf demo, showcasing the ability to browse the bookshelf, and learn more about the books in it."
+          }
+        />
+      ),
+      2: (
+        <ProjectVideo
+          video={book_video2}
+          caption={
+            "Changing book to active material on change"
+          }
+        />
+      ),
+      3: (
+        <ProjectVideo
+          video={book_video3}
+          caption={
+            "Book Selection Zoom In"
+          }
+        />
+      ),
+      4: (
+        <ProjectVideo
+          video={book_video4}
+          caption={
+            "Expanded canvas from a selected book to showcase more information"
+          }
+        />
+      ),
+      5: (
+        <ProjectVideo
+          video={book_video5}
+          caption={
+            "Pulling a book from shelf alludes to future interactions"
+          }
+        />
+      ),
+      6: (
+        <ProjectVideo
+          video={book_video6}
+          caption={
+            "Frozen Screen during passthrough play session"
+          }
+        />
+      )
+    },
+    images: {
+        1: 
+        <ProjectImage image={book_image1} 
+        caption={"Paper prototypes exploring possible interactions"}/>,        
+        2: 
+        <ProjectImage image={book_image2} 
+        caption={"UI Panels based on current book interaction"}/>,        
+        3: 
+        <ProjectImage image={book_image3} 
+        caption={"Rendering of panel on wall"}/>,        
+        4: 
+        <ProjectImage image={book_image4Sub} 
+        caption={"Rendering of panel on wall"}/>,        
+      },
   }
 };

@@ -31,7 +31,7 @@ export default function Project() {
         setCurrentProject(<OcVibeProject data={ProjectData.ocVibeDataDictionary}/>);
         break;
       case "bookshelf":
-        setCurrentProject(<BookshelfProject/>);
+        setCurrentProject(<BookshelfProject data={ProjectData.bookshelfProjectDataDictionary}/>);
       break;
 
       default:
