@@ -620,7 +620,7 @@ export const ProjectData = {
         "/>
       ),
       text17:(
-        <ProjectParagraphText text="I began working on a new project, when Jack the teams other UX designer and team kept focusing on this work.  Much of my initial concepts remained but the team continued to progress the UX and the UI.  For example the hierarchy of the properties being presented was shifted around specific categories, such as “Entertainment”, or “Wellness”, and the categories would activate environment ‘Tooltips’, which  when clicked, would highlight the building and associated panel.   
+        <ProjectParagraphText text="I began working on a new project, when Jack the teams other UX designer and team kept focusing on this work.  Much of our initial concepts remained and the team continued to progress the UX and the UI.  For example the hierarchy of the properties being presented was shifted around specific categories, such as “Entertainment”, or “Wellness”, and the categories would activate environment ‘Tooltips’, which  when clicked, would highlight the building and associated panel.   
         "/>
       ),
       text18:(

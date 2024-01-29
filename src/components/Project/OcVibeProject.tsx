@@ -78,6 +78,9 @@ export default function OcVibeProject({data}: ProjectProps) {
         "
         />
 
+        {<Title3 title={"Crafting the interface"} borderTop={true}/>}
+
+
 {/* thought  of putting this here so dont need team light explroe……… */}
       {data.videos["SliderToFullScale"]}
 
@@ -85,12 +88,20 @@ export default function OcVibeProject({data}: ProjectProps) {
 
         {data.textBlocks["text14"]}
 
+        {<Title3 title={"Design Evolution"} borderTop={false}/>}
+
         {data.textBlocks["text15"]}
         <br />
         {data.textBlocks["text16"]}
 
+        <br /> 
+
+        {<Title3 title={"Conclusion"} borderTop={true}/>}
+
+
         {data.textBlocks["text17"]}
-        
+        <br /> 
+
         {/* {data.videos["SliderToFullScale"]} */}
         {data.textBlocks["text18"]}
 
