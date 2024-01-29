@@ -9,6 +9,7 @@ import {FaLongArrowAltLeft } from "react-icons/fa";
 import FirstWomanProject from "./Project/FirstWomanProject.tsx";
 import FirstWomanProject2 from "./Project/FirstWomanProject2.tsx";
 import OcVibeProject from "./Project/OcVibeProject.tsx";
+import BookshelfProject from "./Project/BookshelfProject.tsx";
 
 //data for all projects
 import {ProjectData} from './Project/ProjectData.tsx'
@@ -29,6 +30,10 @@ export default function Project() {
       case "ocvibe-smart-city":
         setCurrentProject(<OcVibeProject data={ProjectData.ocVibeDataDictionary}/>);
         break;
+      case "bookshelf":
+        setCurrentProject(<BookshelfProject/>);
+      break;
+
       default:
         break;
     }
