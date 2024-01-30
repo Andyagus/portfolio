@@ -8,7 +8,13 @@ import ProjectIcon from "./projectComponents/ProjectIcon.tsx";
 import ProjectParagraphText from "./projectComponents/ProjectParagraphText.tsx";
 
 //icons
-import { FaAppStoreIos, FaSafari, FaAward, FaGithub, FaLinkedin } from "react-icons/fa";
+import {
+  FaAppStoreIos,
+  FaSafari,
+  FaAward,
+  FaGithub,
+  FaLinkedin,
+} from "react-icons/fa";
 
 //first woman
 //images
@@ -32,26 +38,25 @@ import MITCityScope from "../../assets/images/project/ocVibe/videos/3MITCityScop
 import sliderToFullScale from "../../assets/images/project/ocVibe/videos/4SliderToFullScale.mov";
 
 //ocVibe images
-import pavilionLookingIntoProperty from "../../assets/images/project/ocVibe/images/LookingIntoProperty.jpg"
-import lifeSizedModel from "../../assets/images/project/ocVibe/images/LifeSizedModel.jpg"
-import researchImageMoodboard from "../../assets/images/project/ocVibe/images/ResearchImageMoodboard.jpeg"
-import initialWireframeSketches from "../../assets/images/project/ocVibe/images/initialWireframeSketches.jpeg"
-import secondIterationWireframes from "../../assets/images/project/ocVibe/images/secondIterationWireframes.jpeg"
-import lightExploration from "../../assets/images/project/ocVibe/images/TeamLightExplore.jpg"
-
+import pavilionLookingIntoProperty from "../../assets/images/project/ocVibe/images/LookingIntoProperty.jpg";
+import lifeSizedModel from "../../assets/images/project/ocVibe/images/LifeSizedModel.jpg";
+import researchImageMoodboard from "../../assets/images/project/ocVibe/images/ResearchImageMoodboard.jpeg";
+import initialWireframeSketches from "../../assets/images/project/ocVibe/images/initialWireframeSketches.jpeg";
+import secondIterationWireframes from "../../assets/images/project/ocVibe/images/secondIterationWireframes.jpeg";
+import lightExploration from "../../assets/images/project/ocVibe/images/TeamLightExplore.jpg";
 
 //bookshelf content
-import book_video1 from "../../assets/images/project/bookshelf/videos/Video1.mp4"
-import book_video2 from "../../assets/images/project/bookshelf/videos/Video2.mp4"
-import book_video3 from "../../assets/images/project/bookshelf/videos/Video3.mov"
-import book_video4 from "../../assets/images/project/bookshelf/videos/Video4.mp4"
-import book_video5 from "../../assets/images/project/bookshelf/videos/Video5.mov"
-import book_video6 from "../../assets/images/project/bookshelf/videos/Video6.mp4"
+import book_video1 from "../../assets/images/project/bookshelf/videos/Video1.mp4";
+import book_video2 from "../../assets/images/project/bookshelf/videos/Video2.mp4";
+import book_video3 from "../../assets/images/project/bookshelf/videos/Video3.mov";
+import book_video4 from "../../assets/images/project/bookshelf/videos/Video4.mp4";
+import book_video5 from "../../assets/images/project/bookshelf/videos/Video5.mov";
+import book_video6 from "../../assets/images/project/bookshelf/videos/Video6.mp4";
 
-import book_image1 from "../../assets/images/project/bookshelf/images/image1.gif"
-import book_image2 from "../../assets/images/project/bookshelf/images/image2.png"
-import book_image3 from "../../assets/images/project/bookshelf/images/Image3.jpg"
-import book_image4Sub from "../../assets/images/project/bookshelf/images/image4sub.jpg"
+import book_image1 from "../../assets/images/project/bookshelf/images/image1.gif";
+import book_image2 from "../../assets/images/project/bookshelf/images/image2.png";
+import book_image3 from "../../assets/images/project/bookshelf/images/Image3.jpg";
+import book_image4Sub from "../../assets/images/project/bookshelf/images/image4sub.jpg";
 
 export const ProjectData = {
   firstWomenDataDictionary: {
@@ -533,7 +538,7 @@ export const ProjectData = {
           }
         />
       ),
-      cityScopeVideo:(
+      cityScopeVideo: (
         <ProjectVideo
           video={MITCityScope}
           caption={
@@ -541,24 +546,65 @@ export const ProjectData = {
           }
         />
       ),
-      SliderToFullScale:(
+      SliderToFullScale: (
         <ProjectVideo
           video={sliderToFullScale}
           caption={
             "Showcase of the slider being dragged to launch a full scale experience"
           }
         />
-      )
+      ),
     },
     images: {
-        ARPavilionImage: <ProjectImage image={pavilionLookingIntoProperty} caption={"Rendering from team artist, Pavel Zosim, showcases Pavilion's view of the future site of ocV!BE"}/>,
-        LifeSizedModelImage: <ProjectImage image={lifeSizedModel} caption={"Also from Pavel, Rendering of full scale model placed in actual position of future development"}/>,
-        ResearchMoodboard: <ProjectImage image={researchImageMoodboard} caption={"Interesting UI Interaction Design References that we used to help concept our designs"}/>,
-        InitialWireframeSketches: <ProjectImage image={initialWireframeSketches} caption={"A few snapshots of initial wireframe sketches, which detailed out the entire experience"}/>,
-        SecondIterationWireframes: <ProjectImage image={secondIterationWireframes} caption={"Updated wireframs by showcasing specific property details and added in multi-user functionality"}/>,
-        TeamLightExplore: <ProjectImage image={lightExploration} caption={"UI Team exploring different ways to highlight objects of interest including this unique handle with a spotlight"}/>,
-        
-      },
+      ARPavilionImage: (
+        <ProjectImage
+          image={pavilionLookingIntoProperty}
+          caption={
+            "Rendering from team artist, Pavel Zosim, showcases Pavilion's view of the future site of ocV!BE"
+          }
+        />
+      ),
+      LifeSizedModelImage: (
+        <ProjectImage
+          image={lifeSizedModel}
+          caption={
+            "Also from Pavel, Rendering of full scale model placed in actual position of future development"
+          }
+        />
+      ),
+      ResearchMoodboard: (
+        <ProjectImage
+          image={researchImageMoodboard}
+          caption={
+            "Interesting UI Interaction Design References that we used to help concept our designs"
+          }
+        />
+      ),
+      InitialWireframeSketches: (
+        <ProjectImage
+          image={initialWireframeSketches}
+          caption={
+            "A few snapshots of initial wireframe sketches, which detailed out the entire experience"
+          }
+        />
+      ),
+      SecondIterationWireframes: (
+        <ProjectImage
+          image={secondIterationWireframes}
+          caption={
+            "Updated wireframs by showcasing specific property details and added in multi-user functionality"
+          }
+        />
+      ),
+      TeamLightExplore: (
+        <ProjectImage
+          image={lightExploration}
+          caption={
+            "UI Team exploring different ways to highlight objects of interest including this unique handle with a spotlight"
+          }
+        />
+      ),
+    },
     textBlocks: {
       text1: (
         <ProjectParagraphText
@@ -589,69 +635,77 @@ export const ProjectData = {
           }
         />
       ),
-      text5:(
-        <ProjectParagraphText text ={"We also intended on leveraging Microsoft’s MRTK in order to set up some of the different UI/UX interactions while interacting with the model.  Including, showcasing the guide’s gaze position, buttons, sliders, tooltips, and even elasticity for more realistic physics movements."}/>
+      text5: (
+        <ProjectParagraphText
+          text={
+            "We also intended on leveraging Microsoft’s MRTK in order to set up some of the different UI/UX interactions while interacting with the model.  Including, showcasing the guide’s gaze position, buttons, sliders, tooltips, and even elasticity for more realistic physics movements."
+          }
+        />
       ),
-      text6:(
-        <ProjectParagraphText text="When the user was satisfied interacting with the tabletop model, we conceptualized an experience — where the user could grab the model - throw it with inertia like a frisbee.  And through that - the model would transition in front of them, to a life-sized scale.  Also given the placement of the pavilion the user would also see the development in its future projected site. <br /> <br />  To handle the transition we planned on using Windows Scene System to seamlessly load the model full scale, while also attaching a new set of markers.  We also planned on outfitting the pavilion glass walls with unique patterns to help keep the 3D model stable while walking around the space."/>
+      text6: (
+        <ProjectParagraphText text="When the user was satisfied interacting with the tabletop model, we conceptualized an experience — where the user could grab the model - throw it with inertia like a frisbee.  And through that - the model would transition in front of them, to a life-sized scale.  Also given the placement of the pavilion the user would also see the development in its future projected site. <br /> <br />  To handle the transition we planned on using Windows Scene System to seamlessly load the model full scale, while also attaching a new set of markers.  We also planned on outfitting the pavilion glass walls with unique patterns to help keep the 3D model stable while walking around the space." />
       ),
-      text7:(
-        <ProjectParagraphText text="Lastly, in anticipation of future stages, we planned on connected analytics that we gathered through this experience and share it on Azure Digital Twins. This would enable us to gather information on places that peaked a users interest, and give us a seamless understanding of both the virtual and physical spaces in the property, which could eventually lead to a backend for the property and consumer facing AR experience."/>
+      text7: (
+        <ProjectParagraphText text="Lastly, in anticipation of future stages, we planned on connected analytics that we gathered through this experience and share it on Azure Digital Twins. This would enable us to gather information on places that peaked a users interest, and give us a seamless understanding of both the virtual and physical spaces in the property, which could eventually lead to a backend for the property and consumer facing AR experience." />
       ),
 
-      text8:(
-        <ProjectParagraphText text="I was particularly interested in the digital twin aspect of the project, where I conducted a variety of research and learned more about different techniques in which development projects, utilized collected data, and in the case of MIT City Scale, used AR to help visualize and enhance urban planning.  I also learned more bout companies, such as the Aria Network, which were partnering with real estate companies - in order to bring engaging consumer experiences, as marketing pieces to properties."/>
+      text8: (
+        <ProjectParagraphText text="I was particularly interested in the digital twin aspect of the project, where I conducted a variety of research and learned more about different techniques in which development projects, utilized collected data, and in the case of MIT City Scale, used AR to help visualize and enhance urban planning.  I also learned more bout companies, such as the Aria Network, which were partnering with real estate companies - in order to bring engaging consumer experiences, as marketing pieces to properties." />
       ),
-      text9:(
-        <ProjectParagraphText text="Once we had approval to begin working on the project with the client, I began focusing on the user experience.  I started out by breaking the project up into different areas of research,  including visually understanding different approaches taken on the HoloLens for Architecture Visualization, digital twin data layers, selection mechanisms and other interesting UI that fascinated me.  With this I created a visual moldboard to excite the team and help us brainstorm the immense possibilities of designing on the platform."/>
+      text9: (
+        <ProjectParagraphText text="Once we had approval to begin working on the project with the client, I began focusing on the user experience.  I started out by breaking the project up into different areas of research,  including visually understanding different approaches taken on the HoloLens for Architecture Visualization, digital twin data layers, selection mechanisms and other interesting UI that fascinated me.  With this I created a visual moldboard to excite the team and help us brainstorm the immense possibilities of designing on the platform." />
       ),
-      text10:(
-        <ProjectParagraphText text="I also began reading a variety of research papers, which I continued throughout the UX process, to help inform my design decisions: 
-        "/>
+      text10: (
+        <ProjectParagraphText
+          text="I also began reading a variety of research papers, which I continued throughout the UX process, to help inform my design decisions: 
+        "
+        />
       ),
-      text11:(
-        <ProjectParagraphText text="With a foundation of research, we started on a user flow, which outlined the functionality and interaction of the app, including the ability to place the AR Object utilizing Azure Spatial Anchors, Click MRTK Buttons for more property information, and the ability to transition from a tabletop model to real life scale.  
-        "/>
+      text11: (
+        <ProjectParagraphText
+          text="With a foundation of research, we started on a user flow, which outlined the functionality and interaction of the app, including the ability to place the AR Object utilizing Azure Spatial Anchors, Click MRTK Buttons for more property information, and the ability to transition from a tabletop model to real life scale.  
+        "
+        />
       ),
-      text12:(
-        <ProjectParagraphText text="After we created a consistent user flow, began exploring wireframes, which underwent three main stages. The first set of wireframes focused on a few core areas including.   
-        "/>
+      text12: (
+        <ProjectParagraphText
+          text="After we created a consistent user flow, began exploring wireframes, which underwent three main stages. The first set of wireframes focused on a few core areas including.   
+        "
+        />
       ), //list follows this text
-      text13:(
-        <ProjectParagraphText text="After receiving feedback on the first draft we started on the second iteration of the UX, some of the main changes of this draft, included:    "/>
-      ),// list follows this text
-      
-      text14:(
-        <ProjectParagraphText text="At the same time the UI team was crafting incredible 3D interfaces based in tandem with our UX and research where they conceptualized different experiences, and made the project feel alive. Some of the elements they were exploring including, what the pavilion (it’s 3D markers), table and virtual city would look like.   How the hand grab interaction would work.  And lastly, I remember an interesting design discussion over whether or not the control panel would follow the user, we worked closely with the UI team to envision different solutions."/>
-      ),
-      text15:(
-        <ProjectParagraphText text="After witnessing the work of the UI team and there ability too spatially concept and understand the UI Designs, I noticed the drawbacks and limitations for not understanding how to work in 3D software.  Since Sketch is a 2D design software its nature restricted megrim understanding how a design would feel in a true 3D/ or AR environment. (Bezi solves this…)
-        "/>
-      ),
-      
-      text16:(
-        <ProjectParagraphText text="Even more so, I realized that the process between designer and developers in the company, was way to black and white.  We would design a set of state screens, and the developers would copy it verbatim.  But its within the process that we were skipping that a design could be even further understood, fleshed, conceptualized, interactivity, purpose in the flow and connection between the designs, all of which added a layer of magic to the design, turning a regular static app into an experience.  At this point I realized that being a designer without the skill set of knowing how to build an AR app, to test out the work, and design considering the full functionality of the app was like being an artist who didn’t know how to draw. You aren’t really able to design.  Especially in new fields of Augmented Reality, it requires the skillset, because things are no longer static they are moving, like objects in the real world… and this planted a seed for my future dive into Unity and AR design. 
-        "/>
-      ),
-      text17:(
-        <ProjectParagraphText text="I began working on a new project, when Jack the teams other UX designer and team kept focusing on this work.  Much of our initial concepts remained and the team continued to progress the UX and the UI.  For example the hierarchy of the properties being presented was shifted around specific categories, such as “Entertainment”, or “Wellness”, and the categories would activate environment ‘Tooltips’, which  when clicked, would highlight the building and associated panel.   
-        "/>
-      ),
-      text18:(
-        <ProjectParagraphText text="The experience had a successful launch at the OCVibe property with the reception being very well received.  Working with the MRTK toolkit, helped provide a UX framework for future projects.   Looking back at it, I would take a step back from my research backed design decisions and rely more on intuition. Nevertheless, it was amazing getting the chance to work on a consumer facing HoloLens 2 app that served as a powerful tool for Real Estate developers!  I look forward to getting the opportunity to hear your thoughts!"/>
-      ),
-      
+      text13: (
+        <ProjectParagraphText text="After receiving feedback on the first draft we started on the second iteration of the UX, some of the main changes of this draft, included:    " />
+      ), // list follows this text
 
-      
-      
+      text14: (
+        <ProjectParagraphText text="At the same time the UI team was crafting incredible 3D interfaces based in tandem with our UX and research where they conceptualized different experiences, and made the project feel alive. Some of the elements they were exploring including, what the pavilion (it’s 3D markers), table and virtual city would look like.   How the hand grab interaction would work.  And lastly, I remember an interesting design discussion over whether or not the control panel would follow the user, we worked closely with the UI team to envision different solutions." />
+      ),
+      text15: (
+        <ProjectParagraphText
+          text="After witnessing the work of the UI team and there ability too spatially concept and understand the UI Designs, I noticed the drawbacks and limitations for not understanding how to work in 3D software.  Since Sketch is a 2D design software its nature restricted megrim understanding how a design would feel in a true 3D/ or AR environment. (Bezi solves this…)
+        "
+        />
+      ),
 
+      text16: (
+        <ProjectParagraphText
+          text="Even more so, I realized that the process between designer and developers in the company, was way to black and white.  We would design a set of state screens, and the developers would copy it verbatim.  But its within the process that we were skipping that a design could be even further understood, fleshed, conceptualized, interactivity, purpose in the flow and connection between the designs, all of which added a layer of magic to the design, turning a regular static app into an experience.  At this point I realized that being a designer without the skill set of knowing how to build an AR app, to test out the work, and design considering the full functionality of the app was like being an artist who didn’t know how to draw. You aren’t really able to design.  Especially in new fields of Augmented Reality, it requires the skillset, because things are no longer static they are moving, like objects in the real world… and this planted a seed for my future dive into Unity and AR design. 
+        "
+        />
+      ),
+      text17: (
+        <ProjectParagraphText
+          text="I began working on a new project, when Jack the teams other UX designer and team kept focusing on this work.  Much of our initial concepts remained and the team continued to progress the UX and the UI.  For example the hierarchy of the properties being presented was shifted around specific categories, such as “Entertainment”, or “Wellness”, and the categories would activate environment ‘Tooltips’, which  when clicked, would highlight the building and associated panel.   
+        "
+        />
+      ),
+      text18: (
+        <ProjectParagraphText text="The experience had a successful launch at the OCVibe property with the reception being very well received.  Working with the MRTK toolkit, helped provide a UX framework for future projects.   Looking back at it, I would take a step back from my research backed design decisions and rely more on intuition. Nevertheless, it was amazing getting the chance to work on a consumer facing HoloLens 2 app that served as a powerful tool for Real Estate developers!  I look forward to getting the opportunity to hear your thoughts!" />
+      ),
     },
-    listItemBlocks:{
+    listItemBlocks: {
       1: "Interaction Modes for Augmented Reality Visualization, discussed the utilization of tangible surfaces in Augmented Reality, and the importance of table based controls, vs RayCasting at far distances. This study reinforced the importance of having hand-touchable buttons in our environment for an intuitive user experience.",
-      
-    }
-
-
+    },
   },
   bookshelfProjectDataDictionary: {
     headerText: <ProjectHeaderText title={"BookShelf"} />,
@@ -665,10 +719,16 @@ export const ProjectData = {
     icons: (
       <ProjectIcons
         projectIcon1={
-          <ProjectIcon icon={FaGithub} link="https://github.com/Andyagus/BookShelf" />
+          <ProjectIcon
+            icon={FaGithub}
+            link="https://github.com/Andyagus/BookShelf"
+          />
         }
         projectIcon2={
-          <ProjectIcon icon={FaLinkedin} link="https://www.linkedin.com/posts/andyagus_augmentedreality-interfaces-questpro-activity-7123751214772584449-wtbM?utm_source=share" />
+          <ProjectIcon
+            icon={FaLinkedin}
+            link="https://www.linkedin.com/posts/andyagus_augmentedreality-interfaces-questpro-activity-7123751214772584449-wtbM?utm_source=share"
+          />
         }
       />
     ),
@@ -684,9 +744,7 @@ export const ProjectData = {
       2: (
         <ProjectVideo
           video={book_video2}
-          caption={
-            "Changing book to active material on change"
-          }
+          caption={"Changing book to active material on change"}
         />
       ),
       3: (
@@ -720,21 +778,37 @@ export const ProjectData = {
             "Frozen screen and laggy recording during passthrough-session"
           }
         />
-      )
+      ),
     },
     images: {
-        1: 
-        <ProjectImage image={book_image1} 
-        caption={"Paper prototypes exploring possible interactions"}/>,        
-        2: 
-        <ProjectImage image={book_image2} 
-        caption={"UI Panels based on current book interaction"}/>,        
-        3: 
-        <ProjectImage image={book_image3} 
-        caption={"Rendering of a large panel on a wall, used Quest Link to accurately position content in play mode."}/>,        
-        4: 
-        <ProjectImage image={book_image4Sub} 
-        caption={"Utilizing Spatial Anchors to accurately position content in space"}/>,        
-      },
-  }
+      1: (
+        <ProjectImage
+          image={book_image1}
+          caption={"Paper prototypes exploring possible interactions"}
+        />
+      ),
+      2: (
+        <ProjectImage
+          image={book_image2}
+          caption={"UI Panels based on current book interaction"}
+        />
+      ),
+      3: (
+        <ProjectImage
+          image={book_image3}
+          caption={
+            "Rendering of a large panel on a wall, used Quest Link to accurately position content in play mode."
+          }
+        />
+      ),
+      4: (
+        <ProjectImage
+          image={book_image4Sub}
+          caption={
+            "Utilizing Spatial Anchors to accurately position content in space"
+          }
+        />
+      ),
+    },
+  },
 };

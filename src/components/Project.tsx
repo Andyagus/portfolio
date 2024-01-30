@@ -1,9 +1,8 @@
 //react components
-import {Link, useParams} from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
 
-import {FaLongArrowAltLeft } from "react-icons/fa";
-
+import { FaLongArrowAltLeft } from "react-icons/fa";
 
 //project pages
 import FirstWomanProject from "./Project/FirstWomanProject.tsx";
@@ -12,8 +11,8 @@ import OcVibeProject from "./Project/OcVibeProject.tsx";
 import BookshelfProject from "./Project/BookshelfProject.tsx";
 
 //data for all projects
-import {ProjectData} from './Project/ProjectData.tsx'
-
+import { ProjectData } from "./Project/ProjectData.tsx";
+import { MuseumProject } from "./Project/MuseumProject.tsx";
 
 export default function Project() {
   let { id } = useParams();
@@ -22,18 +21,28 @@ export default function Project() {
   useEffect(() => {
     switch (id) {
       case "nasa-first-woman":
-        setCurrentProject(<FirstWomanProject data={ProjectData.firstWomenDataDictionary}/>);
+        setCurrentProject(
+          <FirstWomanProject data={ProjectData.firstWomenDataDictionary} />
+        );
         break;
       case "nasa-first-woman2":
-        setCurrentProject(<FirstWomanProject2 data={ProjectData.firstWomenDataDictionary2}/>);
+        setCurrentProject(
+          <FirstWomanProject2 data={ProjectData.firstWomenDataDictionary2} />
+        );
         break;
       case "ocvibe-smart-city":
-        setCurrentProject(<OcVibeProject data={ProjectData.ocVibeDataDictionary}/>);
+        setCurrentProject(
+          <OcVibeProject data={ProjectData.ocVibeDataDictionary} />
+        );
         break;
       case "bookshelf":
-        setCurrentProject(<BookshelfProject data={ProjectData.bookshelfProjectDataDictionary}/>);
-      break;
-
+        setCurrentProject(
+          <BookshelfProject data={ProjectData.bookshelfProjectDataDictionary} />
+        );
+        break;
+      case "museum":
+        setCurrentProject(<MuseumProject />);
+        break;
       default:
         break;
     }
@@ -42,7 +51,6 @@ export default function Project() {
   return (
     <>
       <div className="mt-24  mx-auto p-6">
-
         <div className="max-w-xl ml-5 md:max-w-4xl lg:mx-auto">
           {/*go back arrow*/}
           <Link to={"/"} className="flex items-center group lg:ml-200 py-2">

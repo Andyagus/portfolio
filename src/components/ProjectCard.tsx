@@ -28,6 +28,10 @@ export default function ProjectCard(props: ProjectCardProps) {
       if (title == "BookShelf") {
         setIsHovered(true);
       }
+    } else if (scrollY > 400 && scrollY < 500) {
+      if (title == "Museum") {
+        setIsHovered(true);
+      }
     } else {
       setIsHovered(false);
     }
@@ -77,7 +81,7 @@ export default function ProjectCard(props: ProjectCardProps) {
               <img
                 className="object-cover w-full h-96"
                 src={image}
-                alt="NASA: First Woman"
+                alt={title}
               />
             )}
           </div>
