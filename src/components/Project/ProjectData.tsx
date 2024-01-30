@@ -693,7 +693,7 @@ export const ProjectData = {
         <ProjectVideo
           video={book_video3}
           caption={
-            "Book Selection Zoom In"
+            "Moving world space canvas, and changing book cover to match active book"
           }
         />
       ),
@@ -709,7 +709,7 @@ export const ProjectData = {
         <ProjectVideo
           video={book_video5}
           caption={
-            "Pulling a book from shelf alludes to future interactions"
+            "Exploring future interactions by coupling digital and physical elements"
           }
         />
       ),
@@ -717,7 +717,7 @@ export const ProjectData = {
         <ProjectVideo
           video={book_video6}
           caption={
-            "Frozen Screen during passthrough play session"
+            "Frozen screen and laggy recording during passthrough-session"
           }
         />
       )
@@ -731,10 +731,10 @@ export const ProjectData = {
         caption={"UI Panels based on current book interaction"}/>,        
         3: 
         <ProjectImage image={book_image3} 
-        caption={"Rendering of panel on wall"}/>,        
+        caption={"Rendering of a large panel on a wall, used Quest Link to accurately position content in play mode."}/>,        
         4: 
         <ProjectImage image={book_image4Sub} 
-        caption={"Rendering of panel on wall"}/>,        
+        caption={"Utilizing Spatial Anchors to accurately position content in space"}/>,        
       },
   }
 };
