@@ -4,20 +4,19 @@ import Project from "./components/Project.tsx";
 
 import About from "./components/About.tsx";
 
-import {Route, Routes} from "react-router-dom";
-
+import { Route, Routes } from "react-router-dom";
 
 // Updated array to store image URLs directly
 
 export default function App() {
-    return (
-        <>
-            <NavBar />
-            <Routes>
-                <Route path="/" element={<ProjectList />} />
-                <Route path="/projects/:id" element={<Project/>} />
-                <Route path="/about" element={<About />} />
-            </Routes>
-        </>
-    );
-};
+  return (
+    <>
+      <NavBar />
+      <Routes>
+        <Route path="/" element={<ProjectList />} />
+        <Route path="/projects/:id" element={<Project />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+    </>
+  );
+}

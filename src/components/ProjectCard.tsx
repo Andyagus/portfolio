@@ -48,8 +48,12 @@ export default function ProjectCard(props: ProjectCardProps) {
   }, []);
 
   const [isHovered, setIsHovered] = useState(false); // Set isHovered to false by default
-  
-  let formattedString =   title.replace(/\s+/g, '-').replace(/:/g, '').replace('!', 'i').toLowerCase();
+
+  let formattedString = title
+    .replace(/\s+/g, "-")
+    .replace(/:/g, "")
+    .replace("!", "i")
+    .toLowerCase();
 
   return (
     <div>
