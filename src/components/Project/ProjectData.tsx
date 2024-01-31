@@ -24,18 +24,18 @@ import ARObject3 from "../../assets/images/project/firstWoman/images/Body/image3
 import Achievements4 from "../../assets/images/project/firstWoman/images/Body/image4-Achievements.png";
 
 //videos
-import HeaderVideo from "../../assets/images/project/firstWoman/videos/Header/HeaderVideo1.mov";
-import RTVideo1 from "../../assets/images/project/firstWoman/videos/Body/1RT.mov";
-import InteractiveVideo2 from "../../assets/images/project/firstWoman/videos/Body/2Interactive.mov";
-import WebARVideo3 from "../../assets/images/project/firstWoman/videos/Body/3webar.mov";
-import MicrositeVideo4 from "../../assets/images/project/firstWoman/videos/Body/4Microsite.mov";
-import CallieOutro5 from "../../assets/images/project/firstWoman/videos/Body/5callieOutro.mov";
+import HeaderVideo from "../../assets/images/project/firstWoman/videos/Header/HeaderVideo1.mp4";
+import RTVideo1 from "../../assets/images/project/firstWoman/videos/Body/1RT.mp4";
+import InteractiveVideo2 from "../../assets/images/project/firstWoman/videos/Body/2Interactive.mp4";
+import WebARVideo3 from "../../assets/images/project/firstWoman/videos/Body/3webar.mp4";
+import MicrositeVideo4 from "../../assets/images/project/firstWoman/videos/Body/4Microsite.mp4";
+import CallieOutro5 from "../../assets/images/project/firstWoman/videos/Body/5callieOutro.mp4";
 
 //ocVibe videos
 import headerVideo from "../../assets/images/project/ocVibe/videos/1HeaderVideo1.mp4";
-import researchVideo from "../../assets/images/project/ocVibe/videos/2ResearchMerged.mov";
-import MITCityScope from "../../assets/images/project/ocVibe/videos/3MITCityScope.mov";
-import sliderToFullScale from "../../assets/images/project/ocVibe/videos/4SliderToFullScale.mov";
+import researchVideo from "../../assets/images/project/ocVibe/videos/2ResearchMerged.mp4";
+import MITCityScope from "../../assets/images/project/ocVibe/videos/3MITCityScope.mp4";
+import sliderToFullScale from "../../assets/images/project/ocVibe/videos/4SliderToFullScale.mp4";
 
 //ocVibe images
 import pavilionLookingIntoProperty from "../../assets/images/project/ocVibe/images/LookingIntoProperty.jpg";
@@ -48,9 +48,9 @@ import lightExploration from "../../assets/images/project/ocVibe/images/TeamLigh
 //bookshelf content
 import book_video1 from "../../assets/images/project/bookshelf/videos/Video1.mp4";
 import book_video2 from "../../assets/images/project/bookshelf/videos/Video2.mp4";
-import book_video3 from "../../assets/images/project/bookshelf/videos/Video3.mov";
+import book_video3 from "../../assets/images/project/bookshelf/videos/Video3.mp4";
 import book_video4 from "../../assets/images/project/bookshelf/videos/Video4.mp4";
-import book_video5 from "../../assets/images/project/bookshelf/videos/Video5.mov";
+import book_video5 from "../../assets/images/project/bookshelf/videos/Video5.mp4";
 import book_video6 from "../../assets/images/project/bookshelf/videos/Video6.mp4";
 
 import book_image1 from "../../assets/images/project/bookshelf/images/image1.gif";
