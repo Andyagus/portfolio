@@ -1,9 +1,9 @@
 import ProjectCard from "../components/ProjectCard.tsx";
 import firstWomanImage from "../assets/images/project/firstWoman/preview/1projectPreviewImage.png";
-import firstWomanVideo from "../assets/images/project/firstWoman/preview/1projectPreviewVideo.mov";
+import firstWomanVideo from "../assets/images/project/firstWoman/preview/1projectPreviewVideo.mp4";
 
 import ocvibeImage from "../assets/images/project/ocVibe/preview/1projectPreview.png";
-import ocvibeVideo from "../assets/images/project/ocVibe/preview/1projectPreview.mov";
+import ocvibeVideo from "../assets/images/project/ocVibe/preview/1projectPreview.mp4";
 
 import bookshelfImage from "../assets/images/project/bookshelf/preview/1projectpreview.png";
 import bookshelfVideo from "../assets/images/project/bookshelf/preview/1projectPreview.mp4";
