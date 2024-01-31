@@ -631,14 +631,14 @@ export const ProjectData = {
       text2: (
         <ProjectParagraphText
           text={
-            "Once we received the proposal from the client, our team began brainstorming different approaches to take the project.  We began by referencing a variety of different Architecture focused Augmented Reality apps, which we drew a variety of inspiration from.  Afterwords we decided to form the project around four stages.   Phase 1, which we intended to complete right away, which was a stationary Mixed Reality in a pavilion, to stage 4, which highlighted the potential of a fully connected ‘Digital Twin’, and consumer facing AR platform.  All of it was to be powered by Microsoft Technology."
+            "Once we received the proposal from the client, our team began brainstorming different approaches to take the project.  We began by referencing a variety of different Architecture focused Augmented Reality apps, which we drew a variety of inspiration from.  Afterwords we decided to form the project around a variety of stages.   Phase 1, which we intended to complete right away, which was a stationary Mixed Reality in a pavilion, to stage 4, which highlighted the potential of a fully connected ‘Digital Twin’, and consumer facing AR platform.  All of it was to be powered by Microsoft Technology."
           }
         />
       ),
       text3: (
         <ProjectParagraphText
           text={
-            "For the first phase, and our main deliverable - we decided to create a pavilion that would be strategically placed in a position, facing the future development site (now a parking lot).  In the Pavilion, we initially planned on having a physical table, which was either empty or adorned with a simple 3D model (reference this project), and an array of HoloLenses and iPad Pro’s.  When a user put on the headset, a scaled down, and highly detailed model, of the projected development would appear on the table, and be brought to life."
+            "For the first phase, we decided to create a pavilion that would be strategically placed in a position, facing the future development site (now a parking lot).  In the Pavilion, we initially planned on having a physical table, which was either empty or adorned with a simple 3D model (reference this project), and an array of HoloLenses and iPad Pro’s.  When a user put on the headset, a scaled down, and highly detailed model, of the projected development would appear on the table, and be brought to life."
           }
         />
       ),
@@ -709,7 +709,7 @@ export const ProjectData = {
       ),
       text17: (
         <ProjectParagraphText
-          text="I began working on a new project, when Jack the teams other UX designer and team kept focusing on this work.  Much of our initial concepts remained and the team continued to progress the UX and the UI.  For example the hierarchy of the properties being presented was shifted around specific categories, such as “Entertainment”, or “Wellness”, and the categories would activate environment ‘Tooltips’, which  when clicked, would highlight the building and associated panel.   
+          text="I began working on a new project, when Jack the teams other UX designer and team kept focusing on this work.  The team continued to progress the UX and the UI.  For example the hierarchy of the properties being presented was shifted around specific categories, such as “Entertainment”, or “Wellness”, and the categories would activate environment ‘Tooltips’, which  when clicked, would highlight the building and associated panel.   
         "
         />
       ),
