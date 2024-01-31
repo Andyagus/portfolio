@@ -1,7 +1,5 @@
 import { ReactNode } from "react";
 import Title3 from "./projectComponents/Title3.tsx";
-import ProjectDataText from "../../assets/images/project/firstWoman/textblocks/FirstWomanText.tsx";
-
 
 interface ProjectData {
   data: {
@@ -51,8 +49,6 @@ export default function FirstWomanProject({ data }: ProjectData) {
       {<Title3 title={"Conclusion"} borderTop={true} />}
       {data.videos["CallieOutro5"]}
       {data.textBlocks["text10"]}
-
-
     </div>
   );
 }

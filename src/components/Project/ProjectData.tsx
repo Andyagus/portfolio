@@ -58,6 +58,20 @@ import book_image2 from "../../assets/images/project/bookshelf/images/image2.png
 import book_image3 from "../../assets/images/project/bookshelf/images/Image3.jpg";
 import book_image4Sub from "../../assets/images/project/bookshelf/images/image4sub.jpg";
 
+//museum content
+import museumContent1 from "../../assets/images/project/museum/content/1VideoHeader.mp4";
+import museumContent2 from "../../assets/images/project/museum/content/2Map.png";
+import museumContent3 from "../../assets/images/project/museum/content/3_3dScanVideo.mp4";
+import museumContent4 from "../../assets/images/project/museum/content/4SelectMultipleObjectsVideo.mp4";
+import museumContent5 from "../../assets/images/project/museum/content/5InfoCardVideo.mp4";
+import museumContent6 from "../../assets/images/project/museum/content/6WalkUpCloseVideo.mp4";
+import museumContent7 from "../../assets/images/project/museum/content/7UIElements.jpeg";
+import museumContent8 from "../../assets/images/project/museum/content/8MaterialSelection.mp4";
+import museumContent9 from "../../assets/images/project/museum/content/9PopUpBanners.mp4";
+import museumContent10 from "../../assets/images/project/museum/content/10WallBanner.mp4";
+import museumContent11 from "../../assets/images/project/museum/content/11Gamification.mp4";
+import museumContent12 from "../../assets/images/project/museum/content/12TestingInMet.mp4";
+
 export const ProjectData = {
   firstWomenDataDictionary: {
     headerText: <ProjectHeaderText title={"NASA: First Woman"} />,
@@ -806,6 +820,118 @@ export const ProjectData = {
           image={book_image4Sub}
           caption={
             "Utilizing Spatial Anchors to accurately position content in space"
+          }
+        />
+      ),
+    },
+  },
+  museumProjectDataDictionary: {
+    headerText: <ProjectHeaderText title={"Museum"} />,
+    subcaptionText: (
+      <ProjectSubcaptionText
+        text={
+          "Exploring ways to use Augmented Reality in order to enhance the Museum-Goers experience of looking at and experiencing art."
+        }
+      />
+    ),
+    icons: (
+      <ProjectIcons
+        projectIcon1={
+          <ProjectIcon
+            icon={FaGithub}
+            link="https://github.com/Andyagus/Museum"
+          />
+        }
+        projectIcon2={
+          <ProjectIcon
+            icon={FaLinkedin}
+            link="https://www.linkedin.com/posts/andyagus_augmentedreality-interfaces-quest3-ugcPost-7140086378096160768-IxZX/"
+          />
+        }
+      />
+    ),
+    media: {
+      1: (
+        <ProjectVideo
+          video={museumContent1}
+          caption={
+            "Rough Museum video: Couldn't get the whole because experience because stopped me"
+          }
+        />
+      ),
+      2: (
+        <ProjectImage
+          image={museumContent2}
+          caption={
+            "Reiteration of my map the day at the Met, lost the real copy on a bike"
+          }
+        />
+      ),
+      3: (
+        <ProjectVideo
+          video={museumContent3}
+          caption={"3D scan of the room I planned on implementing project"}
+        />
+      ),
+      4: (
+        <ProjectVideo
+          video={museumContent4}
+          caption={
+            "Using distance raycaster to select objects in my environment"
+          }
+        />
+      ),
+      5: (
+        <ProjectVideo
+          video={museumContent5}
+          caption={"Implemented info cards to display detail about items"}
+        />
+      ),
+      6: (
+        <ProjectVideo
+          video={museumContent6}
+          caption={"Up close wall banner instantiated below wearer"}
+        />
+      ),
+      7: (
+        <ProjectImage
+          image={museumContent7}
+          caption={"UI Designs exported exported from Sketch"}
+        />
+      ),
+      8: (
+        <ProjectVideo
+          video={museumContent8}
+          caption={"Changing the active material when arrow is pressed "}
+        />
+      ),
+      9: (
+        <ProjectVideo
+          video={museumContent9}
+          caption={
+            "Small banners helping user focus on element and providing more detail"
+          }
+        />
+      ),
+      10: (
+        <ProjectVideo
+          video={museumContent10}
+          caption={
+            "Large Panel gives more information on item that user is focused on"
+          }
+        />
+      ),
+      11: (
+        <ProjectVideo
+          video={museumContent11}
+          caption={"Treasure chest animation holding ewer 3D Object"}
+        />
+      ),
+      12: (
+        <ProjectVideo
+          video={museumContent12}
+          caption={
+            "Sitting at the Cafe in the Met testing out placing the Ewer"
           }
         />
       ),

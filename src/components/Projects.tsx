@@ -53,6 +53,14 @@ export default function Projects() {
                 "Enhancing the Museum-goers experience of looking art by providing more information"
               }
             />
+            <ProjectCard
+              image={museumPreviewImage}
+              video={museumPreviewVideo}
+              title={"SaladBar"}
+              description={
+                "Enhancing the Museum-goers experience of looking art by providing more information"
+              }
+            />
           </div>
         </div>
       </div>

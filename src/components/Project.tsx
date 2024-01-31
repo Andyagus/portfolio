@@ -41,7 +41,9 @@ export default function Project() {
         );
         break;
       case "museum":
-        setCurrentProject(<MuseumProject />);
+        setCurrentProject(
+          <MuseumProject data={ProjectData.museumProjectDataDictionary} />
+        );
         break;
       default:
         break;
