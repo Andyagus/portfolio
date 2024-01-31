@@ -5,8 +5,8 @@ import firstWomanVideo from "../assets/images/project/firstWoman/preview/1projec
 import ocvibeImage from "../assets/images/project/ocVibe/preview/1projectPreview.png";
 import ocvibeVideo from "../assets/images/project/ocVibe/preview/1projectPreview.mov";
 
-// import bookshelfImage from "../assets/images/project/bookshelf/preview/1projectPreview.png";
-// import bookshelfVideo from "../assets/images/project/bookshelf/preview/1projectPreview.mp4";
+import bookshelfImage from "../assets/images/project/bookshelf/preview/1projectpreview.png";
+import bookshelfVideo from "../assets/images/project/bookshelf/preview/1projectPreview.mp4";
 
 import museumPreviewImage from "../assets/images/project/museum/preview/museumPreviewImage.png";
 import museumPreviewVideo from "../assets/images/project/museum/preview/museumPreviewVideo.mp4";
@@ -35,8 +35,7 @@ export default function Projects() {
                 "OCV!ibe as “experience- first” destination"
               }
             />
-
-            {/* <ProjectCard
+            <ProjectCard
               image={bookshelfImage}
               video={bookshelfVideo}
               title={"BookShelf"}
@@ -44,7 +43,7 @@ export default function Projects() {
                 "Exploring the bookshelf, contents-within it, " +
                 "without having to pick up each book."
               }
-            /> */}
+            />
             <ProjectCard
               image={museumPreviewImage}
               video={museumPreviewVideo}

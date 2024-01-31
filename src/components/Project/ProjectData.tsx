@@ -55,7 +55,7 @@ import book_video6 from "../../assets/images/project/bookshelf/videos/Video6.mp4
 
 import book_image1 from "../../assets/images/project/bookshelf/images/image1.gif";
 import book_image2 from "../../assets/images/project/bookshelf/images/image2.png";
-import book_image3 from "../../assets/images/project/bookshelf/images/Image3.jpg";
+import book_image3 from "../../assets/images/project/bookshelf/images/image3.jpg";
 import book_image4Sub from "../../assets/images/project/bookshelf/images/image4sub.jpg";
 
 //museum content
@@ -931,7 +931,7 @@ export const ProjectData = {
         <ProjectVideo
           video={museumContent12}
           caption={
-            "Sitting at the Cafe in the Met testing out placing the Ewer"
+            "Sitting at T   he American Wing Cafe in the Met testing out placing the Ewer"
           }
         />
       ),
