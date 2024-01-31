@@ -204,14 +204,14 @@ export const ProjectData = {
           text={
             "NASA: First Woman was the second project I had the opportunity to work on at Bully! Entertainment. Our team took on the project in close partnership with the team at NASA with the goal of exciting the next generation of space explorers!\n" +
             "<br /> <br /> \n" +
-            "Since the app launched, over 467 million people from 70 different countries interacted with our project. In 2022, our team won the Webby and Peoples Choice Awards for Best Integrated Mobile Experience, and, we were featured in Apple's App Store to celebrate Women's History Month. The project, initially scoped as a single experience, is still being developed today with new graphic novel issues being released, continuous app updates, and even a First Woman Camp Experience!"
+            "Since the app launched, over 467 million people from 70 different countries interacted with our project. In 2022, our team won the Webby and Peoples Choice Awards for Best Integrated Mobile Experience, and, we were featured in Apple's App Store to celebrate Women's History Month. The project, initially scoped as a single experience, is still being developed today with new graphic novel issues being released and continuous app updates!"
           }
         />
       ),
       text2: (
         <ProjectParagraphText
           text={
-            "The project is based around an original story about Callie Rodriguez, the first female astronaut and person of color to set foot on the moon— And it was set in a beautifully detailed and illustrated graphic novel – which worked in conjunction with the Native iOS App - in order to bring static imagery to life through AR Objects and Immersive Environments. This excited the user to learn about NASA technology, and making one feel as if they are in space.  My role as the UX Designer, extended to being part of the overall strategy , and taking part in meetings with Derek Wang, the Director of Communications at NASA, to discuss the teams designs and progress with the overall app."
+            "The project is based around an original story about Callie Rodriguez, the first female astronaut and person of color to set foot on the moon— And it was set in a beautifully detailed and illustrated graphic novel – which worked in conjunction with the Native iOS App - in order to bring static imagery to life through AR Objects and Immersive Environments. This excited the user to learn about NASA technology, and making one feel as if they are in space.  My role as the UX Designer, enabled me to be part of the project strategy , and also take part in meetings with the Director of Communications at NASA, to discuss the progress with the overall app."
           }
         />
       ),
@@ -220,7 +220,7 @@ export const ProjectData = {
           text={
             "Since the project was centered around the graphic novel, I designed the content so it was hierarchically structured, the most important was the novel itself, and through that you could access the other experiences. The graphic novel was a beautifully done, and I wanted to make sure that it was the main focus of the app. \n" +
             "<br/><br/>\n" +
-            "With an awareness of NASA’s style guide, the team was very receptive to my suggestion of adopting a modern and minimalistic design for the app, characterized by a Helvetica typeface and \n" +
+            "With an awareness of NASA’s style guide, we adopted a modern and minimalistic design for the app, characterized by a Helvetica typeface and \n" +
             "bold colors.\n" +
             "<br/><br/>\n" +
             "From a layout perspective we designed a modular homepage to facilitate easy access to the extensive content in each graphic novel. This allowed users to quickly browse and access all content within the app. Both the design aesthetics and the user-friendly layout collectively contributed to creating a streamlined and simple app experience.\n"
@@ -244,9 +244,9 @@ export const ProjectData = {
       text6: (
         <ProjectParagraphText
           text={
-            "The immersive environments were the most exciting part of the project. And it was the first time I saw the full potential of the Unity game engine. We worked closely with the NASA team to understand the different environments that Callie would be exploring. Through this, the user had the opportunity space environments and feel like they were really there! I played a pivotal role in turning the environments, which would have been relatively static, into interactable playgrounds.\n" +
+            "The immersive environments were the most exciting part of the project. And it was the first time I saw the full potential of the Unity game engine. We worked closely with the NASA team to understand the different environments that Callie would be exploring. Through this, the user had the opportunity space environments and feel like they were really there! One of my favorites parts was turning the environments, which would have been relatively static, into interactable playgrounds.\n" +
             "<br/> <br/>\n" +
-            "In order to do this, I sat with the other designers and we concepted interactions that could enhance touch and exploration while moving around. In addition, this also enhanced team morale because it gave everybody freedom to play around a bit in the environments, and taking a step back from the rigid requirements of the project. Through these, we added the ability to learn more about the various technology of the Artemis program, through videos and articles.\n"
+            "In order to do this, we concepted interactions that could enhance touch and exploration while moving around. In addition, this also enhanced team morale because it gave everybody freedom to play around a bit in the environments, and taking a step back from the rigid requirements of the project. Through these, we added the ability to learn more about the various technology of the Artemis program, through videos and articles.\n"
           }
         />
       ),
@@ -283,7 +283,7 @@ export const ProjectData = {
           text={
             "Overall the project was an amazing success, which was a result of the hard work of the entire team. The project continues to live on through more Graphic Novels, and in app content, as I write this the 3rd Novel is in development!\n" +
             "<br/><br/>\n" +
-            "For me the most exciting part of the project was being able to communicate with the NASA team and share the teams work on the designs, and also whitness the workflow across the entire Bully team from concept to development - understanding the potential of Unity.\n" +
+            "For me the most exciting part of the project was being able to communicate with the NASA team and share the teams work on the app designs, and also whitness the workflow across the entire Bully team from concept to development - understanding the potential of Unity.\n" +
             "<br/><br/>\n" +
             "Looking back at it one of my regrets in the project was diving to deep into the UI while working on the UX, and also adding to many different features to the UX, (many of which were added) instead of focusing further on the aspects that were most important. But there is always next time! I am proud to have been involved on this project and I am excited to see where it continues to develop in the future!"
           }
