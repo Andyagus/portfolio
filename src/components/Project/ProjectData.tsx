@@ -32,7 +32,7 @@ import MicrositeVideo4 from "../../assets/images/project/firstWoman/videos/Body/
 import CallieOutro5 from "../../assets/images/project/firstWoman/videos/Body/5callieOutro.mov";
 
 //ocVibe videos
-import headerVideo from "../../assets/images/project/ocVibe/videos/1HeaderVideo1.mov";
+import headerVideo from "../../assets/images/project/ocVibe/videos/1HeaderVideo1.mp4";
 import researchVideo from "../../assets/images/project/ocVibe/videos/2ResearchMerged.mov";
 import MITCityScope from "../../assets/images/project/ocVibe/videos/3MITCityScope.mov";
 import sliderToFullScale from "../../assets/images/project/ocVibe/videos/4SliderToFullScale.mov";
