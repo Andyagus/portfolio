@@ -7,7 +7,6 @@ import ocvibeVideo from "../assets/images/project/ocVibe/preview/1projectPreview
 
 import bookshelfImage from "../assets/images/project/bookshelf/preview/1projectPreview.png";
 import bookshelfVideo from "../assets/images/project/bookshelf/preview/1projectPreview.mp4";
-
 import museumPreviewImage from "../assets/images/project/museum/preview/museumPreviewImage.png";
 import museumPreviewVideo from "../assets/images/project/museum/preview/museumPreviewVideo.mp4";
 
