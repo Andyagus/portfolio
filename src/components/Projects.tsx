@@ -11,6 +11,9 @@ import bookshelfVideo from "../assets/images/project/bookshelf/preview/1projectP
 import museumPreviewImage from "../assets/images/project/museum/preview/museumPreviewImage.png";
 import museumPreviewVideo from "../assets/images/project/museum/preview/museumPreviewVideo.mp4";
 
+import saladBarPreviewVideo from "../assets/images/project/saladBar/preview/previewVideo.mp4";
+import saladBarPreviewImage from "../assets/images/project/saladBar/preview/previewImage.jpeg";
+
 export default function Projects() {
   return (
     <>
@@ -53,11 +56,11 @@ export default function Projects() {
               }
             />
             <ProjectCard
-              image={museumPreviewImage}
-              video={museumPreviewVideo}
+              image={saladBarPreviewImage}
+              video={saladBarPreviewVideo}
               title={"SaladBar"}
               description={
-                "Enhancing the Museum-goers experience of looking art by providing more information"
+                "Improving the in-person experience of ordering a salad with information and gamification"
               }
             />
           </div>

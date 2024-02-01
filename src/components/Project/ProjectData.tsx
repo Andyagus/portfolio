@@ -72,6 +72,10 @@ import museumContent10 from "../../assets/images/project/museum/content/10WallBa
 import museumContent11 from "../../assets/images/project/museum/content/11Gamification.mp4";
 import museumContent12 from "../../assets/images/project/museum/content/12TestingInMet.mp4";
 
+//saladBar content
+import saladContent1 from "../../assets/images/project/saladBar/content/1saladBarHeader.mp4";
+import saladContent2 from "../../assets/images/project/saladBar/content/2sketchScreens.png";
+
 export const ProjectData = {
   firstWomenDataDictionary: {
     headerText: <ProjectHeaderText title={"NASA: First Woman"} />,
@@ -937,4 +941,5 @@ export const ProjectData = {
       ),
     },
   },
+  saladBarProjectDataDictionary: {},
 };

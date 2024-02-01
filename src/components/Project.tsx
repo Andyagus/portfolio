@@ -13,6 +13,7 @@ import BookshelfProject from "./Project/BookshelfProject.tsx";
 //data for all projects
 import { ProjectData } from "./Project/ProjectData.tsx";
 import { MuseumProject } from "./Project/MuseumProject.tsx";
+import SaladBarProject from "./Project/SaladBarProject.tsx";
 
 export default function Project() {
   let { id } = useParams();
@@ -44,6 +45,9 @@ export default function Project() {
         setCurrentProject(
           <MuseumProject data={ProjectData.museumProjectDataDictionary} />
         );
+        break;
+      case "saladbar":
+        setCurrentProject(<SaladBarProject />);
         break;
       default:
         break;
