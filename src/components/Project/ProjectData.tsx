@@ -75,6 +75,15 @@ import museumContent12 from "../../assets/images/project/museum/content/12Testin
 //saladBar content
 import saladContent1 from "../../assets/images/project/saladBar/content/1saladBarHeader.mp4";
 import saladContent2 from "../../assets/images/project/saladBar/content/2sketchScreens.png";
+import saladContent3 from "../../assets/images/project/saladBar/content/3centerEyeRaycast.mp4";
+import saladContent4 from "../../assets/images/project/saladBar/content/4menu.mp4";
+import saladContent5 from "../../assets/images/project/saladBar/content/5categories.mp4";
+import saladContent6 from "../../assets/images/project/saladBar/content/6Check.mp4";
+import saladContent7 from "../../assets/images/project/saladBar/content/7Gamification.mp4";
+import saladContent8 from "../../assets/images/project/saladBar/content/8Checkout.mp4";
+import saladContent9 from "../../assets/images/project/saladBar/content/9conclusion.jpeg";
+
+// import saladContent9 from "../../assets/images/project/saladBar/content/8Checkout.mp4"; image of guy at greencafe
 
 export const ProjectData = {
   firstWomenDataDictionary: {
@@ -941,5 +950,76 @@ export const ProjectData = {
       ),
     },
   },
-  saladBarProjectDataDictionary: {},
+  saladBarProjectDataDictionary: {
+    headerText: <ProjectHeaderText title={"SaladBar"} />,
+    subcaptionText: (
+      <ProjectSubcaptionText
+        text={
+          "Enhancing the salad bar by providing more information about food items, and adding gamification"
+        }
+      />
+    ),
+    icons: (
+      <ProjectIcons
+        projectIcon1={
+          <ProjectIcon
+            icon={FaGithub}
+            link="https://github.com/Andyagus/BookShelf"
+          />
+        }
+        projectIcon2={
+          <ProjectIcon
+            icon={FaLinkedin}
+            link="https://www.linkedin.com/posts/andyagus_augmentedreality-interfaces-questpro-activity-7123751214772584449-wtbM?utm_source=share"
+          />
+        }
+      />
+    ),
+    media: {
+      1: <ProjectVideo video={saladContent1} caption={""} />,
+      2: <ProjectImage image={saladContent2} caption={""} />,
+      3: (
+        <ProjectVideo
+          video={saladContent3}
+          caption={"Using center eye gaze raycast to activate element"}
+        />
+      ),
+      4: (
+        <ProjectVideo
+          video={saladContent4}
+          caption={"Using center eye gaze raycast to activate element"}
+        />
+      ),
+      5: (
+        <ProjectVideo
+          video={saladContent5}
+          caption={"Using center eye gaze raycast to activate element"}
+        />
+      ),
+      6: (
+        <ProjectVideo
+          video={saladContent6}
+          caption={"Using center eye gaze raycast to activate element"}
+        />
+      ),
+      7: (
+        <ProjectVideo
+          video={saladContent7}
+          caption={"Using center eye gaze raycast to activate element"}
+        />
+      ),
+      8: (
+        <ProjectVideo
+          video={saladContent8}
+          caption={"Using center eye gaze raycast to activate element"}
+        />
+      ),
+      9: (
+        <ProjectImage
+          image={saladContent8}
+          caption={"Using center eye gaze raycast to activate element"}
+        />
+      ),
+    },
+  },
 };

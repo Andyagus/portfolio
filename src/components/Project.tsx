@@ -47,7 +47,9 @@ export default function Project() {
         );
         break;
       case "saladbar":
-        setCurrentProject(<SaladBarProject />);
+        setCurrentProject(
+          <SaladBarProject data={ProjectData.saladBarProjectDataDictionary} />
+        );
         break;
       default:
         break;
