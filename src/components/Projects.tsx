@@ -55,14 +55,14 @@ export default function Projects() {
                 "Enhancing the Museum-goers experience of looking art by providing more information"
               }
             />
-            <ProjectCard
+            {/* <ProjectCard
               image={saladBarPreviewImage}
               video={saladBarPreviewVideo}
               title={"SaladBar"}
               description={
                 "Improving the in-person experience of ordering a salad with information and gamification"
               }
-            />
+            /> */}
           </div>
         </div>
       </div>
