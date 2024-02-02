@@ -37,6 +37,7 @@ export default function SaladBarProject({ data }: SaladBarProps) {
       {data.media[6]}
       {data.media[7]}
       {data.media[8]}
+      {data.media[9]}
     </>
   );
 }

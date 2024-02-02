@@ -1016,7 +1016,7 @@ export const ProjectData = {
       ),
       9: (
         <ProjectImage
-          image={saladContent8}
+          image={saladContent9}
           caption={"Using center eye gaze raycast to activate element"}
         />
       ),
