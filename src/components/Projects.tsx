@@ -32,7 +32,7 @@ export default function Projects() {
             <ProjectCard
               image={ocvibeImage}
               video={ocvibeVideo}
-              title={"ocV!be Smart City"}
+              title={"ocV!be Smart City2"}
               description={
                 "HoloLens project with Microsoft, positioning " +
                 "OCV!ibe as “experience- first” destination"

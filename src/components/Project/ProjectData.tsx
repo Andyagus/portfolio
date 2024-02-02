@@ -739,7 +739,7 @@ export const ProjectData = {
     subcaptionText: (
       <ProjectSubcaptionText
         text={
-          "Leveraging Augmented Reality to make it easier to browse a bookshelfg and learn more about the books in it."
+          "Leveraging Augmented Reality to make it easier to browse a bookshelf and learn more about the books in it."
         }
       />
     ),
@@ -954,9 +954,7 @@ export const ProjectData = {
     headerText: <ProjectHeaderText title={"SaladBar"} />,
     subcaptionText: (
       <ProjectSubcaptionText
-        text={
-          "Enhancing the in-person SaladBar ordering experience, providing more information about food items, and adding layers of entertainment"
-        }
+        text={"Enhancing the in-person SaladBar ordering experience"}
       />
     ),
     icons: (
