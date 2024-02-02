@@ -81,7 +81,7 @@ import saladContent5 from "../../assets/images/project/saladBar/content/5categor
 import saladContent6 from "../../assets/images/project/saladBar/content/6Check.mp4";
 import saladContent7 from "../../assets/images/project/saladBar/content/7Gamification.mp4";
 import saladContent8 from "../../assets/images/project/saladBar/content/8Checkout.mp4";
-import saladContent9 from "../../assets/images/project/saladBar/content/9conclusion.jpeg";
+import saladContent9 from "../../assets/images/project/saladBar/content/9conclusion.jpg";
 
 // import saladContent9 from "../../assets/images/project/saladBar/content/8Checkout.mp4"; image of guy at greencafe
 
@@ -955,7 +955,7 @@ export const ProjectData = {
     subcaptionText: (
       <ProjectSubcaptionText
         text={
-          "Enhancing the salad bar by providing more information about food items, and adding gamification"
+          "Enhancing the in-person SaladBar ordering experience, providing more information about food items, and adding layers of entertainment"
         }
       />
     ),
@@ -976,48 +976,68 @@ export const ProjectData = {
       />
     ),
     media: {
-      1: <ProjectVideo video={saladContent1} caption={""} />,
-      2: <ProjectImage image={saladContent2} caption={""} />,
+      1: (
+        <ProjectVideo
+          video={saladContent1}
+          caption={"Full concept of salad bar ordering experience"}
+        />
+      ),
+      2: (
+        <ProjectImage
+          image={saladContent2}
+          caption={
+            "Various design concepts throught Sketch aimed out laying out different areas of experience"
+          }
+        />
+      ),
       3: (
         <ProjectVideo
           video={saladContent3}
-          caption={"Using center eye gaze raycast to activate element"}
+          caption={
+            "Raycast sandbox, using center eye gaze raycast to activate element"
+          }
         />
       ),
       4: (
         <ProjectVideo
           video={saladContent4}
-          caption={"Using center eye gaze raycast to activate element"}
+          caption={
+            "Adding food item, and transitioning the menu between various ingredient steps."
+          }
         />
       ),
       5: (
         <ProjectVideo
           video={saladContent5}
-          caption={"Using center eye gaze raycast to activate element"}
+          caption={"Filtering the toppings by category"}
         />
       ),
       6: (
         <ProjectVideo
           video={saladContent6}
-          caption={"Using center eye gaze raycast to activate element"}
+          caption={"Food information banner turns into a checkmark on add"}
         />
       ),
       7: (
         <ProjectVideo
           video={saladContent7}
-          caption={"Using center eye gaze raycast to activate element"}
+          caption={
+            "User gaining reward points, when hovering over a Miso Salmon, and then adding it to salad"
+          }
         />
       ),
       8: (
         <ProjectVideo
           video={saladContent8}
-          caption={"Using center eye gaze raycast to activate element"}
+          caption={
+            "Scrolling through Checkout Screen to review order, (lots of shredded kale)"
+          }
         />
       ),
       9: (
         <ProjectImage
           image={saladContent9}
-          caption={"Using center eye gaze raycast to activate element"}
+          caption={"Employee at Green Cafe trying out the Quest 3 headset"}
         />
       ),
     },
