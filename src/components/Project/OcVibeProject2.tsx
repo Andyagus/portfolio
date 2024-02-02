@@ -1,6 +1,5 @@
 import { ReactNode } from "react";
 import Title3 from "./projectComponents/Title3.tsx";
-import ProjectList from "./projectComponents/ProjectList.tsx";
 import ProjectParagraphText from "./projectComponents/ProjectParagraphText.tsx";
 
 interface ProjectProps {

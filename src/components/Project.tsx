@@ -7,7 +7,7 @@ import { FaLongArrowAltLeft } from "react-icons/fa";
 //project pages
 import FirstWomanProject from "./Project/FirstWomanProject.tsx";
 import FirstWomanProject2 from "./Project/FirstWomanProject2.tsx";
-import OcVibeProject from "./Project/OcVibeProject.tsx";
+// import OcVibeProject from "./Project/OcVibeProject.tsx";
 import BookshelfProject from "./Project/BookshelfProject.tsx";
 
 //data for all projects
