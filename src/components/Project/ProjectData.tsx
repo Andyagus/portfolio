@@ -964,13 +964,13 @@ export const ProjectData = {
         projectIcon1={
           <ProjectIcon
             icon={FaGithub}
-            link="https://github.com/Andyagus/BookShelf"
+            link="https://github.com/Andyagus/SaladBar"
           />
         }
         projectIcon2={
           <ProjectIcon
             icon={FaLinkedin}
-            link="https://www.linkedin.com/posts/andyagus_augmentedreality-interfaces-questpro-activity-7123751214772584449-wtbM?utm_source=share"
+            link="https://www.linkedin.com/feed/update/urn:li:activity:7149148723493711872/"
           />
         }
       />
