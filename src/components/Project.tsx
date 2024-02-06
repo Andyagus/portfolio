@@ -25,13 +25,12 @@ export default function Project() {
     switch (id) {
       case "nasa-first-woman":
         setCurrentProject(
-          <FirstWomanProject3 />
-          // <FirstWomanProject data={ProjectData.firstWomenDataDictionary} />
+          <FirstWomanProject3 data={ProjectData.firstWomenDataDictionary3} />
         );
         break;
+      //reference...
       case "123z":
         setCurrentProject(
-          // <FirstWomanProject />
           <FirstWomanProject data={ProjectData.firstWomenDataDictionary} />
         );
         break;
