@@ -4,7 +4,7 @@ import ImageGallery from "./ImageGallery.tsx";
 
 export default function About() {
   return (
-    <div className="mt-20 mx-auto p-6 md:max-w-6xl m-12">
+    <div className=" mt-24  mx-auto p-6 md:max-w-6xl m-12">
       <div className="grid grid-cols-1 lg:grid-cols-3 ">
         <div className="lg:col-span-1 lg:order-2">
           <ImageGallery />

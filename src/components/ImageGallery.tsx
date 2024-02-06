@@ -1,66 +1,87 @@
-import ProfilePic from "../assets/images/About/ProfilePic1.png";
-import pic2 from "../assets/images/About/pic2.jpg";
-import pic3 from "../assets/images/About/pic3.png";
+import { Gallery, GalleryProps } from "react-grid-gallery";
+import image1 from "../assets/images/About/ProfilePic1.png";
+import image2 from "../assets/images/About/pic2.jpg";
+import { useState } from "react";
+import { Image } from "react-grid-gallery";
 
-// import image2 from "../assets/images/oc.png";
-// import image3 from "../assets/images/testimage.png";
-import { useEffect, useState } from "react";
-const images = [ProfilePic, pic2];
+import Lightbox from "yet-another-react-lightbox";
+import "yet-another-react-lightbox/styles.css";
+
+// interface Image {
+//   src: string;
+//   original?: string;
+//   thumbnail: string;
+//   thumbnailWidth: number;
+//   thumbnailHeight: number;
+//   width: number; // Add width and height properties
+//   height: number;
+// }
+
+export interface CustomImage extends Image {
+  original: string;
+}
+
+const images: CustomImage[] = [
+  {
+    src: image1,
+    original: image1,
+
+    width: 512,
+    height: 683,
+    customOverlay: <div className=" bg-gray-900 opacity-15 h-full"> </div>,
+  },
+  {
+    src: image2,
+    original: image2,
+
+    width: 500,
+    height: 500,
+    customOverlay: <div className=" bg-gray-900 opacity-15 h-full"> </div>,
+  },
+  {
+    src: image2,
+    original: image2,
+
+    width: 500,
+    height: 500,
+    customOverlay: <div className=" bg-gray-900 opacity-15 h-full"> </div>,
+  },
+  {
+    src: image2,
+    original: image2,
+
+    width: 500,
+    height: 500,
+    customOverlay: <div className=" bg-gray-900 opacity-15 h-full"> </div>,
+  },
+];
+
+const slides = images.map(({ original, width, height }) => ({
+  src: original,
+  width,
+  height,
+}));
 
 export default function ImageGallery() {
-  const [activeImage, setActiveImage] = useState(images[0]);
-  // const [prevImage, setPrevImage] = useState(images[0])
+  const [index, setIndex] = useState(-1);
 
-  useEffect(() => {
-    const timer = setInterval(() => {
-      // Calculate the index of the next image
-      const currentIndex = images.indexOf(activeImage);
-      const nextIndex = (currentIndex + 1) % images.length;
-
-      // Set the next image as the activeImage
-      setActiveImage(images[nextIndex]);
-      // setPrevImage(activeImage);
-    }, 5000); // Switch images every 5 seconds
-
-    // Clean up the timer when the component unmounts
-    return () => {
-      clearInterval(timer);
-    };
-  }, [activeImage]);
-
-  const HandleImageClick = (imageString: string) => {
-    setActiveImage(imageString);
-    // setPrevImage(activeImage);
-  };
-
-  //
+  const handleClick = (index: number, item: Image) => setIndex(index);
 
   return (
-    // transition-opacity duration-300
-
     <div>
-      {/* <img
-        src={activeImage}
-        className={`mt-10 mx-auto w-72 h-56 rounded-xl overflow-hidden object-cover shadow-md "
-        }`}
-        alt="Profile Pic"
-      /> */}
-      {/*main image*/}
-      {/*button grid*/}
-      <div className=" mt-10 lg:mt-20">
-        <div
-          className={" grid grid-flow-col gap-3 mx-auto max-w-xs lg:max-w-max"}
-        >
-          {images.map((image) => (
-            <img
-              className={`rounded-xl ${
-                activeImage === image ? "opacity-100" : "opacity-50"
-              } hover:opacity-100 transition-opacity duration-300 ease-in-out`}
-              onClick={() => HandleImageClick(image)}
-              src={image}
-            />
-          ))}
-        </div>
+      <div>
+        <Gallery
+          images={images}
+          onClick={handleClick}
+          onSelect={() => console.log("select")}
+          enableImageSelection={false}
+        />
+        <Lightbox
+          slides={slides}
+          open={index >= 0}
+          index={index}
+          close={() => setIndex(-1)}
+        />
       </div>
     </div>
   );
