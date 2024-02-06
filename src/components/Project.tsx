@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 import { FaLongArrowAltLeft } from "react-icons/fa";
 
 //project pages
-// import FirstWomanProject from "./Project/FirstWomanProject.tsx";
+import FirstWomanProject from "./Project/FirstWomanProject.tsx";
 // import FirstWomanProject2 from "./Project/FirstWomanProject2.tsx";
 // import OcVibeProject from "./Project/OcVibeProject.tsx";
 import BookshelfProject from "./Project/BookshelfProject.tsx";
@@ -27,6 +27,12 @@ export default function Project() {
         setCurrentProject(
           <FirstWomanProject3 />
           // <FirstWomanProject data={ProjectData.firstWomenDataDictionary} />
+        );
+        break;
+      case "123z":
+        setCurrentProject(
+          // <FirstWomanProject />
+          <FirstWomanProject data={ProjectData.firstWomenDataDictionary} />
         );
         break;
 
