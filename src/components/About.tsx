@@ -10,7 +10,7 @@ export default function About() {
           <ImageGallery />
         </div>
         <div className="lg:col-span-2 lg:mr-52">
-          <div className="mt-10 mb-4 text-2xl font-semibold">About Me</div>
+          <div className="mt-10 mb-4 text-3xl font-semibold">About Me</div>
           <div className="text-base text-gray-500">
             I am deeply interested in Augmented Reality and its potential to
             improve the world we live in. In 2020, I chose to pivot from
@@ -33,15 +33,31 @@ export default function About() {
             to create meaningful AR products that make a real difference in how
             we interact with our environment.
           </div>
+          <br />
+          <div className="text-base text-gray-500">
+            Email me at{" "}
+            <a
+              href="mailto:redagus@gmail.com"
+              className="text-red-600 hover:text-gray-500 underline hover:underline decoration-transparent hover:decoration-current transition-colors duration-300"
+            >
+              Redagus@gmail.com
+            </a>{" "}
+            {"   ||   "}
+            <a
+              href="mailto:redagus@gmail.com"
+              className="text-red-500 hover:text-gray-500 underline hover:underline decoration-transparent hover:decoration-current transition-colors duration-300"
+            >
+              View my resume
+            </a>
+            {"   ||   "}
+            <a
+              href="mailto:redagus@gmail.com"
+              className="text-red-400 hover:text-gray-500 underline hover:underline decoration-transparent hover:decoration-current transition-colors duration-300"
+            >
+              LinkedIn
+            </a>
+          </div>
         </div>
-      </div>
-      <div className="flex mr-">
-        <button className="mt-8 bg-gray-400 text-white py-2 px-4 rounded hover:bg-opacity-90 transition duration-300">
-          Email Me
-        </button>
-        <button className="ml-10 mt-8 bg-gray-400 text-white py-2 px-4 rounded hover:bg-opacity-90 transition duration-300">
-          Download Resume
-        </button>
       </div>
     </div>
   );

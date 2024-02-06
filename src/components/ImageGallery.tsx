@@ -1,10 +1,11 @@
-import ProfilePic from "../assets/images/About/profilePic.png";
-import ProfilePic2 from "../assets/images/About/profilePic2.png";
-import ProfilePic3 from "../assets/images/About/profilePic3.png";
+import ProfilePic from "../assets/images/About/ProfilePic1.png";
+import pic2 from "../assets/images/About/pic2.jpg";
+import pic3 from "../assets/images/About/pic3.png";
+
 // import image2 from "../assets/images/oc.png";
 // import image3 from "../assets/images/testimage.png";
 import { useEffect, useState } from "react";
-const images = [ProfilePic, ProfilePic2,ProfilePic3];
+const images = [ProfilePic, pic2];
 
 export default function ImageGallery() {
   const [activeImage, setActiveImage] = useState(images[0]);
@@ -38,16 +39,18 @@ export default function ImageGallery() {
     // transition-opacity duration-300
 
     <div>
-      <img
+      {/* <img
         src={activeImage}
         className={`mt-10 mx-auto w-72 h-56 rounded-xl overflow-hidden object-cover shadow-md "
         }`}
         alt="Profile Pic"
-      />
+      /> */}
       {/*main image*/}
       {/*button grid*/}
-      <div className="mt-5">
-        <div className={"grid grid-flow-col gap-3 max-w-xs mx-auto"}>
+      <div className=" mt-10 lg:mt-20">
+        <div
+          className={" grid grid-flow-col gap-3 mx-auto max-w-xs lg:max-w-max"}
+        >
           {images.map((image) => (
             <img
               className={`rounded-xl ${
