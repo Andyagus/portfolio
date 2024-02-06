@@ -15,7 +15,6 @@ export default function ProjectCard(props: ProjectCardProps) {
 
   const [isHovered, setIsHovered] = useState(false); // Set isHovered to false by default
   const [isMobileScroll, setIsMobileScroll] = useState(false);
-  const [isFW, setIsFW] = useState(false);
 
   const handleScroll = () => {
     const scrollY = window.scrollY; // Don't get confused by what's scrolling - It's not the window
