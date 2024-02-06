@@ -14,7 +14,7 @@ const NavBar = () => {
       <div className="lg:ml-36 ml-4">
         <span className="block text-xl font-bold text-gray-900">Andy Agus</span>
         <span className="block text-sm font-medium text-gray-500">
-          Augmented Reality Designer/Prototyper
+          Augmented Reality Designer
         </span>
       </div>
 

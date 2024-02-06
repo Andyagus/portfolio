@@ -17,7 +17,7 @@ import saladBarPreviewImage from "../assets/images/project/saladBar/preview/prev
 export default function Projects() {
   return (
     <>
-      <div className="mt-40 m-5 w-4/5 mx-auto">
+      <div className="mt-32 m-5 w-4/5 mx-auto">
         <div className="relative flex flex-col justify-center h-full">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 justify-items-center">
             <ProjectCard
