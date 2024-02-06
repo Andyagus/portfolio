@@ -116,7 +116,7 @@ export default function ProjectCard(props: ProjectCardProps) {
               ${
                 isHovered ||
                 isMobileScroll ||
-                (title === "NASA: First Woman" && scrollY === 0)
+                (title === "NASA: First Woman" && scrollY === 0 && isMobile)
                   ? "opacity-90"
                   : "opacity-0"
               } duration-500 `}
