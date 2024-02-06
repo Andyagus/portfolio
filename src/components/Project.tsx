@@ -15,6 +15,7 @@ import { ProjectData } from "./Project/ProjectData.tsx";
 import { MuseumProject } from "./Project/MuseumProject.tsx";
 import SaladBarProject from "./Project/SaladBarProject.tsx";
 import OcVibeProject2 from "./Project/OcVibeProject2.tsx";
+import FirstWomanProject3 from "./Project/FirstWomanProject3.tsx";
 
 export default function Project() {
   let { id } = useParams();
@@ -24,15 +25,11 @@ export default function Project() {
     switch (id) {
       case "nasa-first-woman":
         setCurrentProject(
-          <FirstWomanProject data={ProjectData.firstWomenDataDictionary} />
+          <FirstWomanProject3 />
+          // <FirstWomanProject data={ProjectData.firstWomenDataDictionary} />
         );
-        break;
-      case "nasa-first-woman2":
-        setCurrentProject(
-          <FirstWomanProject2 data={ProjectData.firstWomenDataDictionary2} />
-        );
-        break;
-      case "ocvibe-smart-city2":
+
+      case "ocvibe-smart-city":
         setCurrentProject(
           <OcVibeProject2 data={ProjectData.ocVibeDataDictionary} />
         );
