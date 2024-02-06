@@ -14,7 +14,6 @@ const MOBILE_WIDTH_THRESHOLD = 768; // Define a threshold for mobile devices
 export default function ProjectVideo({
   video,
   caption,
-  controls = false,
   loop = true,
 }: VideoProps) {
   const [isMobileScreen, setIsMobileScreen] = useState(false);
