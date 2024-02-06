@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 interface ProjectCardProps {
@@ -14,6 +14,63 @@ export default function ProjectCard(props: ProjectCardProps) {
   const isMobile = window.matchMedia("(max-width: 768px)").matches;
 
   const [isHovered, setIsHovered] = useState(false); // Set isHovered to false by default
+  const [isMobileScroll, setIsMobileScroll] = useState(false);
+
+  const handleScroll = () => {
+    const scrollY = window.scrollY; // Don't get confused by what's scrolling - It's not the window
+    if (scrollY > 0 && scrollY < 200) {
+      if (title == "NASA: First Woman") {
+        setIsMobileScroll(true);
+      } else {
+        setIsHovered(false);
+      }
+    } else if (scrollY > 200 && scrollY < 250) {
+      if (title == "ocV!be Smart City") {
+        setIsHovered(true);
+      } else {
+        setIsHovered(false);
+      }
+    } else if (scrollY > 600 && scrollY < 685) {
+      if (title == "BookShelf") {
+        setIsHovered(true);
+      } else {
+        setIsHovered(false);
+      }
+    } else if (scrollY > 860 && scrollY < 960) {
+      if (title == "Museum") {
+        setIsHovered(true);
+      } else {
+        setIsHovered(false);
+      }
+    } else if (scrollY > 1200 && scrollY < 1300) {
+      if (title == "SaladBar") {
+        setIsHovered(true);
+      } else {
+        setIsHovered(false);
+      }
+    } else {
+      setIsMobileScroll(false);
+    }
+  };
+
+  useEffect(() => {
+    const isMobile = window.matchMedia("(max-width: 768px)").matches;
+    const mediaQuery = window.matchMedia("(max-width: 768px)");
+    // setIsMobileScroll(mediaQuery.matches);
+
+    if (isMobile) {
+      window.addEventListener("scroll", handleScroll);
+    }
+
+    return () => {
+      if (isMobile) {
+        window.removeEventListener("scroll", handleScroll);
+      }
+    };
+    const handler = () => setIsMobileScroll(mediaQuery.matches);
+    mediaQuery.addListener(handler);
+    return () => mediaQuery.removeListener(handler);
+  }, []);
 
   let formattedString = title
     .replace(/\s+/g, "-")
@@ -31,7 +88,7 @@ export default function ProjectCard(props: ProjectCardProps) {
             shadow-md overflow-hidden relative "
         >
           <div>
-            {isHovered ? (
+            {isHovered && !isMobile ? (
               <video
                 className="object-cover w-full h-96"
                 src={video}
@@ -52,7 +109,7 @@ export default function ProjectCard(props: ProjectCardProps) {
             <div
               className={`absolute bottom-0 mb-5 p-4 bg-white bg-opacity-90 rounded-xl 
                 shadow-lg w-full max-w-[260px] md:max-w-xs lg:max-w-sm mx-auto left-0 right-0 ${
-                  isHovered || isMobile ? "opacity-90" : "opacity-0"
+                  isHovered || isMobileScroll ? "opacity-90" : "opacity-0"
                 } duration-500 `}
             >
               <span
