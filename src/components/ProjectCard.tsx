@@ -18,7 +18,7 @@ export default function ProjectCard(props: ProjectCardProps) {
 
   const handleScroll = () => {
     const scrollY = window.scrollY; // Don't get confused by what's scrolling - It's not the window
-    if (scrollY > 0 && scrollY < 165) {
+    if (scrollY >= 0 && scrollY < 165) {
       if (title == "NASA: First Woman") {
         setIsMobileScroll(true);
       } else {
