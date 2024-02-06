@@ -1,3 +1,4 @@
+import React from "react";
 import ProjectSubcaptionText from "./ProjectSubcaptionText.tsx";
 
 interface VideoProps {
@@ -8,11 +9,17 @@ interface VideoProps {
   loop?: boolean;
 }
 
+const isMobile = () => {
+  return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+    navigator.userAgent
+  );
+};
+
 export default function ProjectVideo({
   video,
   caption,
   controls = false,
-  autoplay = true,
+  autoplay = !isMobile(), // Use the isMobile function to set autoplay
   loop = true,
 }: VideoProps) {
   return (
@@ -25,7 +32,7 @@ export default function ProjectVideo({
         loop={loop}
         className="w-full max-h-[750px] shadow-lg object-cover overflow-hidden rounded-xl"
       />
-      {<ProjectSubcaptionText text={caption} />}
+      <ProjectSubcaptionText text={caption} />
     </div>
   );
 }

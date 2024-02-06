@@ -567,7 +567,7 @@ export const ProjectData = {
         <ProjectImage
           image={Achievements4}
           caption={
-            "Challenges for Achievements: Added the Next Level of Gamification and Interactivity into the App!"
+            "Enhancing User Engagement with Interactive Challenges Throughout the App"
           }
         />
       ),
