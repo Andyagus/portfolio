@@ -44,8 +44,12 @@ const NavBar = () => {
         }
       >
         <div className="flex flex-col items-start p-10 mt-20">
-          <div className="py-6  text-3xl">Projects</div>
-          <div className="py-6 text-3xl">About</div>
+          <a className="py-6  text-3xl" href="/">
+            Projects
+          </a>
+          <a href="/about" className="py-6  text-3xl">
+            About
+          </a>
         </div>
       </div>
     </div>
