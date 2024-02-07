@@ -5,7 +5,10 @@ import Project from "./components/Project.tsx";
 import About from "./components/About.tsx";
 import Footer from "./components/Footer.tsx";
 import { Route, Routes } from "react-router-dom";
+import ReactGA from "react-ga";
 
+const measurementId = "G-79VS217Y6J";
+ReactGA.initialize(measurementId);
 // Updated array to store image URLs directly
 
 export default function App() {
