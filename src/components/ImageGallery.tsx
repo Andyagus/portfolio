@@ -6,6 +6,7 @@ import pic1 from "../assets/images/About/ProfilePic1.png";
 // import image2 from "../assets/images/oc.png";
 // import image3 from "../assets/images/testimage.png";
 import { useEffect, useState } from "react";
+import ProjectSubcaptionText from "./Project/projectComponents/ProjectSubcaptionText";
 const images = [pic1, pic1, pic1];
 
 export default function ImageGallery() {
@@ -46,6 +47,7 @@ export default function ImageGallery() {
       }`}
         alt="Profile Pic"
       />
+      <ProjectSubcaptionText text="Picture of smiling me in a sweater" />
       {/*button grid*/}
       {/* <div className="mt-5">
         <div className={"grid grid-flow-col gap-3 max-h-0.5 max-w-20 mx-auto"}>

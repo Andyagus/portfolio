@@ -38,26 +38,29 @@ export default function About() {
           </div>
           <br />
           <div className="text-base text-gray-500">
-            Email me at{" "}
+            Email at{" "}
             <a
               href="mailto:redagus@gmail.com"
+              target="_blank"
               className="text-red-600 hover:text-gray-500 underline hover:underline decoration-transparent hover:decoration-current transition-colors duration-300"
             >
               Redagus@gmail.com
             </a>{" "}
             {"   ||   "}
             <a
-              href="mailto:redagus@gmail.com"
+              href="https://drive.google.com/file/d/1qfFQVDmlVXTDA9CjqF_pD0z9zyJdvaKR/view?usp=sharing"
+              target="_blank"
               className="text-red-500 hover:text-gray-500 underline hover:underline decoration-transparent hover:decoration-current transition-colors duration-300"
             >
               View my resume
             </a>
             {"   ||   "}
             <a
-              href="mailto:redagus@gmail.com"
+              href="https://www.linkedin.com/in/andyagus/"
+              target="_blank"
               className="text-red-400 hover:text-gray-500 underline hover:underline decoration-transparent hover:decoration-current transition-colors duration-300"
             >
-              LinkedIn
+              Connect on LinkedIn
             </a>
           </div>
         </div>
