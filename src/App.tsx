@@ -11,6 +11,11 @@ const measurementId = "G-79VS217Y6J";
 ReactGA.initialize(measurementId);
 // Updated array to store image URLs directly
 
+ReactGA.send({
+  hitType: "pageview",
+  page: window.location.pathname,
+});
+
 export default function App() {
   return (
     <>
