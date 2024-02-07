@@ -2,8 +2,6 @@ import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 import ProjectIcon from "./Project/projectComponents/ProjectIcon";
 import ProjectIcons from "./Project/projectComponents/ProjectIcons";
 import { MdEmail } from "react-icons/md";
-import { LuLinkedin } from "react-icons/lu";
-import { ImInstagram } from "react-icons/im";
 
 export default function Footer() {
   return (
