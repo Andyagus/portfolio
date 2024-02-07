@@ -36,7 +36,7 @@ export default function Footer() {
         </div>
         <div className="flex-1 flex items-center justify-end">
           <div className="text-sm md:text-base lg:mt-6 opacity-85 mr-9 md:mr-36">
-            Andy Agus © 2023. All Rights Reserved.
+            Andy Agus © 2024. All Rights Reserved.
           </div>
         </div>
       </div>

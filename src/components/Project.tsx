@@ -16,6 +16,7 @@ import { MuseumProject } from "./Project/MuseumProject.tsx";
 import SaladBarProject from "./Project/SaladBarProject.tsx";
 import OcVibeProject2 from "./Project/OcVibeProject2.tsx";
 import FirstWomanProject3 from "./Project/FirstWomanProject3.tsx";
+import FirstWomanProjectHidden from "./Project/FirstWomanProjectHidden.tsx";
 
 export default function Project() {
   let { id } = useParams();
@@ -34,7 +35,13 @@ export default function Project() {
           <FirstWomanProject data={ProjectData.firstWomenDataDictionary} />
         );
         break;
-
+      case "fw":
+        setCurrentProject(
+          <FirstWomanProjectHidden
+            data={ProjectData.firstWomenDataDictionary3}
+          />
+        );
+        break;
       case "ocvibe-smart-city":
         setCurrentProject(
           <OcVibeProject2 data={ProjectData.ocVibeDataDictionary} />

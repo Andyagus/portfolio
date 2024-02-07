@@ -82,9 +82,12 @@ export default function ProjectCard(props: ProjectCardProps) {
     .replace("!", "i")
     .toLowerCase();
 
+  const displayString =
+    formattedString === "nasa-first-woman" ? "fw" : formattedString;
+
   return (
     <div>
-      <Link to={`/projects/${formattedString}`}>
+      <Link to={`/projects/${displayString}`}>
         <div
           onMouseEnter={() => setIsHovered(true)} // Set isHovered to true on mouse enter
           onMouseLeave={() => setIsHovered(false)} // Set isHovered to false on mouse leave
