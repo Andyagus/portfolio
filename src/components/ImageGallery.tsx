@@ -1,5 +1,5 @@
 import pic1 from "../assets/images/About/ProfilePic1.png";
-import pic2 from "../assets/images/About/pic2.jpg";
+// import pic2 from "../assets/images/About/pic2.jpg";
 
 // import ProfilePic2 from "../assets/images/About/profilePic2.png";
 
@@ -29,10 +29,10 @@ export default function ImageGallery() {
     };
   }, [activeImage]);
 
-  const HandleImageClick = (imageString: string) => {
-    setActiveImage(imageString);
-    // setPrevImage(activeImage);
-  };
+  // const HandleImageClick = (imageString: string) => {
+  //   setActiveImage(imageString);
+  //   // setPrevImage(activeImage);
+  // };
 
   //
 
