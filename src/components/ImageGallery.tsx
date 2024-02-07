@@ -47,7 +47,7 @@ export default function ImageGallery() {
       }`}
         alt="Profile Pic"
       />
-      <ProjectSubcaptionText text="Picture of smiling me in a sweater" />
+      {/* <ProjectSubcaptionText text="Picture of me in sweater" /> */}
       {/*button grid*/}
       {/* <div className="mt-5">
         <div className={"grid grid-flow-col gap-3 max-h-0.5 max-w-20 mx-auto"}>

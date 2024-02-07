@@ -50,15 +50,15 @@ export default function About() {
             <a
               href="https://drive.google.com/file/d/1qfFQVDmlVXTDA9CjqF_pD0z9zyJdvaKR/view?usp=sharing"
               target="_blank"
-              className="text-red-500 hover:text-gray-500 underline hover:underline decoration-transparent hover:decoration-current transition-colors duration-300"
+              className="text-red-600 hover:text-gray-500 underline hover:underline decoration-transparent hover:decoration-current transition-colors duration-300"
             >
-              View my resume
+              View my Resume
             </a>
             {"   ||   "}
             <a
               href="https://www.linkedin.com/in/andyagus/"
               target="_blank"
-              className="text-red-400 hover:text-gray-500 underline hover:underline decoration-transparent hover:decoration-current transition-colors duration-300"
+              className="text-red-600 hover:text-gray-500 underline hover:underline decoration-transparent hover:decoration-current transition-colors duration-300"
             >
               Connect on LinkedIn
             </a>
