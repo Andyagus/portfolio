@@ -3,7 +3,7 @@ import ProjectList from "./components/Projects.tsx";
 import Project from "./components/Project.tsx";
 
 import About from "./components/About.tsx";
-
+import Footer from "./components/Footer.tsx";
 import { Route, Routes } from "react-router-dom";
 
 // Updated array to store image URLs directly
@@ -17,6 +17,7 @@ export default function App() {
         <Route path="/projects/:id" element={<Project />} />
         <Route path="/about" element={<About />} />
       </Routes>
+      <Footer />
     </>
   );
 }
