@@ -48,7 +48,7 @@ export default function About() {
             </a>{" "}
             {"   ||   "}
             <a
-              href="https://drive.google.com/file/d/1qfFQVDmlVXTDA9CjqF_pD0z9zyJdvaKR/view?usp=sharing"
+              href="https://drive.google.com/file/d/11h8YWkzn555FVH924W0w0ld5jCu5QBjR/view?usp=sharing"
               target="_blank"
               className="text-red-600 hover:text-gray-500 underline hover:underline decoration-transparent hover:decoration-current transition-colors duration-300"
             >
