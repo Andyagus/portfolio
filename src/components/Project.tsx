@@ -4,6 +4,8 @@ import { useState, useEffect } from "react";
 
 import { FaLongArrowAltLeft } from "react-icons/fa";
 
+import ReactGA from "react-ga4";
+
 //project pages
 import FirstWomanProject from "./Project/FirstWomanProject.tsx";
 // import FirstWomanProject2 from "./Project/FirstWomanProject2.tsx";
@@ -67,6 +69,11 @@ export default function Project() {
     }
   }, []);
 
+  ReactGA.send({
+    hitType: "pageview",
+    page: window.location.pathname,
+  });
+
   return (
     <>
       <div className="mt-24  mx-auto p-6">
@@ -78,6 +85,7 @@ export default function Project() {
               Back to All Projects
             </div>
           </Link>
+
           {currentProject}
         </div>
       </div>
