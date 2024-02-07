@@ -10,7 +10,10 @@ export default function About() {
           <ImageGallery />
         </div>
         <div className="lg:col-span-2 lg:mr-52">
-          <div className="mt-10 mb-4 text-3xl font-semibold">About Me</div>
+          <div className="mt-10 mb-4 text-3xl font-semibold text-gray-800 opacity-80">
+            I'm an Augmented Reality designer and prototyper dedicated to
+            crafting technology that enhances our world
+          </div>
           <div className="text-base text-gray-500">
             I am deeply interested in Augmented Reality and its potential to
             improve the world we live in. In 2020, I chose to pivot from
