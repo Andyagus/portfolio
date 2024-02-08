@@ -7,7 +7,7 @@ import { FaLongArrowAltLeft } from "react-icons/fa";
 import ReactGA from "react-ga4";
 
 //project pages
-import FirstWomanProject from "./Project/FirstWomanProject.tsx";
+// import FirstWomanProject from "./Project/FirstWomanProject.tsx";
 // import FirstWomanProject2 from "./Project/FirstWomanProject2.tsx";
 // import OcVibeProject from "./Project/OcVibeProject.tsx";
 import BookshelfProject from "./Project/BookshelfProject.tsx";
@@ -18,7 +18,7 @@ import { MuseumProject } from "./Project/MuseumProject.tsx";
 import SaladBarProject from "./Project/SaladBarProject.tsx";
 import OcVibeProject2 from "./Project/OcVibeProject2.tsx";
 import FirstWomanProject3 from "./Project/FirstWomanProject3.tsx";
-import FirstWomanProjectHidden from "./Project/FirstWomanProjectHidden.tsx";
+// import FirstWomanProjectHidden from "./Project/FirstWomanProjectHidden.tsx";
 
 export default function Project() {
   let { id } = useParams();
@@ -31,18 +31,18 @@ export default function Project() {
           <FirstWomanProject3 data={ProjectData.firstWomenDataDictionary3} />
         );
         break;
-      //reference...
-      case "123z":
-        setCurrentProject(
-          <FirstWomanProject data={ProjectData.firstWomenDataDictionary} />
-        );
-        break;
-      case "fw":
-        setCurrentProject(
-          <FirstWomanProjectHidden
-            data={ProjectData.firstWomenDataDictionary3}
-          />
-        );
+        //reference...
+        // case "123z":
+        //   setCurrentProject(
+        //     <FirstWomanProject data={ProjectData.firstWomenDataDictionary} />
+        //   );
+        //   break;
+        // case "fw":
+        //   setCurrentProject(
+        //     <FirstWomanProjectHidden
+        //       data={ProjectData.firstWomenDataDictionary3}
+        //     />
+        //   );
         break;
       case "ocvibe-smart-city":
         setCurrentProject(

@@ -533,11 +533,11 @@ export const ProjectData = {
     },
   },
   firstWomenDataDictionary3: {
-    headerText: <ProjectHeaderText title={"NASA: First Woman"} />,
+    headerText: <ProjectHeaderText title={"NASA: First Woman UX"} />,
     subcaptionText: (
       <ProjectSubcaptionText
         text={
-          "An expansive project executed by Bully Entertainment for NASA, crafted to engage and inspire the next generation of space explorers through a compelling graphic novel and immersive experiences.          "
+          "An expansive project by Bully Entertainment for NASA, designed to captivate the next wave of space explorers with an engaging graphic novel and immersive experiences. My contribution centered on UX, ensuring the seamless integration of educational content within intuitive, user-friendly interfaces."
         }
       />
     ),
@@ -582,7 +582,9 @@ export const ProjectData = {
       2: (
         <ProjectVideo
           video={RTVideo1}
-          caption={"RT Guiding the User through a Seamless Onboarding"}
+          caption={
+            "RT Guiding User through Seamless Onboarding. Animatic completed by Pedro Prieto and Storyboards and character art by Brent Donoho."
+          }
         ></ProjectVideo>
       ),
       3: (
