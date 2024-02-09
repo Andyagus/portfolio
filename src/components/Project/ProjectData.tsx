@@ -786,7 +786,7 @@ export const ProjectData = {
         <ProjectVideo
           video={sliderToFullScale}
           caption={
-            "Showcase of the slider being dragged to launch a full scale experience"
+            "Highlighting the Transition from Tabletop Mode to Full-Scale Experience"
           }
         />
       ),
@@ -812,7 +812,7 @@ export const ProjectData = {
         <ProjectImage
           image={researchImageMoodboard}
           caption={
-            "Interesting UI Interaction Design References that we used to help concept our designs"
+            "Inspiring UI Interaction Design References Guiding Our Conceptualization"
           }
         />
       ),
@@ -887,11 +887,11 @@ export const ProjectData = {
       ), // list follows this text
 
       text15: (
-        <ProjectParagraphText text="Observing the UI team's adeptness at conceptualizing spatial designs made me aware of my limitations with 2D design tools like Sketch, which couldn't fully capture the essence of 3D or AR environments. This gap in my toolset restricted my ability to fully envision our designs in the immersive spaces we were targeting. <br /> <br /> I also recognized a too rigid process between designers and developers, where designs were handed off and replicated without the nuanced understanding that could come from a more integrated approach. This realization highlighted the importance of a deeper collaboration to truly bring designs to life, making them not just static screens but dynamic experiences. <br /> <br /> This experience was a turning point for me, underlining the necessity of possessing a comprehensive skill set in AR design and development. Just as an artist needs to know how to draw, a designer in the AR space must understand the intricacies of building within it. Recognizing this, I was motivated to dive deeper into 3D design and development, specifically through learning Unity, to bridge the gap between design and functionality, paving the way for future projects." />
+        <ProjectParagraphText text="While focusing on UX designs, I also got to see how skilled the UI team was at creating spatial designs. This experience showed me the limits of using 2D design tools like Sketch, which just couldn't grasp the full depth of 3D or AR environments. This limitation made it hard for me to fully picture our designs in the immersive spaces we were targeting." />
       ),
 
       text17: (
-        <ProjectParagraphText text="While I moved on to a new project, Jack and the rest of the team significantly advanced the UX and UI aspects of the ocV!BE project beyond my initial foundation. This evolution of the project's interactive features was a testament to the team's ability to build upon and greatly expand the work I had been a part of, pushing the boundaries of user experience and interface design to new heights.          " />
+        <ProjectParagraphText text="As I moved on to a new project, Jack and the rest of the team significantly advanced the UX and UI aspects of the ocV!BE project beyond my initial foundation. This evolution of the project's interactive features was a testament to the team's ability to build upon and greatly expand the work I had been a part of, pushing the boundaries of user experience and interface design to new heights.  <br /> <br /> Working on this project was an incredible experience that enabled me to think about the future of real estate and Augmented Reality's role to improve the experience for both the property owner and consumers." />
       ),
       text18: (
         <ProjectParagraphText text="Designing for the OCVibe project was an incredible journey. Utilizing the Microsoft Mixed Reality Toolkit (MRTK) provided a solid UX framework that will be invaluable for future endeavors. Reflecting on the process, I see the importance of balancing research-driven decisions with intuitive design insights. Despite this, the opportunity to contribute to a consumer-facing HoloLens 2 application, aimed at transforming the real estate development experience, was truly remarkable. I'm excited about the impact of our work and future projects in augmented reality.        " />

@@ -42,6 +42,9 @@ export default function OcVibeProject({ data }: ProjectProps) {
       {data.textBlocks["text7"]} */}
       <br />
       {data.textBlocks["text8"]}
+      {<Title3 title={"Digital Twin"} borderTop={false} />}
+      <ProjectParagraphText text="We also discussed the potential about expanding into a digital twin, using Microsoft Azure's Digital Twin technology. This would let us collect information on places people found interesting, helping to connect the online and physical aspects of the property. This idea was geared towards improving both the management side and the consumer AR experience, making a smooth link between the digital and real-life property spaces." />
+
       {<Title3 title={"Crafting the User Experience"} borderTop={true} />}
       {data.images["ResearchMoodboard"]}
       {/* {data.textBlocks["text9"]} */}
@@ -66,12 +69,7 @@ export default function OcVibeProject({ data }: ProjectProps) {
       <ProjectList
         listItem1="Welcoming and Onboarding: This initial phase introduced users to the experience, setting the stage for engagement."
         listItem2="Initialization Experience: We designed this to help users orient themselves within the space, utilizing spatial anchors for accurate tracking. For situations where physical presence in the space was not possible, we developed a fallback to a virtual tabletop, allowing users to interact with and explore the 3D model."
-        listItem3="Tabletop Experience: This aspect was multifaceted:
-        
-        A) We incorporated a raycast line to indicate where users and guides were looking or pointing, enhancing the interactive guide experience.
-        B) A UI panel was added to the front of the table, offering controls for users to trigger various events within the environment or digital twin, such as displaying foot traffic or weather data, and a slider to transition the scene from day to night. We aimed to explore various data types to enhance user interaction through diverse buttons and controls.
-        C) Additionally, we designed a handle mechanism allowing users to 'grab' the model, enabling them to 'throw' it into a real-life scale. This transition saw the UI controls move from the table to the wall, further immersing the user in the experience. 
-        "
+        listItem3="Tabletop Experience: This phase incorporated interactive elements to enhance user engagement. Features included a raycast line for indicating focus, a UI panel with controls for activating environmental events or accessing digital twin information, and a unique handle mechanism. This mechanism allowed users to 'grab' and 'throw' the model, scaling it up to full size, with UI controls transitioning accordingly for an immersive experience."
       />
 
       {data.images["SecondIterationWireframes"]}
@@ -83,6 +81,7 @@ export default function OcVibeProject({ data }: ProjectProps) {
         listItem3="Building Highlighting: When a building is selected, it's highlighted with an animation, and a detailed information panel appears behind the table, designed for clear readability.        "
         listItem4="Enhanced Multi-User Features: We simplified adding users to sessions and visually represented their presence, reinforcing the collaborative aspect of the experience."
       />
+      <ProjectParagraphText text="This step-by-step process, guided by our team's feedback and tech exploration, really helped us improve our project and make it more engaging and innovative." />
 
       {/* thought  of putting this here so dont need team light explroe……… */}
       {/* {data.videos["SliderToFullScale"]} */}
@@ -91,21 +90,14 @@ export default function OcVibeProject({ data }: ProjectProps) {
 
       {data.textBlocks["text14"]}
 
-      {<Title3 title={"Design Evolution Insights"} borderTop={true} />}
+      {<Title3 title={"Conclusion"} borderTop={true} />}
+      {data.videos["SliderToFullScale"]}
 
       {data.textBlocks["text15"]}
       <br />
-      {data.textBlocks["text16"]}
-
-      <br />
-
-      {<Title3 title={"Conclusion"} borderTop={true} />}
 
       {data.textBlocks["text17"]}
       <br />
-
-      {/* {data.videos["SliderToFullScale"]} */}
-      {data.textBlocks["text18"]}
     </>
   );
 }
