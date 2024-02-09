@@ -845,7 +845,7 @@ export const ProjectData = {
       text1: (
         <ProjectParagraphText
           text={
-            "Following my involvement in the NASA Project at Bully, I shifted focus to a new project: OCVibe, a forthcoming $4 billion real estate development aimed to become Anaheim's leading mixed-use community and entertainment district.<br /> <br /> As a UX designer, I partnered with a fellow designer, Jack, to harness Microsoft’s cutting-edge technologies, with a special focus on the HoloLens 2 headset. This initiative aimed to position OCVibe as a technological pioneer, showcasing the development's potential to future tenants and investors through immersive mixed-reality interactions."
+            "Following my involvement in the NASA Project at Bully, I shifted focus to a new project: OCVibe, a forthcoming $4 billion real estate development aimed to become Anaheim's leading mixed-use community and entertainment district.<br /> <br /> In this project, I joined forces with Jack, another dedicated UX designer to harness Microsoft’s cutting-edge technologies, with a special focus on the HoloLens 2 headset. This initiative aimed to position OCVibe as a technological pioneer, showcasing the development's potential to future tenants and investors through immersive mixed-reality interactions."
           }
         />
       ),
