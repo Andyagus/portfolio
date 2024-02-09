@@ -615,7 +615,7 @@ export const ProjectData = {
         <ProjectVideo
           video={CallieOutro5}
           caption={
-            "Vibrant Colors and Imagery in the First Woman Graphic Novel"
+            "Vibrant Colors and Imagery in the First Woman Graphic Novel. Illustrated by Brent Dohono and Colorized by Kaitlin Reid"
           }
         ></ProjectVideo>
       ),
