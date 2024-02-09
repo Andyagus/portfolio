@@ -28,7 +28,7 @@ export default function OcVibeProject({ data }: ProjectProps) {
       {data.images["ARPavilionImage"]}
       <ProjectParagraphText
         text={
-          "In designing the user experience for the ocV!BE project, our team worked together to envision a pavilion facing the site of the future development. This pavilion was to feature a central table, equipped with HoloLens headsets and iPad Pros, presenting a highly detailed, scaled model of the development. Users wearing the HoloLens would see this model come to life, offering a dynamic and interactive visualization of the future space, illustrated nicely in Pavel’s renderings. <br /> <br />I focused on leveraging Microsoft's technology, including Azure for remote rendering of 3D models with low latency and Azure Spatial Anchors for precise location tracking, alongside Microsoft’s Mixed Reality Toolkit (MRTK) to enable real-time, multi-user collaboration and enrich interaction design.  This comprehensive setup facilitated intuitive controls like buttons, sliders, and tooltips, allowing users, whether in the same space or remotely, to share a unified experience, guided through the development with synchronized views. <br /> <br /> We also aimed to offer a unique interaction with the model by allowing users to 'throw' it, at which point it would transform into a full-scale representation. This full-scale model would then appear in the exact location where the development is planned, providing a glimpse into the future of the space and blending digital projections with the real-world environment seamlessly."
+          "In designing the user experience for the ocV!BE project, our team worked together to envision a pavilion facing the site of the future development. This pavilion was to feature a central table, equipped with HoloLens headsets and iPad Pros, presenting a highly detailed, scaled model of the development. Users wearing the HoloLens would see this model come to life, offering a dynamic and interactive visualization of the future space, illustrated nicely in Pavel’s renderings. <br /> <br />I focused on leveraging Microsoft's technology, including Azure for remote rendering of 3D models with low latency and Azure Spatial Anchors for precise location tracking, alongside Microsoft’s Mixed Reality Toolkit (MRTK) to enable real-time, multi-user collaboration and enrich interaction design.  This comprehensive setup facilitated intuitive controls like buttons, sliders, and tooltips, allowing users, whether in the same space or remotely, to share a unified experience, guided through the development with synchronized views. <br /> <br /> We also aimed to offer a unique interaction with the model by allowing users to 'throw' it, at which point it would transform into a full-scale representation. This full-scale model would then appear in the exact location where the development is planned, providing a glimpse into the future of the space and blending digital projections with the real-world environment."
         }
       />
       {/* {data.textBlocks["text3"]}
@@ -42,13 +42,12 @@ export default function OcVibeProject({ data }: ProjectProps) {
       {data.textBlocks["text7"]} */}
       <br />
       {data.textBlocks["text8"]}
-      {<Title3 title={"Digital Twin"} borderTop={false} />}
-      <ProjectParagraphText text="We also discussed the potential about expanding into a digital twin, using Microsoft Azure's Digital Twin technology. This would let us collect information on places people found interesting, helping to connect the online and physical aspects of the property. This idea was geared towards improving both the management side and the consumer AR experience, making a smooth link between the digital and real-life property spaces." />
+      {/* {<Title3 title={"Digital Twin"} borderTop={false} />} */}
+      {/* <ProjectParagraphText text="In addtion, we discussed the potential about expanding into a digital twin, using Microsoft Azure's Digital Twin technology. This would let us collect information on places people found interesting, helping to connect the online and physical aspects of the property. This idea was geared towards improving both the management side and the consumer AR experience, making a smooth link between the digital and real-life property spaces." /> */}
 
       {<Title3 title={"Crafting the User Experience"} borderTop={true} />}
       {data.images["ResearchMoodboard"]}
       {/* {data.textBlocks["text9"]} */}
-      <br />
       {data.textBlocks["text10"]}
 
       <ProjectList
@@ -63,7 +62,6 @@ export default function OcVibeProject({ data }: ProjectProps) {
       {data.images["InitialWireframeSketches"]}
 
       {data.textBlocks["text11"]}
-      <br />
       {data.textBlocks["text12"]}
 
       <ProjectList

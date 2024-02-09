@@ -40,7 +40,7 @@ import sliderToFullScale from "../../assets/images/project/ocVibe/videos/4Slider
 //ocVibe images
 import pavilionLookingIntoProperty from "../../assets/images/project/ocVibe/images/LookingIntoProperty2.jpeg";
 import lifeSizedModel from "../../assets/images/project/ocVibe/images/LifeSizedModel.jpg";
-import researchImageMoodboard from "../../assets/images/project/ocVibe/images/ResearchImageMoodboard.jpeg";
+import researchImageMoodboard from "../../assets/images/project/ocVibe/images/ResearchImageMoodboard2.png";
 import initialWireframeSketches from "../../assets/images/project/ocVibe/images/initialWireframeSketches.jpeg";
 import secondIterationWireframes from "../../assets/images/project/ocVibe/images/secondIterationWireframes.jpeg";
 import lightExploration from "../../assets/images/project/ocVibe/images/TeamLightExplore.jpg";
@@ -820,7 +820,7 @@ export const ProjectData = {
         <ProjectImage
           image={initialWireframeSketches}
           caption={
-            "A few snapshots of initial wireframe sketches, which detailed out the entire experience"
+            "Initial Wireframes Sketches, Detailing the Entire Experience"
           }
         />
       ),
@@ -828,7 +828,7 @@ export const ProjectData = {
         <ProjectImage
           image={secondIterationWireframes}
           caption={
-            "Updated wireframs by showcasing specific property details and added in multi-user functionality"
+            "Updated Wireframes Showcasing Specific Property Details and Multi-User Functionality"
           }
         />
       ),
@@ -845,7 +845,7 @@ export const ProjectData = {
       text1: (
         <ProjectParagraphText
           text={
-            "Following my involvement in the NASA Project at Bully, I shifted focus to a new project: OCVibe, a forthcoming $4 billion real estate development aimed to become Anaheim's leading mixed-use community and entertainment district.<br /> <br /> In my capacity as a UX designer, my objective was to harness Microsoft’s innovative technologies, notably the HoloLens 2 headset, to craft compelling user experiences. This effort was designed to position OCVibe as a technological pioneer, showcasing the development's potential to future tenants and investors through immersive and intuitive mixed-reality interactions."
+            "Following my involvement in the NASA Project at Bully, I shifted focus to a new project: OCVibe, a forthcoming $4 billion real estate development aimed to become Anaheim's leading mixed-use community and entertainment district.<br /> <br /> As a UX designer, I partnered with a fellow designer, Jack, to harness Microsoft’s cutting-edge technologies, with a special focus on the HoloLens 2 headset. This initiative aimed to position OCVibe as a technological pioneer, showcasing the development's potential to future tenants and investors through immersive mixed-reality interactions."
           }
         />
       ),
@@ -853,7 +853,7 @@ export const ProjectData = {
       text2: (
         <ProjectParagraphText
           text={
-            "Upon receiving the project proposal, I immersed myself in examining a variety of Augmented Reality applications in architecture for inspiration. As a UX designer, my aim was to sift through these innovations to uncover effective AR strategies that could enhance our project. This exploration was crucial in devising a user experience that leveraged Microsoft's technology, including the HoloLens 2, Mesh, and Azure Spatial Anchors, aiming to elevate how the development was presented and interacted with.  This approach helped set the stage for redefining the visualization of real estate developments."
+            "Upon receiving the project proposal, I immersed myself in examining a variety of Augmented Reality applications in architecture for inspiration. As a UX designer, my aim was to sift through these innovations to uncover effective AR strategies that could enhance our project. This exploration was important in creating a user experience that used Microsoft's HoloLens 2 headset, which hadn't been widely adopted."
           }
         />
       ),
@@ -872,18 +872,17 @@ export const ProjectData = {
         <ProjectParagraphText text="Once we had approval to begin working on the project with the client, I began focusing on the user experience.  I started out by breaking the project up into different areas of research,  including visually understanding different approaches taken on the HoloLens for Architecture Visualization, digital twin data layers, selection mechanisms and other interesting UI that fascinated me.  With this I created a visual moldboard to excite the team and help us brainstorm the immense possibilities of designing on the platform." />
       ),
       text10: (
-        <ProjectParagraphText text="In developing the user experience for our project, we aimed for a blend of innovation and evidence-based design. We immersed ourselves in various research papers and articles to grasp the finer points of interaction design within augmented reality (AR) settings. This deep dive into scholarly work provided crucial insights, guiding us in crafting a user interface that was not only intuitive but also cutting-edge." />
+        <ProjectParagraphText text="In designing our project's user experience, we relied on research to inform our decisions. We delved into various research papers and articles to gain insights into interaction design in AR settings. This guided us in creating a user interface that balanced innovation and usability." />
       ),
       text11: (
         <ProjectParagraphText
-          text="Starting with a solid foundation of research, we embarked on designing a user flow that detailed the app's functionality and interactions. This included features like placing AR objects using Azure Spatial Anchors, activating MRTK buttons for more property information, and transitioning from a tabletop model to a full-scale view.
+          text="Starting with a solid foundation of research, designed a user flow that detailed the app's functionality and interactions. This included features like placing AR objects using Azure Spatial Anchors, activating MRTK buttons for more property information, and transitioning from a tabletop model to a full-scale view.
 
-          Once we established a coherent user flow, we progressed to wireframe exploration, which evolved through three primary phases. The initial wireframes concentrated on essential components:
-          "
+          Once we established a coherent user flow, we progressed to wireframe exploration, which evolved through three primary phases. The initial wireframes concentrated on essential components:"
         />
       ),
       text13: (
-        <ProjectParagraphText text="Building on the foundational work, we transitioned into refining the UX with a second iteration, incorporating feedback from our initial drafts. This phase introduced significant modifications aimed at enhancing user engagement and interaction:        " />
+        <ProjectParagraphText text="Building on the foundational work, we transitioned into refining the UX with a second iteration, incorporating feedback from our initial drafts. This phase introduced significant modifications aimed at enhancing user engagement and interaction:" />
       ), // list follows this text
 
       text15: (
@@ -891,7 +890,7 @@ export const ProjectData = {
       ),
 
       text17: (
-        <ProjectParagraphText text="As I moved on to a new project, Jack and the rest of the team significantly advanced the UX and UI aspects of the ocV!BE project beyond my initial foundation. This evolution of the project's interactive features was a testament to the team's ability to build upon and greatly expand the work I had been a part of, pushing the boundaries of user experience and interface design to new heights.  <br /> <br /> Working on this project was an incredible experience that enabled me to think about the future of real estate and Augmented Reality's role to improve the experience for both the property owner and consumers." />
+        <ProjectParagraphText text="As I moved on to a new project, Jack and the rest of the team significantly advanced the UX and UI aspects of the ocV!BE project beyond our initial foundation. This evolution of the project's interactive features was a testament to the team's ability to build upon and greatly expand the work I had been a part of, pushing the boundaries of user experience and interface design to new heights.  <br /> <br /> Working on this project was an incredible experience that enabled me to think about the future of real estate and Augmented Reality's role to improve the experience for both the property owner and consumers." />
       ),
       text18: (
         <ProjectParagraphText text="Designing for the OCVibe project was an incredible journey. Utilizing the Microsoft Mixed Reality Toolkit (MRTK) provided a solid UX framework that will be invaluable for future endeavors. Reflecting on the process, I see the importance of balancing research-driven decisions with intuitive design insights. Despite this, the opportunity to contribute to a consumer-facing HoloLens 2 application, aimed at transforming the real estate development experience, was truly remarkable. I'm excited about the impact of our work and future projects in augmented reality.        " />
