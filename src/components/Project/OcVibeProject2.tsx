@@ -28,7 +28,7 @@ export default function OcVibeProject({ data }: ProjectProps) {
       {data.images["ARPavilionImage"]}
       <ProjectParagraphText
         text={
-          "In designing the user experience for the ocV!BE project, our team worked together to envision a pavilion facing the site of the future development. This pavilion was to feature a central table, equipped with HoloLens headsets and iPad Pros, presenting a highly detailed, scaled model of the development. Users wearing the HoloLens would see this model come to life, offering a dynamic and interactive visualization of the future space, illustrated nicely in Pavel’s renderings. <br /> <br />I focused on leveraging Microsoft's technology, including Azure for remote rendering of 3D models with low latency and Azure Spatial Anchors for precise location tracking, alongside Microsoft’s Mixed Reality Toolkit (MRTK) to enable real-time, multi-user collaboration and enrich interaction design.  This comprehensive setup facilitated intuitive controls like buttons, sliders, and tooltips, allowing users, whether in the same space or remotely, to share a unified experience, guided through the development with synchronized views. <br /> <br /> We also aimed to offer a unique interaction with the model by allowing users to 'throw' it, at which point it would transform into a full-scale representation. This full-scale model would then appear in the exact location where the development is planned, providing a glimpse into the future of the space and blending digital projections with the real-world environment."
+          "In designing the user experience for the ocV!BE project, our team worked together to envision a pavilion facing the site of the future development. This pavilion was to feature a central table, equipped with HoloLens headsets and iPad Pros, presenting a highly detailed, scaled model of the development. Users wearing the HoloLens would see this model come to life, offering a dynamic and interactive visualization of the future space, illustrated nicely in Pavel’s renderings."
         }
       />
       {/* {data.textBlocks["text3"]}
@@ -89,7 +89,6 @@ export default function OcVibeProject({ data }: ProjectProps) {
       {data.textBlocks["text14"]}
 
       {<Title3 title={"Conclusion"} borderTop={true} />}
-      {data.videos["SliderToFullScale"]}
 
       {data.textBlocks["text15"]}
       <br />
