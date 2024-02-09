@@ -796,7 +796,7 @@ export const ProjectData = {
         <ProjectImage
           image={pavilionLookingIntoProperty}
           caption={
-            "Renderings by technical artist Pavel Zosim illustrate the project's scope: on the left, the boundary of the future development site as viewed from the property, setting the stage for visualization; on the right, the various technologies we planned to incorporate within this experience."
+            "Rendering by technical artist Pavel Zosim illustrate the project's scope: on the left, the boundary of the future development site as viewed from the property, setting the stage for visualization; on the right, the various technologies we planned to incorporate within this experience."
           }
         />
       ),
@@ -853,7 +853,7 @@ export const ProjectData = {
       text2: (
         <ProjectParagraphText
           text={
-            "Upon receiving the project proposal, I immersed myself in examining a variety of Augmented Reality applications in architecture for inspiration. As a UX designer, my aim was to sift through these innovations to uncover effective AR strategies that could enhance our project. This exploration was important in creating a user experience that used Microsoft's HoloLens 2 headset, which hadn't been widely adopted."
+            "Upon receiving the project proposal, I immersed myself in examining a variety of Augmented Reality applications in architecture for inspiration. As a UX designer, my aim was to sift through these innovations to uncover effective AR strategies that could enhance our project. This exploration was important in creating a user experience that used Microsoft's HoloLens 2 headset."
           }
         />
       ),
