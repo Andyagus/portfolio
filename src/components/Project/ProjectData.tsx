@@ -591,7 +591,7 @@ export const ProjectData = {
         <ProjectVideo
           video={InteractiveVideo2}
           caption={
-            "Enhancing Immersive Environments with Information about NASA Technology and Interactivity"
+            "Enhancing Immersive Environments with Information about NASA Technology and Interactivity. Environment design by Unity and Tech Art team including Eugene Mihailenco and Max Haleachin."
           }
         ></ProjectVideo>
       ),
