@@ -15,26 +15,26 @@ export default function About() {
             crafting technology that enhances our world
           </div>
           <div className="text-base text-gray-500">
-            I am deeply interested in Augmented Reality and its potential to
-            improve the world we live in. In 2020, I chose to pivot from
-            entrepreneurship to concentrate fully on AR, embarking on a learning
-            journey with Unity and embracing a role as a UX designer at Bully
-            Entertainment. This transition allowed me to delve into the nuances
-            of AR technology, marrying my creative skills with technical
-            knowledge to design immersive user experiences.
+            After graduating from Parsons School of Design and founding multiple
+            startups — In 2020, I chose to concentrate my career entirely on
+            Augmented Reality, embarking on a learning journey with Unity and
+            embracing a role as a UX designer at forward-thinking creative
+            agency, Bully Entertainment, where our team won the Webby Award for
+            our work on “NASA: First Woman”. This transition allowed me to delve
+            into the nuances of AR technology, marrying my creative skills with
+            technical knowledge to design immersive user experiences.
             <br /> <br />
             My commitment to AR extends beyond my professional work. I lead the
-            New York Augmented Reality meetup and curate the augmented report
-            newsletters, both of which have become key resources for industry
-            insights and community engagement. These platforms allow me to share
-            knowledge, foster discussions, and stay at the forefront of AR
-            innovations.
+            New York Augmented Reality meetup, which has hosted over 30 events
+            to over 2,000 members, and curate the Augmented Report newsletters,
+            both of which have become key resources for industry insights and
+            community engagement. These platforms allow me to share knowledge,
+            foster discussions, and stay at the forefront of AR innovations.
             <br /> <br />
             More recently, I have been focusing on developing interactive
-            prototypes. This pursuit, now my full-time endeavor, fuels my
-            excitement for the field. My aim is to work with an exceptional team
-            to create meaningful AR products that make a real difference in how
-            we interact with our environment.
+            prototypes. This pursuit fuels my excitement for the field. My aim
+            is to work with an exceptional team to create meaningful AR products
+            that make a real difference in how we interact with our environment.
           </div>
           <br />
           <div className="text-base text-gray-500">
