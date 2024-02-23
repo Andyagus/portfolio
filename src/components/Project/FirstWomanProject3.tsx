@@ -1,6 +1,9 @@
 import { ReactNode } from "react";
 import ProjectParagraphText from "./projectComponents/ProjectParagraphText";
 import Title3 from "./projectComponents/Title3";
+import interactiveElementScreen1 from "../../assets/images/project/firstWoman/images/Body/interactiveElementScreens/1.png";
+import interactiveElementScreen2 from "../../assets/images/project/firstWoman/images/Body/interactiveElementScreens/1.png";
+import ProjectImageGrid from "./projectComponents/ProjectImageGrid";
 
 interface ProjectData {
   data: {
@@ -12,6 +15,8 @@ interface ProjectData {
     textBlocks: { [key: string]: ReactNode };
   };
 }
+
+//main content.
 
 export default function FirstWomanProject3({ data }: ProjectData) {
   return (
@@ -28,7 +33,14 @@ export default function FirstWomanProject3({ data }: ProjectData) {
       {data.videos[2]}
       <ProjectParagraphText text="We carefully designed the onboarding process to provide users with a thorough introduction to the app and its various features. We also took a unique approach to handling permissions during this phase, ensuring a smooth user entry into the app and its Augmented Reality features . <br / ><br /> As part of this initiative, we further solidified RT's role as the user's guide within the app. To achieve this, we introduced a feature that allowed RT to emphasize critical information by dimming surrounding elements on the screen. This focused users' attention on specific UI components, such as 'Issue Number 1.' In addition, to ensure accessibility for all users, including those who do not use audio, we introduced word bubbles for RT's dialogues. This integration seamlessly complemented the app's narrative while enhancing the overall user experience. This practical approach not only added depth to RT's character but also significantly aided app users in navigating and engaging with the content." />
       {<Title3 title="Interactive Elements" borderTop={false} />}
-      {data.images[3]}
+      {/* {data.images[3]} */}
+      {
+        <ProjectImageGrid
+          image1={interactiveElementScreen1}
+          image2={interactiveElementScreen2}
+        />
+      }
+      {/* <ProjectImage image={interactiveElementScreen1} /> */}
       <ProjectParagraphText text="One of the pivotal UX features centered around immersing users in the graphic novel through Augmented Reality (AR). Our primary focus was to create a user-friendly way to seamlessly transition between the graphic novel and AR experiences, making them easily accessible within the app. Within the AR component, users encountered meticulously detailed NASA artifacts, including astronaut suits and the SLS Rocket, placed within their surroundings.<br /> <br /> In collaboration with the team, I played a key role in the onboarding process, ensuring users could effortlessly place AR objects in their environment. RT, our helpful guide, assisted users in a manner similar to the onboarding, making the experience user-friendly and intuitive.<br /> <br /> To enhance the learning experience, we introduced interactive word bubbles in the style of comic books. Users could simply tap on these bubbles to access additional information about different aspects of the technology, enhancing their understanding.  <br /> <br /> Moreover, we conceptualized and implemented a unique feature based on UX design principles. We introduced a 'Go Inside' button within the 3D object, a concept that emerged from our UX discussions. This button allowed users to seamlessly transition from the 3D object into immersive environments, providing an engaging and interactive journey." />
       {data.videos[3]}
       <ProjectParagraphText text="I concentrated on improving the user experience (UX) within immersive settings, making it easier for users to gain insights into their environment through engaging informational prompts, akin to augmented reality (AR) elements. They also enjoyed real-time (RT) guidance, which facilitated a smooth journey and offered various ways to navigate. This approach allowed users to delve deeper into the Artemis program's technology via videos and articles, enhancing their grasp of NASA's breakthroughs. <br /> <br /> In terms of interactivity, I proposed initial concepts aimed at enhancing the environments' interactivity, transitioning static scenes into more dynamic, engaging experiences. These ideas were developed to encourage tactile engagement and exploration." />
