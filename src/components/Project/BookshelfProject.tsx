@@ -1,7 +1,10 @@
 import { ReactNode } from "react";
 import ProjectParagraphText from "./projectComponents/ProjectParagraphText";
 
+import bookshelfImage from "../../assets/images/project/bookshelf/preview/projectPreview-3.png";
+
 import Title3 from "./projectComponents/Title3";
+import ProjectImage from "./projectComponents/ProjectImage";
 
 interface BookshelfProps {
   data: {
@@ -19,12 +22,13 @@ export default function BookshelfProject(props: BookshelfProps) {
       {props.data.headerText}
       {props.data.subcaptionText}
       {props.data.icons}
-      {props.data.videos[1]}
+      <ProjectImage image={bookshelfImage} caption="BookShelf designs" />
       <ProjectParagraphText
         text={
           "At about the time I was finishing up my ChordSet project - I felt confident enough with my Unity skills to dive into working with a Quest headset, Quest Pro at the time, and I wasn’t sure what I was getting myself into.  <br /> <br /> I went to Best Buy and purchased the headset. Prior to this I only spent significant time in the Microsoft HoloLens. After unboxing, which was surprisingly nice, I put on the headset, I was in awe of the passthrough, I couldn’t believe the lack of limitations in FOV and clarity.  Out of excitement I showed it to other.  After playing around with some incredible apps such as Cubism, I knew I had to start building for it"
         }
       />
+      {props.data.videos[1]}
       <Title3 title={"The Idea"} borderTop={true} />
       {props.data.images[1]}
       <ProjectParagraphText

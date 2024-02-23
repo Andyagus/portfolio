@@ -1,5 +1,7 @@
 import { ReactNode } from "react";
 import ProjectParagraphText from "./projectComponents/ProjectParagraphText";
+import saladBarImagePreview from "../../assets/images/project/saladBar/preview/SaladBarPreview.png";
+import ProjectImage from "./projectComponents/ProjectImage";
 
 interface SaladBarProps {
   data: {
@@ -16,11 +18,13 @@ export default function SaladBarProject({ data }: SaladBarProps) {
       {data.headerText}
       {data.subcaptionText}
       {data.icons}
-      {data.media[1]}
+      <ProjectImage image={saladBarImagePreview} caption="SaladBar designs" />
+
       <ProjectParagraphText
         text="While working on the museum project, I had many different ideas, one of them was to solve the frustration I have while ordering food at a Salad Bar.  I always find it difficult to order a salad, especially when you have to point to an ingredient all the way towards the back. You need to point yell the item name a couple of times.   And finally, they picked the wrong thing.  There's also the language barrier, and the difficulty employee must have to keep track of the pricing. 
-"
+        "
       />
+      {data.media[1]}
       <br />
       <ProjectParagraphText
         text="When I find these problems, I typically have a rough solution in my head, however, this time I didn't have a specific location where I was able to have it filmed. My goal was SweetGreen, and my back up was chopped and my back-up back-up (not a typo) was green café.  After my met experience - I was a bit traumatized to ask for permission beforehand, so I decided to work on the project first. <br /> <br /> I started by visiting a few salad bars to see the experiences. After eating a salad at Sweetgreen, I took a scan of the salad bar and took it to my office for for further inspection. Since I wasn't able to simulate a salad bar, I used a fully opaque mesh of the sweet green salad bar in order to simulate it in my office.

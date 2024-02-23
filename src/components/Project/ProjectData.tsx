@@ -929,9 +929,7 @@ export const ProjectData = {
       1: (
         <ProjectVideo
           video={book_video1}
-          caption={
-            "Full bookshelf demo, showcasing the ability to browse the bookshelf, and learn more about the books in it."
-          }
+          caption={"BookShelf Prototype recording through Quest 3"}
         />
       ),
       2: (
@@ -1143,7 +1141,7 @@ export const ProjectData = {
       1: (
         <ProjectVideo
           video={saladContent1}
-          caption={"Full concept of salad bar ordering experience"}
+          caption={"Prototype of salad bar ordering experience on the Quesst"}
         />
       ),
       2: (

@@ -2,6 +2,9 @@ import { ReactNode } from "react";
 import ProjectParagraphText from "./projectComponents/ProjectParagraphText";
 import Title3 from "./projectComponents/Title3";
 
+import museumPreviewImage from "../../assets/images/project/museum/preview/museumPreviewImage2.png";
+import ProjectImage from "./projectComponents/ProjectImage";
+
 interface MuseumProps {
   data: {
     headerText: ReactNode;
@@ -17,12 +20,15 @@ export const MuseumProject = (props: MuseumProps) => {
       {props.data.headerText}
       {props.data.subcaptionText}
       {props.data.icons}
-      {props.data.media[1]}
+
+      <ProjectImage image={museumPreviewImage} caption="Museum designs" />
+
       <ProjectParagraphText
         text={
           "After completing Bookshelf, I felt confident enough to start bringing my designs into the real world.  I am interested in ways that AR could enhance our world, and I knew that the opportunities were far greater than my office.  Luckily, NYC streets were right downstairs.  I knew I wanted to create a project in the real-world, but I wasn’t sure where/or what.  I spent the day searching for ideas.  I was roughing out different ideas, then I went to The Metropolitan Museum of Art.  And the scope was endless."
         }
       />
+      {props.data.media[1]}
       <Title3 title="The Metropolitan Museum of Art" borderTop={true} />
       {props.data.media[2]}
       <ProjectParagraphText text="There was so much opportunity, from snapping elements to a Japanese fountain, to introducing ways to streamline the inventory experience, I walked around the entire museum in awe of the vast amount of ways Augmented Reality could improve the museum.  In the end, I was exploring a gallery and realized that the artwork info card is so limiting, and its very difficult to learn more about a specific item… I knew this was the direction I wanted to go in." />
