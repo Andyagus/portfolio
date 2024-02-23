@@ -5,14 +5,17 @@ import firstWomanVideo from "../assets/images/project/firstWoman/preview/1projec
 import ocvibeImage from "../assets/images/project/ocVibe/preview/1projectPreview.png";
 import ocvibeVideo from "../assets/images/project/ocVibe/preview/1projectPreview.mp4";
 
-import bookshelfImage from "../assets/images/project/bookshelf/preview/1projectpreview.png";
+// import bookshelfImage from "../assets/images/project/bookshelf/preview/1projectpreview.png";
+import bookshelfImage from "../assets/images/project/bookshelf/preview/projectPreview2.png";
 import bookshelfVideo from "../assets/images/project/bookshelf/preview/1projectPreview.mp4";
 
-import museumPreviewImage from "../assets/images/project/museum/preview/museumPreviewImage.png";
+// import museumPreviewImage from "../assets/images/project/museum/preview/museumPreviewImage.png";
+import museumPreviewImage from "../assets/images/project/museum/preview/museumPreviewImage2.png";
 import museumPreviewVideo from "../assets/images/project/museum/preview/museumPreviewVideo.mp4";
 
 import saladBarPreviewVideo from "../assets/images/project/saladBar/preview/previewVideo.mp4";
-import saladBarPreviewImage from "../assets/images/project/saladBar/preview/previewImage.jpeg";
+// import saladBarPreviewImage from "../assets/images/project/saladBar/preview/previewImage.jpeg";
+import saladBarPreviewImage from "../assets/images/project/saladBar/preview/SaladBarPreview.png";
 
 export default function Projects() {
   return (

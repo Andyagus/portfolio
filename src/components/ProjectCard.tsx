@@ -115,7 +115,7 @@ export default function ProjectCard(props: ProjectCardProps) {
           <div className="bg">
             <div
               className={
-                "absolute bottom-0 mb-5 p-4 bg-white bg-opacity-90 rounded-xl shadow-lg w-full max-w-[260px] md:max-w-xs lg:max-w-sm mx-auto left-0 right-0"
+                "absolute bottom-0 mb-5 p-4 bg-white bg-opacity-75 group-hover:bg-opacity-85 rounded-xl shadow-lg w-full max-w-[260px] md:max-w-xs lg:max-w-sm mx-auto left-0 right-0"
               }
             >
               <span
