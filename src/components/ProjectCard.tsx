@@ -14,13 +14,13 @@ export default function ProjectCard(props: ProjectCardProps) {
   const isMobile = window.matchMedia("(max-width: 768px)").matches;
 
   const [isHovered, setIsHovered] = useState(false); // Set isHovered to false by default
-  const [isMobileScroll, setIsMobileScroll] = useState(false);
+  // const [isMobileScroll, setIsMobileScroll] = useState(false);
 
   const handleScroll = () => {
     const scrollY = window.scrollY; // Don't get confused by what's scrolling - It's not the window
     if (scrollY >= 0 && scrollY < 165) {
       if (title == "NASA: First Woman") {
-        setIsMobileScroll(true);
+        // setIsMobileScroll(true);
       } else {
         setIsHovered(false);
       }
@@ -49,20 +49,20 @@ export default function ProjectCard(props: ProjectCardProps) {
         setIsHovered(false);
       }
     } else {
-      setIsMobileScroll(false);
+      // setIsMobileScroll(false);
     }
   };
 
   useEffect(() => {
     const isMobile = window.matchMedia("(max-width: 768px)").matches;
-    const mediaQuery = window.matchMedia("(max-width: 768px)");
+    // const mediaQuery = window.matchMedia("(max-width: 768px)");
     // setIsMobileScroll(mediaQuery.matches);
 
     if (isMobile) {
       window.addEventListener("scroll", handleScroll);
 
       if (title === "NASA: First Woman") {
-        setIsMobileScroll(true);
+        // setIsMobileScroll(true);
       }
     }
 
@@ -71,9 +71,9 @@ export default function ProjectCard(props: ProjectCardProps) {
         window.removeEventListener("scroll", handleScroll);
       }
     };
-    const handler = () => setIsMobileScroll(mediaQuery.matches);
-    mediaQuery.addListener(handler);
-    return () => mediaQuery.removeListener(handler);
+    // const handler = () => setIsMobileScroll(mediaQuery.matches);
+    // mediaQuery.addListener(handler);
+    // return () => mediaQuery.removeListener(handler);
   }, []);
 
   let formattedString = title
@@ -114,15 +114,9 @@ export default function ProjectCard(props: ProjectCardProps) {
 
           <div className="bg">
             <div
-              className={`absolute bottom-0 mb-5 p-4 bg-white bg-opacity-90 rounded-xl 
-              shadow-lg w-full max-w-[260px] md:max-w-xs lg:max-w-sm mx-auto left-0 right-0 
-              ${
-                isHovered ||
-                isMobileScroll ||
-                (title === "NASA: First Woman" && scrollY === 0 && isMobile)
-                  ? "opacity-90"
-                  : "opacity-0"
-              } duration-500 `}
+              className={
+                "absolute bottom-0 mb-5 p-4 bg-white bg-opacity-90 rounded-xl shadow-lg w-full max-w-[260px] md:max-w-xs lg:max-w-sm mx-auto left-0 right-0"
+              }
             >
               <span
                 className="text-base
